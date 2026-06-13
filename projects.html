@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Muhammad Afzal Kalwar</title>
+  <meta name="description" content="Portfolio projects by Muhammad Afzal Kalwar — auto dialers, email verification, CRM, scrapers, and more." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-3"></div>
+
+  <nav class="nav" id="nav">
+    <a class="nav-logo" href="index.html">MA<span>K</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://github.com/mafzalkalwardev" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <main class="page-main">
+    <header class="page-header reveal">
+      <span class="section-tag">Portfolio</span>
+      <h1>My <span class="gradient-text">Projects</span></h1>
+      <p>Open source work that demonstrates what I can build for you</p>
+    </header>
+
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="automation">Automation</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+    </div>
+
+    <div class="projects-full-grid" id="projectsGrid">
+      <article class="project-card-full reveal" data-category="python automation">
+        <div class="project-icon">📞</div>
+        <h3>Indus Transport Auto Dialer</h3>
+        <p>Production Windows dialer — Google Voice, AMD, predictive pacing, CRM, WebSockets.</p>
+        <div class="tags"><span>Python</span><span>PyQt6</span><span>Whisper</span></div>
+        <a href="https://github.com/mafzalkalwardev/indus-transport-auto-dialer" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+      <article class="project-card-full reveal delay-1" data-category="web">
+        <div class="project-icon">📧</div>
+        <h3>Bulk Email Verifier</h3>
+        <p>Self-hosted bulk email verification — Go + Node.js, Docker, SMTP dialog.</p>
+        <div class="tags"><span>Go</span><span>Node.js</span><span>Docker</span></div>
+        <a href="https://github.com/mafzalkalwardev/bulk-email-verifier" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+      <article class="project-card-full reveal delay-2" data-category="python automation ai">
+        <div class="project-icon">🤖</div>
+        <h3>Google Voice Dispatch Agent</h3>
+        <p>AI sales agent — Selenium, Groq, voicemail detection, TTS.</p>
+        <div class="tags"><span>Python</span><span>FastAPI</span><span>Groq</span></div>
+        <a href="https://github.com/mafzalkalwardev/google-voice-dispatch-agent" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+      <article class="project-card-full reveal" data-category="web automation">
+        <div class="project-icon">🎯</div>
+        <h3>Fiverr Lead Extractor CRM</h3>
+        <p>Playwright scraper, MongoDB, Excel export, verification workflows.</p>
+        <div class="tags"><span>TypeScript</span><span>Playwright</span><span>MongoDB</span></div>
+        <a href="https://github.com/mafzalkalwardev/fiverr-lead-extractor-crm" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+      <article class="project-card-full reveal delay-1" data-category="ai web">
+        <div class="project-icon">📊</div>
+        <h3>CallAudit-X</h3>
+        <p>AI call auditing — transcription, scoring, analytics dashboards.</p>
+        <div class="tags"><span>TypeScript</span><span>AI</span><span>SaaS</span></div>
+        <a href="https://github.com/mafzalkalwardev/CallAudit-X" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+      <article class="project-card-full reveal delay-2" data-category="web">
+        <div class="project-icon">✉️</div>
+        <h3>MailForge</h3>
+        <p>Go email automation backend — SMTP workflows and templates.</p>
+        <div class="tags"><span>Go</span><span>SMTP</span></div>
+        <a href="https://github.com/mafzalkalwardev/mailforge" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+      <article class="project-card-full reveal" data-category="automation web">
+        <div class="project-icon">🕷</div>
+        <h3>Playwright Website Scraper Pro</h3>
+        <p>Multi-page scraper with screenshots, asset download, GUI.</p>
+        <div class="tags"><span>Playwright</span><span>Node.js</span></div>
+        <a href="https://github.com/mafzalkalwardev/playwright-website-scraper-pro" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+      <article class="project-card-full reveal delay-1" data-category="python">
+        <div class="project-icon">📞</div>
+        <h3>Python Auto Dialer Pro</h3>
+        <p>Desktop dialer with Excel contacts and PyAutoGUI automation.</p>
+        <div class="tags"><span>Python</span><span>PyAutoGUI</span></div>
+        <a href="https://github.com/mafzalkalwardev/python-auto-dialer-pro" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+      <article class="project-card-full reveal delay-2" data-category="ai python">
+        <div class="project-icon">🧠</div>
+        <h3>MNIST CNN Digit Recognition</h3>
+        <p>TensorFlow CNN with GUI for handwritten digit prediction.</p>
+        <div class="tags"><span>Python</span><span>TensorFlow</span></div>
+        <a href="https://github.com/mafzalkalwardev/mnist-cnn-digit-recognition" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+    </div>
+
+    <div class="section-cta reveal">
+      <a href="https://github.com/mafzalkalwardev?tab=repositories" class="btn btn-primary" target="_blank" rel="noopener">Browse All 40+ Repositories</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Muhammad Afzal Kalwar</p>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>

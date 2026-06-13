@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Muhammad Afzal Kalwar</title>
+  <meta name="description" content="Contact Muhammad Afzal Kalwar for freelance, contract, or remote developer work." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-3"></div>
+
+  <nav class="nav" id="nav">
+    <a class="nav-logo" href="index.html">MA<span>K</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="https://github.com/mafzalkalwardev" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <main class="page-main">
+    <header class="page-header reveal">
+      <span class="section-tag">Contact</span>
+      <h1>Let's <span class="gradient-text">work together</span></h1>
+      <p>Have a project in mind? I'd love to hear about it.</p>
+    </header>
+
+    <section class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-card animate-float-slow">
+          <span class="contact-icon">📧</span>
+          <h3>Email</h3>
+          <a href="mailto:kalwarmuhammadafzal3@gmail.com">kalwarmuhammadafzal3@gmail.com</a>
+        </div>
+        <div class="contact-card reveal delay-1">
+          <span class="contact-icon">💼</span>
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/muhammad-afzal-2670b527b/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        </div>
+        <div class="contact-card reveal delay-2">
+          <span class="contact-icon">🐙</span>
+          <h3>GitHub</h3>
+          <a href="https://github.com/mafzalkalwardev" target="_blank" rel="noopener">@mafzalkalwardev</a>
+        </div>
+        <div class="contact-card reveal delay-3">
+          <span class="contact-icon">📍</span>
+          <h3>Location</h3>
+          <p>Islamabad, Pakistan · Remote worldwide</p>
+        </div>
+        <div class="contact-status reveal">
+          <span class="status-dot"></span>
+          <strong>Available for new projects</strong>
+          <p>Freelance · Contract · Part-time · Full-time remote</p>
+        </div>
+      </div>
+
+      <form class="contact-form reveal delay-1" id="contactForm">
+        <h2>Send a message</h2>
+        <label>Name<input type="text" name="name" required placeholder="Your name" /></label>
+        <label>Email<input type="email" name="email" required placeholder="you@email.com" /></label>
+        <label>Project type
+          <select name="type">
+            <option>Web Development</option>
+            <option>Python / Desktop App</option>
+            <option>Automation / Scraping</option>
+            <option>AI Integration</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>Message<textarea name="message" rows="5" required placeholder="Tell me about your project..."></textarea></label>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Muhammad Afzal Kalwar</p>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Afzal Kalwar | Full-Stack Developer</title>
+  <meta name="description" content="Muhammad Afzal Kalwar — Full-Stack Developer & Automation Engineer. Python, React, Node.js, PyQt6, Playwright. Open to freelance and remote work." />
+  <link rel="canonical" href="https://mafzalkalwardev.github.io/" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body class="page-home">
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <nav class="nav" id="nav">
+    <a class="nav-logo" href="index.html">MA<span>K</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://github.com/mafzalkalwardev" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content reveal">
+        <p class="hero-badge animate-float">Open to freelance & remote work</p>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Muhammad Afzal</span>
+        </h1>
+        <p class="hero-subtitle">
+          <span id="typing"></span><span class="cursor-blink">|</span>
+        </p>
+        <p class="hero-desc">
+          Full-Stack Developer & Automation Engineer from Islamabad, Pakistan.
+          I build web apps, Python desktop tools, APIs, scrapers, and AI-powered automation.
+        </p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary">View Projects</a>
+          <a href="contact.html" class="btn btn-outline">Hire Me</a>
+          <a href="https://github.com/mafzalkalwardev" class="btn btn-ghost" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-2">
+        <div class="code-window animate-float-slow">
+          <div class="code-header">
+            <span></span><span></span><span></span>
+            <code>developer.py</code>
+          </div>
+          <pre class="code-body"><code><span class="c-kw">class</span> <span class="c-class">Developer</span>:
+    name = <span class="c-str">"Muhammad Afzal Kalwar"</span>
+    role = <span class="c-str">"Full-Stack Developer"</span>
+    stack = [<span class="c-str">"Python"</span>, <span class="c-str">"React"</span>, <span class="c-str">"Node.js"</span>]
+
+    <span class="c-kw">def</span> <span class="c-fn">available</span>(self):
+        <span class="c-kw">return</span> <span class="c-bool">True</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="stats-grid">
+        <div class="stat-card reveal">
+          <span class="stat-num" data-count="40">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Open Source Repos</span>
+        </div>
+        <div class="stat-card reveal delay-1">
+          <span class="stat-num" data-count="5">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Coding</span>
+        </div>
+        <div class="stat-card reveal delay-2">
+          <span class="stat-num" data-count="10">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Tech Stacks</span>
+        </div>
+        <div class="stat-card reveal delay-3">
+          <span class="stat-num" data-count="100">0</span><span class="stat-plus">%</span>
+          <span class="stat-label">Client Focus</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header reveal">
+        <span class="section-tag">Featured</span>
+        <h2>Highlighted Projects</h2>
+        <p>Production-grade tools from my GitHub portfolio</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-icon">📞</div>
+          <h3>Auto Dialer Pro</h3>
+          <p>PyQt6 desktop dialer with Google Voice, AMD, CRM, and predictive pacing.</p>
+          <div class="tags"><span>Python</span><span>PyQt6</span><span>SQLite</span></div>
+          <a href="https://github.com/mafzalkalwardev/indus-transport-auto-dialer" target="_blank" rel="noopener">View repo →</a>
+        </article>
+        <article class="project-card reveal delay-1">
+          <div class="project-icon">📧</div>
+          <h3>Bulk Email Verifier</h3>
+          <p>Self-hosted email verification with Go + Node.js. No paid APIs.</p>
+          <div class="tags"><span>Go</span><span>Node.js</span><span>Docker</span></div>
+          <a href="https://github.com/mafzalkalwardev/bulk-email-verifier" target="_blank" rel="noopener">View repo →</a>
+        </article>
+        <article class="project-card reveal delay-2">
+          <div class="project-icon">🎯</div>
+          <h3>Fiverr Lead CRM</h3>
+          <p>Playwright scraper with MongoDB storage and Excel export.</p>
+          <div class="tags"><span>TypeScript</span><span>Playwright</span></div>
+          <a href="https://github.com/mafzalkalwardev/fiverr-lead-extractor-crm" target="_blank" rel="noopener">View repo →</a>
+        </article>
+      </div>
+      <div class="section-cta reveal">
+        <a href="projects.html" class="btn btn-primary">See All Projects</a>
+      </div>
+    </section>
+
+    <section class="section cta-banner reveal">
+      <h2>Let's build your next project</h2>
+      <p>Freelance · Contract · Remote — available worldwide</p>
+      <a href="contact.html" class="btn btn-primary btn-lg">Get In Touch</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Muhammad Afzal Kalwar · <a href="https://github.com/mafzalkalwardev" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
