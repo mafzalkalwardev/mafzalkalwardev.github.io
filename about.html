@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About | Muhammad Afzal Kalwar</title>
   <meta name="description" content="About Muhammad Afzal Kalwar — Full-Stack Developer and Automation Engineer from Islamabad, Pakistan." />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/styles.css?v=3" />
+  <link rel="stylesheet" href="css/animations.css?v=3" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
   <nav class="nav" id="nav">
-    <a class="nav-logo" href="index.html">MA<span>K</span></a>
+    <a class="nav-brand" href="index.html">
+      <img class="nav-avatar" src="https://github.com/mafzalkalwardev.png" alt="" width="36" height="36" />
+      <span class="nav-name">Muhammad Afzal<span>Full-Stack Developer</span></span>
+    </a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
@@ -26,84 +29,50 @@
   <main>
     <div class="container">
       <header class="page-header reveal">
-        <span class="eyebrow">About me</span>
-        <h1 class="page-title">Developer who ships real solutions</h1>
-        <p class="page-subtitle">Full-Stack Developer & Automation Engineer · Islamabad, Pakistan · Remote worldwide</p>
+        <h1 class="page-title">About</h1>
+        <p class="page-subtitle">Full-Stack Developer & Automation Engineer based in Islamabad, Pakistan — working remotely with clients worldwide.</p>
       </header>
 
       <section class="about-grid">
         <div class="about-photo reveal">
-          <img src="https://github.com/mafzalkalwardev.png" alt="Muhammad Afzal Kalwar" width="400" height="400" />
+          <img src="https://github.com/mafzalkalwardev.png" alt="Muhammad Afzal Kalwar" width="240" height="240" />
         </div>
         <div class="about-text reveal delay-1">
-          <h2>Who I am</h2>
-          <p>I'm <strong>Muhammad Afzal Kalwar</strong>, a developer focused on software that solves real business problems. I work across Python backends, React frontends, browser automation, and desktop applications.</p>
-          <p>My GitHub portfolio includes <strong>40+ repositories</strong> — production auto dialers, email verification platforms, web scrapers, CRM systems, and AI-integrated tools used in real workflows.</p>
-          <p>I'm currently <strong>open to freelance, contract, and remote opportunities</strong> with teams and clients who value clean architecture, clear communication, and dependable delivery.</p>
-          <a href="contact.html" class="btn btn-primary" style="margin-top:0.5rem">Work with me</a>
+          <h2>Background</h2>
+          <p>I'm Muhammad Afzal Kalwar, a software developer who builds tools that solve real operational problems — dialers, CRM systems, email platforms, scrapers, and business automation.</p>
+          <p>My work spans Python backends, React frontends, browser automation with Playwright and Selenium, and Windows desktop apps with PyQt6. I maintain 40+ open source repositories that demonstrate production-quality code and documentation.</p>
+          <p>I'm available for freelance, contract, and remote roles where reliability, clear communication, and maintainable architecture matter.</p>
+          <a href="contact.html" class="btn btn-primary" style="margin-top:0.25rem">Contact me</a>
         </div>
       </section>
 
       <section class="section">
         <div class="section-head reveal">
-          <h2>What I offer clients</h2>
+          <h2>Services</h2>
         </div>
         <div class="services-grid">
-          <article class="service-card reveal">
-            <div class="service-icon">01</div>
-            <h3>Web Development</h3>
-            <p>React, Node.js, REST APIs, dashboards, and SaaS applications.</p>
-          </article>
-          <article class="service-card reveal delay-1">
-            <div class="service-icon">02</div>
-            <h3>Python Development</h3>
-            <p>Scripts, PyQt6 desktop apps, FastAPI services, and data pipelines.</p>
-          </article>
-          <article class="service-card reveal delay-2">
-            <div class="service-icon">03</div>
-            <h3>Automation</h3>
-            <p>Playwright, Selenium, scrapers, and RPA for repetitive workflows.</p>
-          </article>
-          <article class="service-card reveal delay-3">
-            <div class="service-icon">04</div>
-            <h3>AI Integration</h3>
-            <p>Whisper, Groq, call analytics, and machine learning prototypes.</p>
-          </article>
+          <article class="service-card reveal"><div class="service-num">01</div><h3>Web development</h3><p>React, Node.js, REST APIs, dashboards, and SaaS applications.</p></article>
+          <article class="service-card reveal delay-1"><div class="service-num">02</div><h3>Python development</h3><p>Scripts, PyQt6 desktop apps, FastAPI services, and data pipelines.</p></article>
+          <article class="service-card reveal delay-2"><div class="service-num">03</div><h3>Automation</h3><p>Playwright, Selenium, scrapers, and RPA for repetitive workflows.</p></article>
+          <article class="service-card reveal delay-3"><div class="service-num">04</div><h3>AI integration</h3><p>Whisper, Groq, call analytics, and machine learning prototypes.</p></article>
         </div>
       </section>
 
-      <section class="section section-alt" style="padding:3rem;border-radius:var(--radius);margin-bottom:3rem">
-        <div class="section-head reveal">
-          <h2>Experience</h2>
-        </div>
+      <section class="section section-subtle" style="margin-bottom:3rem">
+        <div class="section-head reveal"><h2>Experience</h2></div>
         <div class="timeline reveal">
-          <div class="timeline-item">
-            <span class="timeline-date">Present</span>
-            <h3>Independent Developer</h3>
-            <p>Building open source tools and delivering freelance and contract projects for remote clients.</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-date">Ongoing</span>
-            <h3>Open Source Portfolio</h3>
-            <p>38+ showcased projects — dialers, email tools, scrapers, CRM, ML, and client websites on GitHub.</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-date">Focus</span>
-            <h3>Full-Stack & Automation</h3>
-            <p>Python, Go, Node.js, TypeScript, React, PyQt6, Playwright, Docker, and SQLite/MongoDB.</p>
-          </div>
+          <div class="timeline-item"><span class="timeline-date">Present</span><h3>Independent developer</h3><p>Building open source tools and delivering freelance and contract projects remotely.</p></div>
+          <div class="timeline-item"><span class="timeline-date">Portfolio</span><h3>38+ showcased projects</h3><p>Dialers, email tools, scrapers, CRM systems, ML projects, and client websites on GitHub.</p></div>
+          <div class="timeline-item"><span class="timeline-date">Stack</span><h3>Full-stack & automation</h3><p>Python, Go, Node.js, TypeScript, React, PyQt6, Playwright, Docker, SQLite, MongoDB.</p></div>
         </div>
       </section>
     </div>
   </main>
 
   <footer class="footer">
-    <div class="footer-links">
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </div>
+    <div class="footer-links"><a href="projects.html">Projects</a><a href="contact.html">Contact</a></div>
     <p>&copy; <span id="year"></span> Muhammad Afzal Kalwar</p>
   </footer>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=3"></script>
 </body>
 </html>

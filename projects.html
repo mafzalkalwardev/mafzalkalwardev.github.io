@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects | Muhammad Afzal Kalwar</title>
   <meta name="description" content="Portfolio projects by Muhammad Afzal Kalwar — auto dialers, email verification, CRM, scrapers, and more." />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/styles.css?v=3" />
+  <link rel="stylesheet" href="css/animations.css?v=3" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
   <nav class="nav" id="nav">
-    <a class="nav-logo" href="index.html">MA<span>K</span></a>
+    <a class="nav-brand" href="index.html">
+      <img class="nav-avatar" src="https://github.com/mafzalkalwardev.png" alt="" width="36" height="36" />
+      <span class="nav-name">Muhammad Afzal<span>Full-Stack Developer</span></span>
+    </a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
@@ -26,9 +29,8 @@
   <main>
     <div class="container">
       <header class="page-header reveal">
-        <span class="eyebrow">Portfolio</span>
-        <h1 class="page-title">All projects</h1>
-        <p class="page-subtitle">38 open source repositories with screenshots — dialers, CRM, scrapers, email tools, and web apps.</p>
+        <h1 class="page-title">Projects</h1>
+        <p class="page-subtitle">38 open source repositories — dialers, CRM platforms, scrapers, email tools, and web applications.</p>
       </header>
 
       <div class="filter-bar reveal" id="filterBar">
@@ -45,21 +47,18 @@
       <div class="project-grid" id="projectsGrid"></div>
 
       <div class="section-cta reveal">
-        <a href="https://github.com/mafzalkalwardev?tab=repositories" class="btn btn-secondary" target="_blank" rel="noopener">Browse GitHub repositories</a>
+        <a href="https://github.com/mafzalkalwardev?tab=repositories" class="btn btn-secondary" target="_blank" rel="noopener">All repositories on GitHub</a>
       </div>
     </div>
   </main>
 
   <footer class="footer">
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="contact.html">Contact</a>
-    </div>
+    <div class="footer-links"><a href="index.html">Home</a><a href="contact.html">Contact</a></div>
     <p>&copy; <span id="year"></span> Muhammad Afzal Kalwar</p>
   </footer>
 
-  <script src="js/projects-data.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/projects.js"></script>
+  <script src="js/projects-data.js?v=3"></script>
+  <script src="js/main.js?v=3"></script>
+  <script src="js/projects.js?v=3"></script>
 </body>
 </html>

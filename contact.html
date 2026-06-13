@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Muhammad Afzal Kalwar</title>
   <meta name="description" content="Contact Muhammad Afzal Kalwar for freelance, contract, or remote developer work." />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/styles.css?v=3" />
+  <link rel="stylesheet" href="css/animations.css?v=3" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
   <nav class="nav" id="nav">
-    <a class="nav-logo" href="index.html">MA<span>K</span></a>
+    <a class="nav-brand" href="index.html">
+      <img class="nav-avatar" src="https://github.com/mafzalkalwardev.png" alt="" width="36" height="36" />
+      <span class="nav-name">Muhammad Afzal<span>Full-Stack Developer</span></span>
+    </a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
@@ -26,33 +29,17 @@
   <main>
     <div class="container">
       <header class="page-header reveal">
-        <span class="eyebrow">Contact</span>
-        <h1 class="page-title">Let's work together</h1>
-        <p class="page-subtitle">Have a project in mind? Send a message and I'll respond within 24 hours.</p>
+        <h1 class="page-title">Contact</h1>
+        <p class="page-subtitle">Tell me about your project. I typically respond within 24 hours.</p>
       </header>
 
       <section class="contact-grid">
         <div class="reveal">
-          <div class="contact-card">
-            <h3>Email</h3>
-            <a href="mailto:kalwarmuhammadafzal3@gmail.com">kalwarmuhammadafzal3@gmail.com</a>
-          </div>
-          <div class="contact-card">
-            <h3>LinkedIn</h3>
-            <a href="https://www.linkedin.com/in/muhammad-afzal-2670b527b/" target="_blank" rel="noopener">Connect on LinkedIn</a>
-          </div>
-          <div class="contact-card">
-            <h3>GitHub</h3>
-            <a href="https://github.com/mafzalkalwardev" target="_blank" rel="noopener">@mafzalkalwardev</a>
-          </div>
-          <div class="contact-card">
-            <h3>Location</h3>
-            <p style="margin:0;color:var(--text)">Islamabad, Pakistan · Remote worldwide</p>
-          </div>
-          <div class="status-banner">
-            <strong>Available for new projects</strong>
-            <p>Freelance · Contract · Part-time · Full-time remote</p>
-          </div>
+          <div class="contact-card"><h3>Email</h3><a href="mailto:kalwarmuhammadafzal3@gmail.com">kalwarmuhammadafzal3@gmail.com</a></div>
+          <div class="contact-card"><h3>LinkedIn</h3><a href="https://www.linkedin.com/in/muhammad-afzal-2670b527b/" target="_blank" rel="noopener">Connect on LinkedIn</a></div>
+          <div class="contact-card"><h3>GitHub</h3><a href="https://github.com/mafzalkalwardev" target="_blank" rel="noopener">@mafzalkalwardev</a></div>
+          <div class="contact-card"><h3>Location</h3><p>Islamabad, Pakistan · Remote worldwide</p></div>
+          <div class="status-banner"><strong>Available for new projects</strong><p>Freelance · Contract · Part-time · Full-time remote</p></div>
         </div>
 
         <form class="contact-form reveal delay-1" id="contactForm">
@@ -68,7 +55,7 @@
               <option>Other</option>
             </select>
           </label>
-          <label>Message<textarea name="message" rows="5" required placeholder="Tell me about your project, timeline, and budget."></textarea></label>
+          <label>Message<textarea name="message" rows="5" required placeholder="Describe your project, timeline, and budget."></textarea></label>
           <button type="submit" class="btn btn-primary btn-lg btn-block">Send message</button>
         </form>
       </section>
@@ -78,7 +65,7 @@
   <footer class="footer">
     <p>&copy; <span id="year"></span> Muhammad Afzal Kalwar</p>
   </footer>
-  <script src="js/main.js"></script>
-  <script src="js/contact.js"></script>
+  <script src="js/main.js?v=3"></script>
+  <script src="js/contact.js?v=3"></script>
 </body>
 </html>

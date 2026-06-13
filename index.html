@@ -4,17 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Muhammad Afzal Kalwar | Full-Stack Developer</title>
-  <meta name="description" content="Muhammad Afzal Kalwar — Full-Stack Developer & Automation Engineer. Python, React, Node.js, PyQt6, Playwright. Open to freelance and remote work." />
+  <meta name="description" content="Muhammad Afzal Kalwar — Full-Stack Developer & Automation Engineer. Python, React, Node.js, PyQt6, Playwright. Available for freelance and remote work." />
   <link rel="canonical" href="https://mafzalkalwardev.github.io/" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/styles.css?v=3" />
+  <link rel="stylesheet" href="css/animations.css?v=3" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
   <nav class="nav" id="nav">
-    <a class="nav-logo" href="index.html">MA<span>K</span></a>
+    <a class="nav-brand" href="index.html">
+      <img class="nav-avatar" src="https://github.com/mafzalkalwardev.png" alt="" width="36" height="36" />
+      <span class="nav-name">Muhammad Afzal<span>Full-Stack Developer</span></span>
+    </a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html" class="active">Home</a></li>
@@ -28,76 +31,67 @@
 
   <main>
     <section class="hero">
-      <div class="container hero-grid">
-        <div class="reveal">
-          <span class="eyebrow">Available for hire</span>
-          <p class="hero-role">Full-Stack Developer · Islamabad, Pakistan</p>
-          <h1>Muhammad Afzal Kalwar</h1>
-          <p class="hero-lead">
-            I build production web apps, Python desktop tools, automation pipelines, and APIs for teams that need reliable software delivered on time.
-          </p>
-          <p class="hero-subtitle"><span id="typing"></span></p>
-          <div class="hero-actions">
-            <a href="projects.html" class="btn btn-primary btn-lg">View Projects</a>
-            <a href="contact.html" class="btn btn-secondary btn-lg">Contact Me</a>
-          </div>
-          <div class="hero-meta">
-            <span>40+ open source repos</span>
-            <span>Remote worldwide</span>
-            <span>Freelance & contract</span>
+      <div class="container">
+        <div class="hero-inner reveal">
+          <img class="hero-photo" src="https://github.com/mafzalkalwardev.png" alt="Muhammad Afzal Kalwar" width="112" height="112" />
+          <div class="hero-content">
+            <p class="eyebrow">Available for freelance &amp; remote work</p>
+            <h1>Muhammad Afzal Kalwar</h1>
+            <p class="hero-title-line">Full-Stack Developer &amp; Automation Engineer</p>
+            <p class="hero-lead">
+              I design and build web applications, Python desktop software, and automation systems for businesses that need dependable, maintainable code — not demos.
+            </p>
+            <div class="hero-actions">
+              <a href="projects.html" class="btn btn-primary btn-lg">View projects</a>
+              <a href="contact.html" class="btn btn-secondary btn-lg">Contact me</a>
+              <a href="https://www.linkedin.com/in/muhammad-afzal-2670b527b/" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
           </div>
         </div>
-        <div class="hero-card reveal delay-2">
-          <h3>At a glance</h3>
-          <div class="hero-stats">
-            <div class="hero-stat">
-              <strong><span class="stat-num" data-count="40">0</span>+</strong>
-              <span>GitHub repositories</span>
-            </div>
-            <div class="hero-stat">
-              <strong><span class="stat-num" data-count="5">0</span>+</strong>
-              <span>Years experience</span>
-            </div>
-            <div class="hero-stat">
-              <strong><span class="stat-num" data-count="38">0</span></strong>
-              <span>Portfolio projects</span>
-            </div>
-            <div class="hero-stat">
-              <strong>Open</strong>
-              <span>to new work</span>
-            </div>
-          </div>
+
+        <div class="hero-meta reveal">
+          <div><strong>40+</strong><span>GitHub repositories</span></div>
+          <div><strong>5+ yrs</strong><span>Development experience</span></div>
+          <div><strong>38</strong><span>Portfolio projects</span></div>
+          <div><strong>Remote</strong><span>Worldwide availability</span></div>
+        </div>
+
+        <div class="hero-panel reveal">
+          <p>
+            Based in <strong>Islamabad, Pakistan</strong>. I specialize in Python, React, Node.js, PyQt6, and Playwright —
+            from auto dialers and CRM platforms to email verification tools and web scrapers.
+            <a href="about.html">Learn more about my work</a>.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-subtle">
       <div class="container">
-        <div class="section-head center reveal">
-          <span class="eyebrow">What I do</span>
-          <h2>Services for clients</h2>
-          <p>End-to-end development across web, desktop, and automation</p>
+        <div class="section-head reveal">
+          <h2>What I build for clients</h2>
+          <p>Focused services across the stack — from UI to infrastructure</p>
         </div>
         <div class="services-grid">
           <article class="service-card reveal">
-            <div class="service-icon">&#9670;</div>
-            <h3>Web Development</h3>
-            <p>React dashboards, Node.js APIs, SaaS products, and client portals.</p>
+            <div class="service-num">01</div>
+            <h3>Web applications</h3>
+            <p>React frontends, Node.js APIs, dashboards, and SaaS products with clean architecture.</p>
           </article>
           <article class="service-card reveal delay-1">
-            <div class="service-icon">&#9670;</div>
-            <h3>Python & Desktop</h3>
-            <p>PyQt6 Windows apps, FastAPI backends, scripts, and data tools.</p>
+            <div class="service-num">02</div>
+            <h3>Python &amp; desktop software</h3>
+            <p>PyQt6 Windows applications, FastAPI services, scripts, and internal business tools.</p>
           </article>
           <article class="service-card reveal delay-2">
-            <div class="service-icon">&#9670;</div>
-            <h3>Automation</h3>
-            <p>Playwright scrapers, Selenium workflows, RPA, and integrations.</p>
+            <div class="service-num">03</div>
+            <h3>Automation &amp; scraping</h3>
+            <p>Playwright and Selenium pipelines for data extraction, monitoring, and workflow automation.</p>
           </article>
           <article class="service-card reveal delay-3">
-            <div class="service-icon">&#9670;</div>
-            <h3>AI Integration</h3>
-            <p>Whisper transcription, Groq LLMs, call analytics, and ML prototypes.</p>
+            <div class="service-num">04</div>
+            <h3>AI integration</h3>
+            <p>Whisper transcription, LLM-powered features, call analytics, and ML prototypes.</p>
           </article>
         </div>
       </div>
@@ -106,9 +100,8 @@
     <section class="section">
       <div class="container">
         <div class="section-head reveal">
-          <span class="eyebrow">Featured work</span>
           <h2>Selected projects</h2>
-          <p>Real tools from my GitHub portfolio — each with a live preview</p>
+          <p>Production tools from my open source portfolio</p>
         </div>
         <div class="project-grid" id="featuredProjects"></div>
         <div class="section-cta reveal">
@@ -117,11 +110,11 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-subtle">
       <div class="container">
         <div class="cta-band reveal">
-          <h2>Ready to start your project?</h2>
-          <p>Freelance, contract, and remote engagements — let's discuss your requirements.</p>
+          <h2>Have a project in mind?</h2>
+          <p>I take on freelance, contract, and remote engagements. Tell me about your requirements and timeline.</p>
           <a href="contact.html" class="btn btn-primary btn-lg">Get in touch</a>
         </div>
       </div>
@@ -132,13 +125,13 @@
     <div class="footer-links">
       <a href="https://github.com/mafzalkalwardev" target="_blank" rel="noopener">GitHub</a>
       <a href="https://www.linkedin.com/in/muhammad-afzal-2670b527b/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="contact.html">Contact</a>
+      <a href="mailto:kalwarmuhammadafzal3@gmail.com">Email</a>
     </div>
     <p>&copy; <span id="year"></span> Muhammad Afzal Kalwar</p>
   </footer>
 
-  <script src="js/projects-data.js"></script>
-  <script src="js/projects.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/projects-data.js?v=3"></script>
+  <script src="js/projects.js?v=3"></script>
+  <script src="js/main.js?v=3"></script>
 </body>
 </html>

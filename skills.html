@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skills | Muhammad Afzal Kalwar</title>
   <meta name="description" content="Technical skills — Python, React, Node.js, Go, Playwright, PyQt6, Docker, and more." />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/styles.css?v=3" />
+  <link rel="stylesheet" href="css/animations.css?v=3" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
   <nav class="nav" id="nav">
-    <a class="nav-logo" href="index.html">MA<span>K</span></a>
+    <a class="nav-brand" href="index.html">
+      <img class="nav-avatar" src="https://github.com/mafzalkalwardev.png" alt="" width="36" height="36" />
+      <span class="nav-name">Muhammad Afzal<span>Full-Stack Developer</span></span>
+    </a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
@@ -26,52 +29,28 @@
   <main>
     <div class="container">
       <header class="page-header reveal">
-        <span class="eyebrow">Expertise</span>
-        <h1 class="page-title">Technical skills</h1>
-        <p class="page-subtitle">Technologies I use to deliver production-ready software</p>
+        <h1 class="page-title">Skills</h1>
+        <p class="page-subtitle">Technologies and tools I use to deliver production-ready software.</p>
       </header>
 
       <section class="skills-grid">
         <div class="skill-group reveal">
           <h3>Core languages</h3>
-          <div class="skill-item">
-            <div class="skill-info"><span>Python</span><span>Expert</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info"><span>JavaScript / TypeScript</span><span>Advanced</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info"><span>Go</span><span>Proficient</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
-          </div>
+          <div class="skill-item"><div class="skill-info"><span>Python</span><span>Expert</span></div><div class="skill-bar"><div class="skill-fill" data-width="95"></div></div></div>
+          <div class="skill-item"><div class="skill-info"><span>JavaScript / TypeScript</span><span>Advanced</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+          <div class="skill-item"><div class="skill-info"><span>Go</span><span>Proficient</span></div><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div></div>
         </div>
         <div class="skill-group reveal delay-1">
           <h3>Frameworks & tools</h3>
-          <div class="skill-item">
-            <div class="skill-info"><span>React / Frontend</span><span>Advanced</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info"><span>Node.js / Express</span><span>Advanced</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info"><span>Playwright / Selenium</span><span>Expert</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-info"><span>PyQt6 / Desktop</span><span>Advanced</span></div>
-            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
-          </div>
+          <div class="skill-item"><div class="skill-info"><span>React / Frontend</span><span>Advanced</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+          <div class="skill-item"><div class="skill-info"><span>Node.js / Express</span><span>Advanced</span></div><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
+          <div class="skill-item"><div class="skill-info"><span>Playwright / Selenium</span><span>Expert</span></div><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+          <div class="skill-item"><div class="skill-info"><span>PyQt6 / Desktop</span><span>Advanced</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
         </div>
       </section>
 
       <section class="section">
-        <div class="section-head reveal">
-          <h2>Technologies</h2>
-        </div>
+        <div class="section-head reveal"><h2>Technologies</h2></div>
         <div class="tech-list reveal">
           <span>Python</span><span>JavaScript</span><span>TypeScript</span><span>Go</span>
           <span>React</span><span>Node.js</span><span>FastAPI</span><span>Express</span>
@@ -80,40 +59,12 @@
           <span>TensorFlow</span><span>Whisper</span><span>Groq</span><span>Git</span>
         </div>
       </section>
-
-      <section class="section section-alt" style="padding:2.5rem;border-radius:var(--radius)">
-        <div class="section-head reveal">
-          <h2>Delivery areas</h2>
-        </div>
-        <div class="services-grid">
-          <article class="service-card reveal">
-            <div class="service-icon">&#9670;</div>
-            <h3>Web Apps</h3>
-            <p>Full-stack SaaS, dashboards, and landing pages.</p>
-          </article>
-          <article class="service-card reveal delay-1">
-            <div class="service-icon">&#9670;</div>
-            <h3>APIs</h3>
-            <p>REST APIs, third-party integrations, microservices.</p>
-          </article>
-          <article class="service-card reveal delay-2">
-            <div class="service-icon">&#9670;</div>
-            <h3>Desktop Apps</h3>
-            <p>PyQt6 Windows tools with installers and logging.</p>
-          </article>
-          <article class="service-card reveal delay-3">
-            <div class="service-icon">&#9670;</div>
-            <h3>Scrapers</h3>
-            <p>Data extraction, monitoring, and export pipelines.</p>
-          </article>
-        </div>
-      </section>
     </div>
   </main>
 
   <footer class="footer">
     <p>&copy; <span id="year"></span> Muhammad Afzal Kalwar</p>
   </footer>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=3"></script>
 </body>
 </html>
