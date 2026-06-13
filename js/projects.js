@@ -58,6 +58,13 @@
 
   grid.innerHTML = projects.map(projectCard).join('');
 
+  if (window.initTilt) window.initTilt('#projectsGrid .project-card', 4);
+  if (window.initReveal) {
+    window.initReveal(grid.querySelectorAll('.reveal'));
+    grid.classList.add('stagger-grid');
+    window.initReveal([grid]);
+  }
+
   const buttons = document.querySelectorAll('.filter-btn');
   buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -71,6 +78,4 @@
       });
     });
   });
-
-  if (window.initReveal) window.initReveal(grid.querySelectorAll('.reveal'));
 })();

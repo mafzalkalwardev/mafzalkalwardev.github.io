@@ -6,16 +6,20 @@
   <title>Muhammad Afzal Kalwar | Full-Stack Developer</title>
   <meta name="description" content="Muhammad Afzal Kalwar — Full-Stack Developer & Automation Engineer. Python, React, Node.js, PyQt6, Playwright. Available for freelance and remote work." />
   <link rel="canonical" href="https://mafzalkalwardev.github.io/" />
-  <link rel="stylesheet" href="css/styles.css?v=3" />
-  <link rel="stylesheet" href="css/animations.css?v=3" />
+  <link rel="stylesheet" href="css/styles.css?v=4" />
+  <link rel="stylesheet" href="css/animations.css?v=4" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
+  <div class="bg-mesh" aria-hidden="true"><div class="bg-mesh-inner"></div></div>
+  <div class="bg-dots" aria-hidden="true"></div>
+  <div class="bg-grid-lines" aria-hidden="true"></div>
+
   <nav class="nav" id="nav">
     <a class="nav-brand" href="index.html">
-      <img class="nav-avatar" src="https://github.com/mafzalkalwardev.png" alt="" width="36" height="36" />
+      <img class="nav-avatar" src="https://github.com/mafzalkalwardev.png" alt="" width="38" height="38" />
       <span class="nav-name">Muhammad Afzal<span>Full-Stack Developer</span></span>
     </a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
@@ -31,37 +35,64 @@
 
   <main>
     <section class="hero">
-      <div class="container">
-        <div class="hero-inner reveal">
-          <img class="hero-photo" src="https://github.com/mafzalkalwardev.png" alt="Muhammad Afzal Kalwar" width="112" height="112" />
-          <div class="hero-content">
-            <p class="eyebrow">Available for freelance &amp; remote work</p>
-            <h1>Muhammad Afzal Kalwar</h1>
-            <p class="hero-title-line">Full-Stack Developer &amp; Automation Engineer</p>
-            <p class="hero-lead">
-              I design and build web applications, Python desktop software, and automation systems for businesses that need dependable, maintainable code — not demos.
-            </p>
-            <div class="hero-actions">
-              <a href="projects.html" class="btn btn-primary btn-lg">View projects</a>
-              <a href="contact.html" class="btn btn-secondary btn-lg">Contact me</a>
-              <a href="https://www.linkedin.com/in/muhammad-afzal-2670b527b/" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">LinkedIn</a>
+      <div class="container hero-layout">
+        <div>
+          <div class="hero-inner reveal-left">
+            <div class="hero-photo-wrap">
+              <div class="hero-photo-ring" aria-hidden="true"></div>
+              <img class="hero-photo" src="https://github.com/mafzalkalwardev.png" alt="Muhammad Afzal Kalwar" width="120" height="120" />
             </div>
+            <div class="hero-content">
+              <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Available for freelance &amp; remote work</p>
+              <h1 data-split>Muhammad Afzal Kalwar</h1>
+              <p class="hero-title-line">Full-Stack Developer &amp; Automation Engineer</p>
+              <p class="hero-lead">
+                I design and build web applications, Python desktop software, and automation systems for businesses that need dependable, maintainable code — not demos.
+              </p>
+              <div class="hero-actions">
+                <a href="projects.html" class="btn btn-primary btn-lg">View projects</a>
+                <a href="contact.html" class="btn btn-secondary btn-lg">Contact me</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal">
+            <p>
+              Based in <strong>Islamabad, Pakistan</strong> · Remote worldwide.
+              Python, React, Node.js, PyQt6, Playwright — auto dialers, CRM platforms, email tools, and scrapers.
+              <a href="about.html">About my work &rarr;</a>
+            </p>
           </div>
         </div>
 
-        <div class="hero-meta reveal">
-          <div><strong>40+</strong><span>GitHub repositories</span></div>
-          <div><strong>5+ yrs</strong><span>Development experience</span></div>
-          <div><strong>38</strong><span>Portfolio projects</span></div>
-          <div><strong>Remote</strong><span>Worldwide availability</span></div>
-        </div>
+        <aside class="hero-aside">
+          <div class="bento-card reveal-scale delay-1">
+            <h3>By the numbers</h3>
+            <div class="bento-stats">
+              <div class="bento-stat"><strong><span data-count="40" data-suffix="+">0</span></strong><span>GitHub repos</span></div>
+              <div class="bento-stat"><strong><span data-count="38">0</span></strong><span>Projects shown</span></div>
+              <div class="bento-stat"><strong><span data-count="5" data-suffix="+">0</span></strong><span>Years coding</span></div>
+              <div class="bento-stat"><strong>Open</strong><span>For new work</span></div>
+            </div>
+          </div>
+          <div class="bento-card reveal-scale delay-2">
+            <h3>Tech stack</h3>
+            <div class="marquee-wrap">
+              <div class="marquee-track" aria-hidden="true">
+                <span>Python</span><span>React</span><span>Node.js</span><span>TypeScript</span><span>Go</span><span>PyQt6</span><span>Playwright</span><span>FastAPI</span><span>Docker</span><span>MongoDB</span><span>SQLite</span><span>Whisper</span>
+                <span>Python</span><span>React</span><span>Node.js</span><span>TypeScript</span><span>Go</span><span>PyQt6</span><span>Playwright</span><span>FastAPI</span><span>Docker</span><span>MongoDB</span><span>SQLite</span><span>Whisper</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
 
-        <div class="hero-panel reveal">
-          <p>
-            Based in <strong>Islamabad, Pakistan</strong>. I specialize in Python, React, Node.js, PyQt6, and Playwright —
-            from auto dialers and CRM platforms to email verification tools and web scrapers.
-            <a href="about.html">Learn more about my work</a>.
-          </p>
+      <div class="container">
+        <div class="hero-meta reveal">
+          <div><strong><span data-count="40" data-suffix="+">0</span></strong><span>Open source repositories</span></div>
+          <div><strong><span data-count="5" data-suffix="+">0</span></strong><span>Years of experience</span></div>
+          <div><strong><span data-count="38">0</span></strong><span>Portfolio projects</span></div>
+          <div><strong>100%</strong><span>Client-focused delivery</span></div>
         </div>
       </div>
     </section>
@@ -69,26 +100,27 @@
     <section class="section section-subtle">
       <div class="container">
         <div class="section-head reveal">
+          <span class="section-label">Services</span>
           <h2>What I build for clients</h2>
-          <p>Focused services across the stack — from UI to infrastructure</p>
+          <p>End-to-end development across web, desktop, and automation</p>
         </div>
-        <div class="services-grid">
-          <article class="service-card reveal">
+        <div class="services-grid stagger-grid reveal">
+          <article class="service-card">
             <div class="service-num">01</div>
             <h3>Web applications</h3>
             <p>React frontends, Node.js APIs, dashboards, and SaaS products with clean architecture.</p>
           </article>
-          <article class="service-card reveal delay-1">
+          <article class="service-card">
             <div class="service-num">02</div>
             <h3>Python &amp; desktop software</h3>
             <p>PyQt6 Windows applications, FastAPI services, scripts, and internal business tools.</p>
           </article>
-          <article class="service-card reveal delay-2">
+          <article class="service-card">
             <div class="service-num">03</div>
             <h3>Automation &amp; scraping</h3>
             <p>Playwright and Selenium pipelines for data extraction, monitoring, and workflow automation.</p>
           </article>
-          <article class="service-card reveal delay-3">
+          <article class="service-card">
             <div class="service-num">04</div>
             <h3>AI integration</h3>
             <p>Whisper transcription, LLM-powered features, call analytics, and ML prototypes.</p>
@@ -100,21 +132,22 @@
     <section class="section">
       <div class="container">
         <div class="section-head reveal">
+          <span class="section-label">Portfolio</span>
           <h2>Selected projects</h2>
-          <p>Production tools from my open source portfolio</p>
+          <p>Production tools from my open source work — each with a live preview</p>
         </div>
         <div class="project-grid" id="featuredProjects"></div>
         <div class="section-cta reveal">
-          <a href="projects.html" class="btn btn-primary">View all 38 projects</a>
+          <a href="projects.html" class="btn btn-primary btn-lg">View all 38 projects</a>
         </div>
       </div>
     </section>
 
     <section class="section section-subtle">
       <div class="container">
-        <div class="cta-band reveal">
+        <div class="cta-band reveal-scale">
           <h2>Have a project in mind?</h2>
-          <p>I take on freelance, contract, and remote engagements. Tell me about your requirements and timeline.</p>
+          <p>Freelance, contract, and remote engagements — let's discuss your requirements and timeline.</p>
           <a href="contact.html" class="btn btn-primary btn-lg">Get in touch</a>
         </div>
       </div>
@@ -130,8 +163,8 @@
     <p>&copy; <span id="year"></span> Muhammad Afzal Kalwar</p>
   </footer>
 
-  <script src="js/projects-data.js?v=3"></script>
-  <script src="js/projects.js?v=3"></script>
-  <script src="js/main.js?v=3"></script>
+  <script src="js/projects-data.js?v=4"></script>
+  <script src="js/projects.js?v=4"></script>
+  <script src="js/motion.js?v=4"></script>
 </body>
 </html>

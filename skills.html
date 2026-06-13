@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skills | Muhammad Afzal Kalwar</title>
   <meta name="description" content="Technical skills — Python, React, Node.js, Go, Playwright, PyQt6, Docker, and more." />
-  <link rel="stylesheet" href="css/styles.css?v=3" />
-  <link rel="stylesheet" href="css/animations.css?v=3" />
+  <link rel="stylesheet" href="css/styles.css?v=4" />
+  <link rel="stylesheet" href="css/animations.css?v=4" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
+  <div class="bg-mesh" aria-hidden="true"><div class="bg-mesh-inner"></div></div>
+  <div class="bg-dots" aria-hidden="true"></div>
+  <div class="bg-grid-lines" aria-hidden="true"></div>
+
   <nav class="nav" id="nav">
     <a class="nav-brand" href="index.html">
       <img class="nav-avatar" src="https://github.com/mafzalkalwardev.png" alt="" width="36" height="36" />
@@ -33,14 +37,14 @@
         <p class="page-subtitle">Technologies and tools I use to deliver production-ready software.</p>
       </header>
 
-      <section class="skills-grid">
-        <div class="skill-group reveal">
+      <section class="skills-grid stagger-grid reveal">
+        <div class="skill-group">
           <h3>Core languages</h3>
           <div class="skill-item"><div class="skill-info"><span>Python</span><span>Expert</span></div><div class="skill-bar"><div class="skill-fill" data-width="95"></div></div></div>
           <div class="skill-item"><div class="skill-info"><span>JavaScript / TypeScript</span><span>Advanced</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
           <div class="skill-item"><div class="skill-info"><span>Go</span><span>Proficient</span></div><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div></div>
         </div>
-        <div class="skill-group reveal delay-1">
+        <div class="skill-group">
           <h3>Frameworks & tools</h3>
           <div class="skill-item"><div class="skill-info"><span>React / Frontend</span><span>Advanced</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
           <div class="skill-item"><div class="skill-info"><span>Node.js / Express</span><span>Advanced</span></div><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
@@ -65,6 +69,6 @@
   <footer class="footer">
     <p>&copy; <span id="year"></span> Muhammad Afzal Kalwar</p>
   </footer>
-  <script src="js/main.js?v=3"></script>
+  <script src="js/motion.js?v=4"></script>
 </body>
 </html>
