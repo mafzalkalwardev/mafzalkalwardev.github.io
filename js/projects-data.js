@@ -11,8 +11,9 @@ window.PORTFOLIO_PROJECTS = [
       "Automation"
     ],
     "url": "https://github.com/mafzalkalwardev/bulk-email-verifier",
-    "image": "assets/projects/bulk-email-verifier.svg",
-    "featured": true
+    "image": "assets/projects/bulk-email-verifier.png",
+    "featured": true,
+    "video": "assets/videos/bulk-email-verifier.webm"
   },
   {
     "slug": "callaudit-x",
@@ -26,8 +27,9 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/CallAudit-X",
-    "image": "assets/projects/callaudit-x.svg",
-    "featured": true
+    "image": "assets/projects/callaudit-x.png",
+    "featured": true,
+    "video": "assets/videos/callaudit-x.webm"
   },
   {
     "slug": "fiverr-lead-extractor-crm",
@@ -41,7 +43,7 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/fiverr-lead-extractor-crm",
-    "image": "assets/projects/fiverr-lead-extractor-crm.svg",
+    "image": "assets/projects/fiverr-lead-extractor-crm.png",
     "featured": true
   },
   {
@@ -54,8 +56,9 @@ window.PORTFOLIO_PROJECTS = [
       "Python"
     ],
     "url": "https://github.com/mafzalkalwardev/google-voice-dispatch-agent",
-    "image": "assets/projects/google-voice-dispatch-agent.svg",
-    "featured": true
+    "image": "assets/projects/google-voice-dispatch-agent.png",
+    "featured": true,
+    "video": "assets/videos/google-voice-dispatch-agent.webm"
   },
   {
     "slug": "indus-transport-auto-dialer",
@@ -68,7 +71,7 @@ window.PORTFOLIO_PROJECTS = [
       "PyQt6"
     ],
     "url": "https://github.com/mafzalkalwardev/indus-transport-auto-dialer",
-    "image": "assets/projects/indus-transport-auto-dialer.svg",
+    "image": "assets/projects/indus-transport-auto-dialer.png",
     "featured": true
   },
   {
@@ -83,8 +86,9 @@ window.PORTFOLIO_PROJECTS = [
       "Python"
     ],
     "url": "https://github.com/mafzalkalwardev/playwright-website-scraper-pro",
-    "image": "assets/projects/playwright-website-scraper-pro.svg",
-    "featured": true
+    "image": "assets/projects/playwright-website-scraper-pro.png",
+    "featured": true,
+    "video": "assets/videos/playwright-website-scraper-pro.webm"
   },
   {
     "slug": "canadian-website-scraper",
@@ -98,7 +102,7 @@ window.PORTFOLIO_PROJECTS = [
       "Python"
     ],
     "url": "https://github.com/mafzalkalwardev/Canadian-Website-Scraper",
-    "image": "assets/projects/canadian-website-scraper.svg",
+    "image": "assets/projects/canadian-website-scraper.png",
     "featured": false
   },
   {
@@ -128,7 +132,7 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/dat-stream-studio",
-    "image": "assets/projects/dat-stream-studio.svg",
+    "image": "assets/projects/dat-stream-studio.png",
     "featured": false
   },
   {
@@ -184,7 +188,7 @@ window.PORTFOLIO_PROJECTS = [
       "Automation"
     ],
     "url": "https://github.com/mafzalkalwardev/email-verification-platform",
-    "image": "assets/projects/email-verification-platform.svg",
+    "image": "assets/projects/email-verification-platform.png",
     "featured": false
   },
   {
@@ -199,7 +203,7 @@ window.PORTFOLIO_PROJECTS = [
       "Automation"
     ],
     "url": "https://github.com/mafzalkalwardev/email-verifier-pro",
-    "image": "assets/projects/email-verifier-pro.svg",
+    "image": "assets/projects/email-verifier-pro.png",
     "featured": false
   },
   {
@@ -213,7 +217,7 @@ window.PORTFOLIO_PROJECTS = [
       "PyQt6"
     ],
     "url": "https://github.com/mafzalkalwardev/excel-call-queue-automator",
-    "image": "assets/projects/excel-call-queue-automator.svg",
+    "image": "assets/projects/excel-call-queue-automator.png",
     "featured": false
   },
   {
@@ -228,7 +232,7 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/excel-mc-data-cleaner",
-    "image": "assets/projects/excel-mc-data-cleaner.svg",
+    "image": "assets/projects/excel-mc-data-cleaner.png",
     "featured": false
   },
   {
@@ -242,7 +246,7 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/excel-state-extractor-formula",
-    "image": "assets/projects/excel-state-extractor-formula.svg",
+    "image": "assets/projects/excel-state-extractor-formula.png",
     "featured": false
   },
   {
@@ -256,7 +260,7 @@ window.PORTFOLIO_PROJECTS = [
       "Python"
     ],
     "url": "https://github.com/mafzalkalwardev/fmcsa-safer-scraper",
-    "image": "assets/projects/fmcsa-safer-scraper.svg",
+    "image": "assets/projects/fmcsa-safer-scraper.png",
     "featured": false
   },
   {
@@ -271,7 +275,7 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/forward-email-automation",
-    "image": "assets/projects/forward-email-automation.svg",
+    "image": "assets/projects/forward-email-automation.png",
     "featured": false
   },
   {
@@ -284,7 +288,7 @@ window.PORTFOLIO_PROJECTS = [
       "HTML"
     ],
     "url": "https://github.com/mafzalkalwardev/indus-transports-dispatch-website",
-    "image": "assets/projects/indus-transports-dispatch-website.svg",
+    "image": "assets/projects/indus-transports-dispatch-website.png",
     "featured": false
   },
   {
@@ -297,7 +301,7 @@ window.PORTFOLIO_PROJECTS = [
       "HTML"
     ],
     "url": "https://github.com/mafzalkalwardev/kb-transport-llc-website",
-    "image": "assets/projects/kb-transport-llc-website.svg",
+    "image": "assets/projects/kb-transport-llc-website.png",
     "featured": false
   },
   {
@@ -312,7 +316,7 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/LearningDashboard",
-    "image": "assets/projects/learningdashboard.svg",
+    "image": "assets/projects/learningdashboard.png",
     "featured": false
   },
   {
@@ -327,7 +331,7 @@ window.PORTFOLIO_PROJECTS = [
       "Automation"
     ],
     "url": "https://github.com/mafzalkalwardev/mailforge",
-    "image": "assets/projects/mailforge.svg",
+    "image": "assets/projects/mailforge.png",
     "featured": false
   },
   {
@@ -340,7 +344,7 @@ window.PORTFOLIO_PROJECTS = [
       "Python"
     ],
     "url": "https://github.com/mafzalkalwardev/mnist-cnn-digit-recognition",
-    "image": "assets/projects/mnist-cnn-digit-recognition.svg",
+    "image": "assets/projects/mnist-cnn-digit-recognition.png",
     "featured": false
   },
   {
@@ -353,7 +357,7 @@ window.PORTFOLIO_PROJECTS = [
       "Python"
     ],
     "url": "https://github.com/mafzalkalwardev/mouse-coordinate-tracker",
-    "image": "assets/projects/mouse-coordinate-tracker.svg",
+    "image": "assets/projects/mouse-coordinate-tracker.png",
     "featured": false
   },
   {
@@ -368,7 +372,7 @@ window.PORTFOLIO_PROJECTS = [
       "Automation"
     ],
     "url": "https://github.com/mafzalkalwardev/multi-smtp-email-automation",
-    "image": "assets/projects/multi-smtp-email-automation.svg",
+    "image": "assets/projects/multi-smtp-email-automation.png",
     "featured": false
   },
   {
@@ -382,7 +386,7 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/mywebpagetask",
-    "image": "assets/projects/mywebpagetask.svg",
+    "image": "assets/projects/mywebpagetask.png",
     "featured": false
   },
   {
@@ -395,7 +399,7 @@ window.PORTFOLIO_PROJECTS = [
       "HTML"
     ],
     "url": "https://github.com/mafzalkalwardev/one-stop-car-care-website",
-    "image": "assets/projects/one-stop-car-care-website.svg",
+    "image": "assets/projects/one-stop-car-care-website.png",
     "featured": false
   },
   {
@@ -410,7 +414,7 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/online-food-delivery",
-    "image": "assets/projects/online-food-delivery.svg",
+    "image": "assets/projects/online-food-delivery.png",
     "featured": false
   },
   {
@@ -423,7 +427,7 @@ window.PORTFOLIO_PROJECTS = [
       "Python"
     ],
     "url": "https://github.com/mafzalkalwardev/pdf-mc-number-extractor",
-    "image": "assets/projects/pdf-mc-number-extractor.svg",
+    "image": "assets/projects/pdf-mc-number-extractor.png",
     "featured": false
   },
   {
@@ -436,7 +440,7 @@ window.PORTFOLIO_PROJECTS = [
       "HTML"
     ],
     "url": "https://github.com/mafzalkalwardev/portfilio",
-    "image": "assets/projects/portfilio.svg",
+    "image": "assets/projects/portfilio.png",
     "featured": false
   },
   {
@@ -450,7 +454,7 @@ window.PORTFOLIO_PROJECTS = [
       "PyQt6"
     ],
     "url": "https://github.com/mafzalkalwardev/python-auto-dialer-pro",
-    "image": "assets/projects/python-auto-dialer-pro.svg",
+    "image": "assets/projects/python-auto-dialer-pro.png",
     "featured": false
   },
   {
@@ -465,7 +469,7 @@ window.PORTFOLIO_PROJECTS = [
       "Automation"
     ],
     "url": "https://github.com/mafzalkalwardev/python-smtp-email-automation",
-    "image": "assets/projects/python-smtp-email-automation.svg",
+    "image": "assets/projects/python-smtp-email-automation.png",
     "featured": false
   },
   {
@@ -478,7 +482,7 @@ window.PORTFOLIO_PROJECTS = [
       "Python"
     ],
     "url": "https://github.com/mafzalkalwardev/python-sms-automation",
-    "image": "assets/projects/python-sms-automation.svg",
+    "image": "assets/projects/python-sms-automation.png",
     "featured": false
   },
   {
@@ -507,7 +511,7 @@ window.PORTFOLIO_PROJECTS = [
       "Node.js"
     ],
     "url": "https://github.com/mafzalkalwardev/quizmaster-online-testing-system",
-    "image": "assets/projects/quizmaster-online-testing-system.svg",
+    "image": "assets/projects/quizmaster-online-testing-system.png",
     "featured": false
   },
   {
@@ -521,7 +525,7 @@ window.PORTFOLIO_PROJECTS = [
       "Playwright"
     ],
     "url": "https://github.com/mafzalkalwardev/safer-carrier-extractor",
-    "image": "assets/projects/safer-carrier-extractor.svg",
+    "image": "assets/projects/safer-carrier-extractor.png",
     "featured": false
   },
   {
@@ -536,7 +540,7 @@ window.PORTFOLIO_PROJECTS = [
       "Python"
     ],
     "url": "https://github.com/mafzalkalwardev/safer-web-scraper",
-    "image": "assets/projects/safer-web-scraper.svg",
+    "image": "assets/projects/safer-web-scraper.png",
     "featured": false
   }
 ];

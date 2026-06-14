@@ -381,11 +381,19 @@ main { padding-top: var(--nav-h); }
   box-shadow: var(--shadow-lg);
 }
 .project-shot {
-  aspect-ratio: 16/10; overflow: hidden;
+  aspect-ratio: 16/10; overflow: hidden; position: relative;
   background: linear-gradient(135deg, var(--bg-subtle), #e2e8f0);
   border-bottom: 1px solid var(--border);
 }
-.project-shot img { width: 100%; height: 100%; object-fit: cover; }
+.project-shot img,
+.project-shot video {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.project-shot .project-video {
+  position: absolute; inset: 0; opacity: 0; transition: opacity 0.35s ease;
+}
+.project-card[data-has-video="true"]:hover .project-video { opacity: 1; }
+.project-card[data-has-video="true"]:hover .project-shot img { opacity: 0; }
 .project-body { padding: 1.25rem; }
 .project-body h3 { font-size: 0.9375rem; font-weight: 600; margin-bottom: 0.35rem; }
 .project-body p {

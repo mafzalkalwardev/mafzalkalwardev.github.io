@@ -153,9 +153,6 @@ def main() -> None:
         lang = (r.get("primaryLanguage") or {}).get("name")
         desc = r.get("description") or f"Open source {title(name)} project."
         cat = category(name, lang)
-        slug = name.lower().replace(" ", "-")
-        svg_path = ASSETS / f"{slug}.svg"
-        svg_path.write_text(svg_mockup(name, cat, desc), encoding="utf-8")
         tags = []
         if lang:
             tags.append(lang)
@@ -168,21 +165,31 @@ def main() -> None:
         elif cat == "web":
             tags.extend(["React", "Node.js"])
         tags = list(dict.fromkeys(tags))[:4]
-        projects.append({
-            "slug": slug,
+        slug_name = name.lower().replace(" ", "-")
+        svg_path = ASSETS / f"{slug_name}.svg"
+        png_path = ASSETS / f"{slug_name}.png"
+        if not png_path.exists():
+            svg_path.write_text(svg_mockup(name, cat, desc), encoding="utf-8")
+        image = f"assets/projects/{slug_name}.png" if png_path.exists() else f"assets/projects/{slug_name}.svg"
+        video_path = ROOT / "assets" / "videos" / f"{slug_name}.webm"
+        entry = {
+            "slug": slug_name,
             "name": title(name),
             "repo": name,
             "description": desc,
             "category": cat,
             "tags": tags,
             "url": f"https://github.com/{OWNER}/{name}",
-            "image": f"assets/projects/{slug}.svg",
+            "image": image,
             "featured": name in {
                 "indus-transport-auto-dialer", "bulk-email-verifier",
                 "google-voice-dispatch-agent", "fiverr-lead-extractor-crm",
                 "CallAudit-X", "playwright-website-scraper-pro",
             },
-        })
+        }
+        if video_path.exists():
+            entry["video"] = f"assets/videos/{slug_name}.webm"
+        projects.append(entry)
 
     projects.sort(key=lambda p: (not p["featured"], p["name"]))
     js = "window.PORTFOLIO_PROJECTS = " + json.dumps(projects, indent=2) + ";\n"

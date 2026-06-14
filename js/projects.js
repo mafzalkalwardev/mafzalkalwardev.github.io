@@ -26,12 +26,17 @@
     const name = escapeHtml(project.name);
     const url = escapeHtml(project.url);
     const img = escapeHtml(project.image);
+    const video = project.video ? escapeHtml(project.video) : '';
     const category = escapeHtml(project.category || '');
+    const media = video
+      ? `<video class="project-video" src="${video}" muted loop playsinline preload="metadata" poster="${img}"></video>
+         <img src="${img}" alt="${name} screenshot" loading="lazy" width="640" height="400" />`
+      : `<img src="${img}" alt="${name} screenshot" loading="lazy" width="640" height="400" />`;
 
     return `
-      <article class="project-card reveal${delay}" data-category="${category}">
+      <article class="project-card reveal${delay}" data-category="${category}"${video ? ' data-has-video="true"' : ''}>
         <div class="project-shot">
-          <img src="${img}" alt="${name} screenshot" loading="lazy" width="640" height="400" />
+          ${media}
         </div>
         <div class="project-body">
           <h3>${name}</h3>
@@ -57,6 +62,13 @@
   });
 
   grid.innerHTML = projects.map(projectCard).join('');
+
+  grid.querySelectorAll('[data-has-video="true"]').forEach((card) => {
+    const video = card.querySelector('.project-video');
+    if (!video) return;
+    card.addEventListener('mouseenter', () => { video.play().catch(() => {}); });
+    card.addEventListener('mouseleave', () => { video.pause(); video.currentTime = 0; });
+  });
 
   if (window.initTilt) window.initTilt('#projectsGrid .project-card', 4);
   if (window.initReveal) {
