@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mafzalkalwardev.github.io/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://mafzalkalwardev.github.io/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mafzalkalwardev.github.io/projects.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://mafzalkalwardev.github.io/skills.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mafzalkalwardev.github.io/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-</urlset>
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://mafzalkalwardev.github.io/</loc><changefreq>weekly</changefreq></url><url><loc>https://github.com/mafzalkalwardev</loc><changefreq>weekly</changefreq></url><url><loc>https://github.com/mafzalkalwardev/ft-solutions-hub</loc><changefreq>weekly</changefreq></url><url><loc>https://github.com/mafzalkalwardev/indus-transport-auto-dialer</loc><changefreq>weekly</changefreq></url><url><loc>https://github.com/mafzalkalwardev/bulk-email-verifier</loc><changefreq>weekly</changefreq></url><url><loc>https://github.com/mafzalkalwardev/google-voice-dispatch-agent</loc><changefreq>weekly</changefreq></url><url><loc>https://github.com/mafzalkalwardev/fiverr-lead-extractor-crm</loc><changefreq>weekly</changefreq></url><url><loc>https://github.com/mafzalkalwardev/CallAudit-X</loc><changefreq>weekly</changefreq></url><url><loc>https://github.com/mafzalkalwardev/mailforge</loc><changefreq>weekly</changefreq></url></urlset>
