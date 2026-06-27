@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Demos | Muhammad Afzal Kalwar</title>
+  <meta name="description" content="Demo previews of CRM, scraping, dispatch, email, and AI workflow projects by Muhammad Afzal Kalwar." />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="stylesheet" href="css/styles.css?v=14" />
+  <link rel="stylesheet" href="css/animations.css?v=14" />
+  <link rel="stylesheet" href="css/dark.css?v=14" />
+  <link rel="stylesheet" href="css/patterns.css?v=14" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    .demo-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); margin-top: 2rem; }
+    .demo-card { background: var(--card-bg, rgba(255,255,255,.04)); border: 1px solid var(--border, rgba(255,255,255,.08)); border-radius: 16px; overflow: hidden; }
+    .demo-card img, .demo-card video { width: 100%; display: block; aspect-ratio: 16/10; object-fit: cover; background: #0f172a; }
+    .demo-card-body { padding: 1.25rem; }
+    .demo-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin: .75rem 0; }
+    .demo-tags span { font-size: .75rem; padding: .25rem .55rem; border-radius: 999px; background: rgba(37,99,235,.15); color: #93c5fd; }
+    .demo-note { font-size: .85rem; opacity: .8; margin-top: .5rem; }
+    .demo-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <a class="nav-brand" href="index.html">
+      <img class="nav-avatar" src="assets/profile.png" alt="" width="38" height="38" />
+      <span class="nav-name">Muhammad Afzal Kalwar<span>Full-Stack Developer</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="demos.html" class="active">Demos</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://github.com/mafzalkalwardev" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <main class="container" style="padding: 6rem 1rem 4rem;">
+    <header class="page-header reveal">
+      <h1 class="page-title">Project Demos</h1>
+      <p class="page-subtitle">Screenshots and browser recordings of CRM, scraping, dispatch, email, and AI workflow tools. Demo data only — no private customer information.</p>
+    </header>
+
+    <div class="demo-grid">
+      <article class="demo-card reveal">
+        <video controls preload="metadata" poster="public/demos/portfolio-demo-poster.png">
+          <source src="public/demos/portfolio-demo.webm" type="video/webm" />
+        </video>
+        <div class="demo-card-body">
+          <h2>Portfolio Site Walkthrough</h2>
+          <p>Professional portfolio — projects, skills, contact, and WhatsApp CTA.</p>
+          <div class="demo-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="demo-actions">
+            <a class="btn btn-primary" href="index.html">Live site</a>
+            <a class="btn btn-secondary" href="https://github.com/mafzalkalwardev/mafzalkalwardev.github.io" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          <p class="demo-note">Demo recording of this portfolio site.</p>
+        </div>
+      </article>
+
+      <article class="demo-card reveal">
+        <img src="assets/projects/playwright-website-scraper-pro.svg" alt="Playwright Website Scraper Pro preview" />
+        <div class="demo-card-body">
+          <h2>Playwright Website Scraper Pro</h2>
+          <p>Playwright scraping toolkit with desktop GUI, Express backend, screenshots, and multi-page export.</p>
+          <div class="demo-tags"><span>Playwright</span><span>Node.js</span><span>Express</span></div>
+          <div class="demo-actions">
+            <a class="btn btn-primary" href="https://github.com/mafzalkalwardev/playwright-website-scraper-pro" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          <p class="demo-note">Use demo URLs only when running locally.</p>
+        </div>
+      </article>
+
+      <article class="demo-card reveal">
+        <img src="assets/projects/bulk-email-verifier.svg" alt="Bulk Email Verifier preview" />
+        <div class="demo-card-body">
+          <h2>Bulk Email Verifier</h2>
+          <p>Self-hosted bulk email verification — syntax, MX, SMTP checks, CSV export.</p>
+          <div class="demo-tags"><span>Node.js</span><span>Go</span><span>Docker</span></div>
+          <div class="demo-actions">
+            <a class="btn btn-primary" href="https://github.com/mafzalkalwardev/bulk-email-verifier" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          <p class="demo-note">Demo data only — no real recipient lists in screenshots.</p>
+        </div>
+      </article>
+
+      <article class="demo-card reveal">
+        <img src="assets/projects/fiverr-lead-extractor-crm.svg" alt="Fiverr Lead Extractor CRM preview" />
+        <div class="demo-card-body">
+          <h2>Fiverr Lead Extractor CRM</h2>
+          <p>Next.js CRM with Playwright workers, MongoDB jobs, Excel export, and admin dashboard.</p>
+          <div class="demo-tags"><span>Next.js</span><span>Playwright</span><span>MongoDB</span></div>
+          <div class="demo-actions">
+            <a class="btn btn-primary" href="https://github.com/mafzalkalwardev/fiverr-lead-extractor-crm" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          <p class="demo-note">Public marketplace research workflows only.</p>
+        </div>
+      </article>
+
+      <article class="demo-card reveal">
+        <img src="public/demos/indus-dialer-screenshot.png" alt="Indus Transport Auto Dialer screenshot" onerror="this.src='assets/projects/indus-transport-auto-dialer.svg'" />
+        <div class="demo-card-body">
+          <h2>Indus Transport Auto Dialer</h2>
+          <p>PyQt6 Windows auto dialer with Google Voice integration, CRM, and campaign workflows.</p>
+          <div class="demo-tags"><span>Python</span><span>PyQt6</span><span>Google Voice</span></div>
+          <div class="demo-actions">
+            <a class="btn btn-primary" href="https://github.com/mafzalkalwardev/indus-transport-auto-dialer" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          <p class="demo-note">Permission-based calling only. Screenshots use demo UI states.</p>
+        </div>
+      </article>
+
+      <article class="demo-card reveal">
+        <img src="assets/projects/google-voice-dispatch-agent.svg" alt="Google Voice Dispatch Agent preview" />
+        <div class="demo-card-body">
+          <h2>Google Voice Dispatch Agent</h2>
+          <p>AI-assisted Google Voice outbound console with FastAPI operator UI and call logging.</p>
+          <div class="demo-tags"><span>Python</span><span>FastAPI</span><span>Selenium</span></div>
+          <div class="demo-actions">
+            <a class="btn btn-primary" href="https://github.com/mafzalkalwardev/google-voice-dispatch-agent" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          <p class="demo-note">Consent and compliance required for live calling.</p>
+        </div>
+      </article>
+    </div>
+
+    <section style="margin-top:3rem;text-align:center;">
+      <h2>Hire me for automation projects</h2>
+      <p>CRM · Scraping · Dispatch · Email · AI workflows</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1rem;">
+        <a class="btn btn-primary btn-lg" href="contact.html">Hire Me</a>
+        <a class="btn btn-secondary btn-lg" href="https://wa.me/923079670503" target="_blank" rel="noopener">Contact on WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; Muhammad Afzal Kalwar · <a href="https://wa.me/923079670503">WhatsApp +923079670503</a></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
