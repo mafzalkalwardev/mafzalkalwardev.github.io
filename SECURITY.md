@@ -1,19 +1,15 @@
 # Security Policy
 
-## Supported versions
-
-| Version | Supported |
-|---------|-----------|
-| latest on `main` | yes |
-
 ## Reporting a vulnerability
 
-Please **do not** open public issues for security problems.
+Please do not open public issues for security-sensitive problems.
 
-Email **kalwarmuhammadafzal3@gmail.com** with:
+Contact the repository maintainer privately with:
 
-- Description of the issue
+- Affected repository and component
 - Steps to reproduce
 - Impact assessment
 
-We aim to respond within 72 hours.
+## Supported versions
+
+Only the default branch (`main` or `master`) receives security fixes unless noted otherwise.

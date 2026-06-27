@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Afzal | Personal Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        .text-gradient {
+            background-image: linear-gradient(to right, #4c1d95, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        .card-container {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card-container:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        }
+        .icon {
+             width: 1.5rem;
+             height: 1.5rem;
+             margin-right: 0.75rem;
+             flex-shrink: 0;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
+    <main class="w-full max-w-md mx-auto">
+        <div class="card-container bg-white rounded-2xl shadow-xl p-8">
+            <header class="flex flex-col items-center text-center border-b border-gray-200 pb-6">
+                <img class="w-32 h-32 rounded-full border-4 border-violet-500 object-cover shadow-lg" 
+                     src="http://afzalportfolio.surge.sh/2x2%20Photo.jpg" 
+                     alt="Profile picture of Muhammad Afzal"
+                     onerror="this.onerror=null;this.src='https://placehold.co/128x128/e9d5ff/4c1d95?text=MA';">
+                <h1 class="text-3xl font-bold text-gradient mt-4">Muhammad Afzal</h1>
+                <p class="text-gray-500 mt-1 text-lg">ADCS 3rd Semester</p>
+            </header>
+
+            <section class="mt-6 space-y-6">
+                <div>
+                    <h2 class="text-xl font-bold text-gray-800 flex items-center">
+                        <svg class="icon text-violet-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
+                        Favorite Books
+                    </h2>
+                    <ul class="mt-3 list-inside list-disc text-gray-600 space-y-1 pl-4">
+                        <li>Information Security</li>
+                        <li>Full stack web development</li>
+                        <li>Programming Fundamentals</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-xl font-bold text-gray-800 flex items-center">
+                       <svg class="icon text-violet-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" /></svg>
+                        Favorite Movies
+                    </h2>
+                    <ul class="mt-3 list-inside list-disc text-gray-600 space-y-1 pl-4">
+                        <li>Avengers: Endgame</li>
+                        <li>Avengers: Infinity War</li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer class="mt-8 pt-6 border-t border-gray-200">
+                <a href="http://afzalportfolio.surge.sh/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="group flex items-center justify-center w-full bg-violet-600 text-white font-semibold py-3 px-4 rounded-lg transition-transform transform hover:bg-violet-700 hover:scale-105">
+                    View My Portfolio
+                    <svg class="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                </a>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
+
