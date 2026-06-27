@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Air University Islamabad">
+  <defs>
+    <linearGradient id="au-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="18" fill="url(#au-bg)"/>
+  <circle cx="60" cy="38" r="18" fill="none" stroke="#7dd3fc" stroke-width="2.5"/>
+  <path d="M60 24 L68 42 L52 42 Z" fill="#e0f2fe"/>
+  <text x="60" y="72" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" text-anchor="middle">AU</text>
+  <text x="60" y="92" fill="#bae6fd" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1.2">AIR UNIVERSITY</text>
+  <text x="60" y="106" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="8" font-weight="500" text-anchor="middle">ISLAMABAD</text>
+</svg>

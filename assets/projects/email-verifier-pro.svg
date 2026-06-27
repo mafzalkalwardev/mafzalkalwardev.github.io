@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+        <rect x="80" y="90" width="640" height="320" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+        <rect x="110" y="130" width="580" height="48" rx="6" fill="#eef2f7"/>
+        <rect x="110" y="190" width="420" height="14" rx="3" fill="#eef2f7"/>
+        <rect x="110" y="214" width="360" height="14" rx="3" fill="#eef2f7"/>
+        <rect x="110" y="260" width="120" height="36" rx="6" fill="#2563eb" opacity="0.85"/>
+        <circle cx="620" cy="154" r="16" fill="#dcfce7" stroke="#86efac"/>
+        
+  <text x="400" y="420" fill="#64748b" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" text-anchor="middle">A full-stack Email Verification Web App built with Node.js, Express, MongoDB, JW</text>
+  <text x="400" y="36" fill="#0f172a" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="middle">Email Verifier Pro</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" fill="none">
+  <rect width="1280" height="800" fill="#08111f"/>
+  <rect x="92" y="84" width="1096" height="632" rx="42" fill="#111827" stroke="#334155" stroke-width="3"/>
+  <text x="136" y="164" fill="#f8fafc" font-family="Inter,Segoe UI,Arial" font-size="36" font-weight="800">Google Voice Call State Detector</text>
+  <text x="136" y="214" fill="#94a3b8" font-family="Inter,Segoe UI,Arial" font-size="22">Manifest V3 audio metrics, Deepgram, voicemail heuristics</text>
+  <circle cx="394" cy="424" r="124" fill="#2563eb" opacity="0.24"/>
+  <path d="M342 352c72-60 176-8 176 88 0 52-42 94-94 94h-30c-74 0-122-78-88-144" stroke="#60a5fa" stroke-width="18" stroke-linecap="round"/>
+  <path d="M696 470c28-86 62-86 90 0s62 86 90 0 62-86 90 0" stroke="#22c55e" stroke-width="16" stroke-linecap="round"/>
+  <rect x="676" y="318" width="360" height="44" rx="22" fill="#1e293b"/>
+  <rect x="676" y="318" width="252" height="44" rx="22" fill="#7c3aed"/>
+  <text x="704" y="350" fill="#f8fafc" font-family="Inter,Segoe UI,Arial" font-size="19" font-weight="700">Ringing -> Voicemail -> Picked Up</text>
+</svg>

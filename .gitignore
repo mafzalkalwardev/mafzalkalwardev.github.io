@@ -1,0 +1,5 @@
+.capture-cache/
+*.tmp.png
+capture-log.txt
+readme-update-log.txt
+scripts/__pycache__/

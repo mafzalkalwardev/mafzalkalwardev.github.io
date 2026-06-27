@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" fill="none">
+  <rect width="1280" height="800" fill="#0f172a"/>
+  <rect x="90" y="86" width="1100" height="628" rx="42" fill="#111827" stroke="#334155" stroke-width="3"/>
+  <text x="138" y="164" fill="#f8fafc" font-family="Inter,Segoe UI,Arial" font-size="38" font-weight="800">SMS Marketing CRM</text>
+  <text x="138" y="214" fill="#94a3b8" font-family="Inter,Segoe UI,Arial" font-size="23">Campaign dashboard, contacts, consent-aware messaging</text>
+  <rect x="138" y="292" width="420" height="260" rx="28" fill="#1e293b"/>
+  <rect x="180" y="334" width="248" height="34" rx="17" fill="#22c55e"/>
+  <rect x="180" y="394" width="320" height="28" rx="14" fill="#475569"/>
+  <rect x="180" y="448" width="286" height="28" rx="14" fill="#475569"/>
+  <circle cx="936" cy="414" r="130" fill="#2563eb" opacity="0.2"/>
+  <path d="M835 334h202c32 0 58 26 58 58v42c0 32-26 58-58 58H918l-76 58 24-58h-31c-32 0-58-26-58-58v-42c0-32 26-58 58-58Z" fill="#2563eb"/>
+  <circle cx="880" cy="414" r="14" fill="#f8fafc"/>
+  <circle cx="936" cy="414" r="14" fill="#f8fafc"/>
+  <circle cx="992" cy="414" r="14" fill="#f8fafc"/>
+</svg>

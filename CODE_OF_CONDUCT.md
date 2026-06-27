@@ -1,7 +1,24 @@
 # Code of Conduct
 
-We expect respectful, professional collaboration. Harassment, hate speech, and publishing private information without consent are not tolerated.
+## Our Pledge
 
-Maintainers may remove contributions or block participants who violate this policy.
+I want these projects to be welcoming, respectful, and useful for everyone who visits, opens an issue, or contributes.
 
-Report concerns to the repository owner.
+## Expected Behavior
+
+- Be respectful and constructive.
+- Assume good intent when discussing bugs, ideas, or pull requests.
+- Keep feedback focused on the work, not the person.
+- Avoid harassment, hate speech, threats, or personal attacks.
+
+## Unacceptable Behavior
+
+Unacceptable behavior includes harassment, discriminatory language, trolling, insults, spam, doxxing, or any conduct that makes collaboration unsafe or unproductive.
+
+## Enforcement
+
+Project maintainers may remove comments, close issues, block users, or take other reasonable actions when this code is violated.
+
+## Contact
+
+For concerns, contact Muhammad Afzal Kalwar through GitHub or email: kalwarmuhammadafzal3@gmail.com.

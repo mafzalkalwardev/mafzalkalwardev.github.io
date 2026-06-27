@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+        <rect x="100" y="90" width="600" height="320" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+        <polyline points="140,340 220,280 300,300 380,220 460,240 540,160 620,180" fill="none" stroke="#2563eb" stroke-width="3"/>
+        <rect x="140" y="120" width="520" height="160" rx="6" fill="#eef2f7"/>
+        
+  <text x="400" y="420" fill="#64748b" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" text-anchor="middle">A deep learning project using TensorFlow and Convolutional Neural Networks (CNNs</text>
+  <text x="400" y="36" fill="#0f172a" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="middle">Mnist Cnn Digit Recognition</text>
+</svg>

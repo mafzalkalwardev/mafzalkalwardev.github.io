@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+        <rect x="48" y="72" width="704" height="360" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+        <rect x="48" y="72" width="704" height="36" rx="8" fill="#eef2f7"/>
+        <circle cx="68" cy="90" r="5" fill="#cbd5e1"/><circle cx="84" cy="90" r="5" fill="#cbd5e1"/>
+        <rect x="120" y="130" width="280" height="24" rx="4" fill="#eef2f7"/>
+        <rect x="120" y="170" width="200" height="16" rx="3" fill="#eef2f7"/>
+        <rect x="120" y="220" width="160" height="40" rx="6" fill="#2563eb" opacity="0.9"/>
+        <rect x="420" y="130" width="280" height="220" rx="6" fill="#eef2f7"/>
+        
+  <text x="400" y="420" fill="#64748b" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" text-anchor="middle">A Python GUI-based auto dialer system with Excel contact loading, automated call</text>
+  <text x="400" y="36" fill="#0f172a" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="middle">Python Auto Dialer Pro</text>
+</svg>
