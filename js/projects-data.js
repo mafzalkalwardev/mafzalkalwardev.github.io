@@ -7,7 +7,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Next.js", "TypeScript", "Supabase", "Travel"],
     url: "https://github.com/mafzalkalwardev/al-qibla-air-services",
-    image: "assets/projects/al-qibla-air-services.svg",
+    image: "assets/projects/al-qibla-air-services.png",
     featured: true
   },
   {
@@ -18,7 +18,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["Python", "PyQt6", "Voice AI", "Windows"],
     url: "https://github.com/mafzalkalwardev/tony-ai",
-    image: "assets/projects/tony-ai.svg",
+    image: "assets/projects/tony-ai.png",
     featured: true
   },
   {
@@ -29,7 +29,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["CRM", "Vonage", "SMS", "Dashboard"],
     url: "https://github.com/mafzalkalwardev/sms-marketing-crm",
-    image: "assets/projects/sms-marketing-crm.svg",
+    image: "assets/projects/sms-marketing-crm.png",
     featured: true
   },
   {
@@ -86,7 +86,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Google Voice", "Chrome Extension", "Deepgram", "Audio"],
     url: "https://github.com/mafzalkalwardev/google-voice-call-state-detector",
-    image: "assets/projects/google-voice-call-state-detector.svg",
+    image: "assets/projects/google-voice-call-state-detector.png",
     featured: true
   },
   {
@@ -220,7 +220,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["AI", "Ollama", "Voice", "Prototype"],
     url: "https://github.com/mafzalkalwardev/google-voice-call-detector-prototype",
-    image: "assets/projects/google-voice-call-detector-prototype.svg",
+    image: "assets/projects/google-voice-call-detector-prototype.png",
     featured: false
   },
   {
@@ -376,6 +376,215 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Node.js", "Express", "MongoDB", "EJS"],
     url: "https://github.com/mafzalkalwardev/quizmaster-online-testing-system",
     image: "assets/projects/quizmaster-online-testing-system.png",
+    featured: false
+  },
+  {
+    slug: "logistics-pro-website",
+    name: "Logistics Pro Website",
+    repo: "logistics-pro-website",
+    description: "Responsive logistics company website with service pages, contact flows, and modern transport branding.",
+    category: "website",
+    tags: ["HTML", "CSS", "Logistics", "Responsive"],
+    url: "https://github.com/mafzalkalwardev/logistics-pro-website",
+    image: "assets/projects/logistics-pro-website.png",
+    featured: false
+  },
+  {
+    slug: "apex-transit-llc-website",
+    name: "Apex Transit LLC Website",
+    repo: "apex-transit-llc-website",
+    description: "Apex Transit LLC transport company website with dispatch positioning, services, and lead capture.",
+    category: "website",
+    tags: ["HTML", "CSS", "Logistics", "Transport"],
+    url: "https://github.com/mafzalkalwardev/apex-transit-llc-website",
+    image: "assets/projects/apex-transit-llc-website.png",
+    featured: false
+  },
+  {
+    slug: "wooly-wool-storefront",
+    name: "Wooly Wool Storefront",
+    repo: "wooly-wool-storefront",
+    description: "E-commerce storefront for Wooly Wool with product catalog, cart flows, and responsive retail UI.",
+    category: "web",
+    tags: ["HTML", "CSS", "E-commerce", "Retail"],
+    url: "https://github.com/mafzalkalwardev/wooly-wool-storefront",
+    image: "assets/projects/wooly-wool-storefront.png",
+    featured: false
+  },
+  {
+    slug: "callauditx-nest-react",
+    name: "CallAuditX Nest + React",
+    repo: "callauditx-nest-react",
+    description: "Full-stack call auditing platform with NestJS API, React dashboard, JWT auth, and PostgreSQL via Prisma.",
+    category: "web",
+    tags: ["NestJS", "React", "PostgreSQL", "SaaS"],
+    url: "https://github.com/mafzalkalwardev/callauditx-nest-react",
+    image: "assets/projects/callauditx-nest-react.png",
+    featured: true
+  },
+  {
+    slug: "google-workspace-bulk-user-provisioning",
+    name: "Google Workspace Bulk Provisioning",
+    repo: "google-workspace-bulk-user-provisioning",
+    description: "Python automation for bulk Google Workspace user creation with Admin SDK workflows and CSV import.",
+    category: "automation",
+    tags: ["Python", "Google Workspace", "Admin SDK", "Automation"],
+    url: "https://github.com/mafzalkalwardev/google-workspace-bulk-user-provisioning",
+    image: "assets/projects/google-workspace-bulk-user-provisioning.png",
+    featured: false
+  },
+  {
+    slug: "toolzology-chrome-extension-v2",
+    name: "Toolzology Chrome Extension v2",
+    repo: "toolzology-chrome-extension-v2",
+    description: "Manifest V3 Chrome extension for productivity tooling and browser workflow automation.",
+    category: "automation",
+    tags: ["JavaScript", "Chrome Extension", "Manifest V3"],
+    url: "https://github.com/mafzalkalwardev/toolzology-chrome-extension-v2",
+    image: "assets/projects/toolzology-chrome-extension-v2.png",
+    featured: false
+  },
+  {
+    slug: "fake-news-detector",
+    name: "Fake News Detector",
+    repo: "fake-news-detector",
+    description: "Machine learning web app for fake news classification with NLP preprocessing and model inference UI.",
+    category: "ml",
+    tags: ["Python", "ML", "NLP", "Flask"],
+    url: "https://github.com/mafzalkalwardev/fake-news-detector",
+    image: "assets/projects/fake-news-detector.png",
+    featured: false
+  },
+  {
+    slug: "restaurant-management-react",
+    name: "Restaurant Management React",
+    repo: "restaurant-management-react",
+    description: "React restaurant management dashboard for orders, menu items, staff views, and admin workflows.",
+    category: "web",
+    tags: ["React", "Dashboard", "Restaurant", "JavaScript"],
+    url: "https://github.com/mafzalkalwardev/restaurant-management-react",
+    image: "assets/projects/restaurant-management-react.png",
+    featured: false
+  },
+  {
+    slug: "simple-learning-dashboard",
+    name: "Simple Learning Dashboard",
+    repo: "simple-learning-dashboard",
+    description: "Learning progress dashboard for tracking courses, goals, and study activity with a clean UI.",
+    category: "web",
+    tags: ["JavaScript", "Dashboard", "Education"],
+    url: "https://github.com/mafzalkalwardev/simple-learning-dashboard",
+    image: "assets/projects/simple-learning-dashboard.png",
+    featured: false
+  },
+  {
+    slug: "quizmaster-backend-complete",
+    name: "QuizMaster Backend Complete",
+    repo: "quizmaster-backend-complete",
+    description: "Node.js quiz and testing system backend with Express, MongoDB, authentication, and API routes.",
+    category: "web",
+    tags: ["Node.js", "Express", "MongoDB", "API"],
+    url: "https://github.com/mafzalkalwardev/quizmaster-backend-complete",
+    image: "assets/projects/quizmaster-backend-complete.png",
+    featured: false
+  },
+  {
+    slug: "student-report-card-system",
+    name: "Student Report Card System",
+    repo: "student-report-card-system",
+    description: "University lab project for student report card management with grades, subjects, and admin views.",
+    category: "web",
+    tags: ["JavaScript", "University", "Education"],
+    url: "https://github.com/mafzalkalwardev/student-report-card-system",
+    image: "assets/projects/student-report-card-system.png",
+    featured: false
+  },
+  {
+    slug: "university-web-labs",
+    name: "University Web Labs",
+    repo: "university-web-labs",
+    description: "Collection of university web development lab assignments and practice projects.",
+    category: "web",
+    tags: ["HTML", "CSS", "JavaScript", "University"],
+    url: "https://github.com/mafzalkalwardev/university-web-labs",
+    image: "assets/projects/university-web-labs.png",
+    featured: false
+  },
+  {
+    slug: "andaaz-e-pakwaan-restaurant",
+    name: "Andaaz e Pakwaan Restaurant",
+    repo: "andaaz-e-pakwaan-restaurant",
+    description: "Restaurant ordering web application for menu browsing, cart, and customer-facing food service UI.",
+    category: "web",
+    tags: ["HTML", "CSS", "Restaurant", "Ordering"],
+    url: "https://github.com/mafzalkalwardev/andaaz-e-pakwaan-restaurant",
+    image: "assets/projects/andaaz-e-pakwaan-restaurant.png",
+    featured: false
+  },
+  {
+    slug: "portfolio-afzal-kalwar-vite",
+    name: "Portfolio Afzal Kalwar Vite",
+    repo: "portfolio-afzal-kalwar-vite",
+    description: "Animated React Vite portfolio with project showcase, skills, and responsive developer branding.",
+    category: "web",
+    tags: ["React", "Vite", "Portfolio", "TypeScript"],
+    url: "https://github.com/mafzalkalwardev/portfolio-afzal-kalwar-vite",
+    image: "assets/projects/portfolio-afzal-kalwar-vite.png",
+    featured: false
+  },
+  {
+    slug: "screen-capture-app",
+    name: "Screen Capture App",
+    repo: "screen-capture-app",
+    description: "Desktop screen capture utility for recording and saving screen regions with a simple workflow.",
+    category: "desktop",
+    tags: ["Python", "Desktop", "Screen Capture"],
+    url: "https://github.com/mafzalkalwardev/screen-capture-app",
+    image: "assets/projects/screen-capture-app.png",
+    featured: false
+  },
+  {
+    slug: "datx-chrome-extension",
+    name: "DatX Chrome Extension",
+    repo: "datx-chrome-extension",
+    description: "Chrome extension for DAT load board workflows and logistics browser automation helpers.",
+    category: "automation",
+    tags: ["Chrome Extension", "Logistics", "JavaScript"],
+    url: "https://github.com/mafzalkalwardev/datx-chrome-extension",
+    image: "assets/projects/datx-chrome-extension.png",
+    featured: false
+  },
+  {
+    slug: "vicidial-hyperv-lab",
+    name: "Vicidial Hyper-V Lab",
+    repo: "vicidial-hyperv-lab",
+    description: "Call center lab setup documentation and scripts for Vicidial on Hyper-V for testing environments.",
+    category: "automation",
+    tags: ["Vicidial", "Hyper-V", "Telephony", "Lab"],
+    url: "https://github.com/mafzalkalwardev/vicidial-hyperv-lab",
+    image: "assets/projects/vicidial-hyperv-lab.png",
+    featured: false
+  },
+  {
+    slug: "indus-web-agency",
+    name: "Indus Web Agency",
+    repo: "indus-web-agency",
+    description: "Next.js web agency platform for product listings, subscriptions, admin dashboard, and client downloads.",
+    category: "web",
+    tags: ["Next.js", "TypeScript", "SaaS", "Agency"],
+    url: "https://github.com/mafzalkalwardev/indus-web-agency",
+    image: "assets/projects/indus-web-agency.png",
+    featured: false
+  },
+  {
+    slug: "forward-email-automation",
+    name: "Forward Email Automation",
+    repo: "forward-email-automation",
+    description: "Python email forwarding automation for multi-account inbox workflows and message routing.",
+    category: "email",
+    tags: ["Python", "SMTP", "Email", "Automation"],
+    url: "https://github.com/mafzalkalwardev/forward-email-automation",
+    image: "assets/projects/forward-email-automation.png",
     featured: false
   }
 ];

@@ -1,6 +1,22 @@
 (function () {
   'use strict';
 
+  if (window.PORTFOLIO_PROJECTS) {
+    const total = window.PORTFOLIO_PROJECTS.length;
+    document.querySelectorAll('[data-project-count]').forEach((el) => {
+      el.dataset.count = String(total);
+    });
+    document.querySelectorAll('[data-project-total]').forEach((el) => {
+      el.textContent = String(total);
+    });
+    const viewAll = document.getElementById('viewAllProjectsLink');
+    if (viewAll) viewAll.textContent = `View all ${total} projects`;
+    const subtitle = document.getElementById('projectsPageCount');
+    if (subtitle) {
+      subtitle.textContent = `${total} curated portfolio projects`;
+    }
+  }
+
   function fixText(str) {
     if (!str) return '';
     return str

@@ -20,7 +20,7 @@ ASSETS = ROOT / "assets" / "projects"
 VIDEOS = ROOT / "assets" / "videos"
 CACHE = ROOT / ".capture-cache"
 DATA_JS = ROOT / "js" / "projects-data.js"
-AUTO_DIALER_ROOT = Path(__file__).resolve().parents[2]
+AUTO_DIALER_ROOT = Path(r"d:\Dispatch Softwares\Auto Dialer")
 
 SKIP = {
     "mafzalkalwardev",
@@ -61,7 +61,14 @@ CAPTURE_RULES: dict[str, dict] = {
     "LearningDashboard": {"serve": "wwwroot/index.html", "fallback": "Pages/Index.cshtml"},
     "CallAudit-X": {"serve": "app/page.tsx", "skip_dev": True},
     "fiverr-lead-extractor-crm": {"skip_dev": True},
-    "playwright-website-scraper-pro": {"serve": "frontend/index.html", "fallback": "public/index.html"},
+    "playwright-website-scraper-pro": {"screenshot": "repo_path:docs/screenshots/home.png"},
+    "logistics-pro-website": {"serve": "index.html"},
+    "apex-transit-llc-website": {"serve": "index.html"},
+    "wooly-wool-storefront": {"serve": "index.html"},
+    "kb-transport-llc-website": {"serve": "index.html"},
+    "andaaz-e-pakwaan-restaurant": {"serve": "index.html", "fallback": "public/index.html"},
+    "portfolio-afzal-kalwar-vite": {"skip_dev": True},
+    "indus-web-agency": {"skip_dev": True},
     "mnist-cnn-digit-recognition": {"serve": "gui.py", "type": "python_gui"},
     "professional-portfolio": {"url": "https://mafzalkalwardev.github.io/"},
 }
@@ -503,22 +510,48 @@ def sync_projects_data(results: dict[str, dict]) -> None:
     if not DATA_JS.exists():
         return
     text = DATA_JS.read_text(encoding="utf-8")
-    match = re.search(r"window\.PORTFOLIO_PROJECTS\s*=\s*(\[.*?\]);", text, re.S)
-    if not match:
-        return
-    projects = json.loads(match.group(1))
-    for p in projects:
-        repo = p.get("repo", "")
-        s = p.get("slug") or slug(repo)
-        info = results.get(s) or results.get(repo)
-        if not info:
+    for s, info in results.items():
+        if not info.get("png"):
             continue
-        if info.get("png"):
-            p["image"] = f"assets/projects/{s}.png"
-        if info.get("webm"):
-            p["video"] = f"assets/videos/{s}.webm"
-    js = "window.PORTFOLIO_PROJECTS = " + json.dumps(projects, indent=2) + ";\n"
-    DATA_JS.write_text(js, encoding="utf-8")
+        pattern = rf'(slug:\s*"{re.escape(s)}"[\s\S]*?image:\s*")[^"]+(")'
+        repl = rf'\1assets/projects/{s}.png\2'
+        text, n = re.subn(pattern, repl, text, count=1)
+        if n == 0:
+            pattern2 = rf'(repo:\s*"[^"]*"[\s\S]*?slug:\s*"{re.escape(s)}"[\s\S]*?image:\s*")[^"]+(")'
+            text = re.sub(pattern2, repl, text, count=1)
+    DATA_JS.write_text(text, encoding="utf-8")
+
+
+def main_portfolio_only() -> int:
+    """Capture screenshots only for repos listed in js/projects-data.js."""
+    ASSETS.mkdir(parents=True, exist_ok=True)
+    text = DATA_JS.read_text(encoding="utf-8")
+    repos = re.findall(r'repo:\s*"([^"]+)"', text)
+    featured = {
+        "indus-transport-auto-dialer", "bulk-email-verifier",
+        "google-voice-dispatch-agent", "fiverr-lead-extractor-crm",
+        "CallAudit-X", "playwright-website-scraper-pro", "callauditx-nest-react",
+        "mighty-trucking", "al-qibla-air-services", "tony-ai", "sms-marketing-crm",
+    }
+    results: dict[str, dict] = {}
+    captured = 0
+    for name in repos:
+        s = slug(name)
+        print(f"Capturing {name}...", flush=True)
+        try:
+            png, webm = resolve_project(name, name in featured)
+        except Exception as exc:
+            print(f"  error: {exc}")
+            png, webm = None, None
+        if png and png.exists():
+            results[s] = {"png": str(png), "webm": str(webm) if webm else None}
+            captured += 1
+            print(f"  OK screenshot -> {png.name}")
+        else:
+            print("  skipped (no capture)")
+    sync_projects_data(results)
+    print(f"\nPortfolio capture done: {captured}/{len(repos)} projects with real screenshots.")
+    return 0
 
 
 def main() -> int:
@@ -558,4 +591,6 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "--portfolio-only":
+        sys.exit(main_portfolio_only())
     sys.exit(main())
