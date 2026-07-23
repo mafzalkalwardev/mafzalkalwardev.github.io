@@ -1,4 +1,4 @@
-window.PORTFOLIO_PROJECTS = [
+﻿window.PORTFOLIO_PROJECTS = [
   {
     slug: "al-qibla-air-services",
     name: "Al Qibla Air Services",
@@ -29,7 +29,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["CRM", "Vonage", "SMS", "Dashboard"],
     url: "https://github.com/mafzalkalwardev/sms-marketing-crm",
-    image: "assets/projects/sms-marketing-crm.png",
+    image: "assets/projects/sms-marketing-crm.svg",
     featured: true
   },
   {
@@ -419,7 +419,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["NestJS", "React", "PostgreSQL", "SaaS"],
     url: "https://github.com/mafzalkalwardev/callauditx-nest-react",
-    image: "assets/projects/callauditx-nest-react.png",
+    image: "assets/projects/callauditx-nest-react.svg",
     featured: true
   },
   {
@@ -430,7 +430,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Python", "Google Workspace", "Admin SDK", "Automation"],
     url: "https://github.com/mafzalkalwardev/google-workspace-bulk-user-provisioning",
-    image: "assets/projects/google-workspace-bulk-user-provisioning.png",
+    image: "assets/projects/google-workspace-bulk-user-provisioning.svg",
     featured: false
   },
   {
@@ -463,7 +463,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["React", "Dashboard", "Restaurant", "JavaScript"],
     url: "https://github.com/mafzalkalwardev/restaurant-management-react",
-    image: "assets/projects/restaurant-management-react.png",
+    image: "assets/projects/restaurant-management-react.svg",
     featured: false
   },
   {
@@ -485,7 +485,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Node.js", "Express", "MongoDB", "API"],
     url: "https://github.com/mafzalkalwardev/quizmaster-backend-complete",
-    image: "assets/projects/quizmaster-backend-complete.png",
+    image: "assets/projects/quizmaster-backend-complete.svg",
     featured: false
   },
   {
@@ -529,7 +529,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["React", "Vite", "Portfolio", "TypeScript"],
     url: "https://github.com/mafzalkalwardev/portfolio-afzal-kalwar-vite",
-    image: "assets/projects/portfolio-afzal-kalwar-vite.png",
+    image: "assets/projects/portfolio-afzal-kalwar-vite.svg",
     featured: false
   },
   {
@@ -540,7 +540,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "desktop",
     tags: ["Python", "Desktop", "Screen Capture"],
     url: "https://github.com/mafzalkalwardev/screen-capture-app",
-    image: "assets/projects/screen-capture-app.png",
+    image: "assets/projects/screen-capture-app.svg",
     featured: false
   },
   {
@@ -551,7 +551,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Chrome Extension", "Logistics", "JavaScript"],
     url: "https://github.com/mafzalkalwardev/datx-chrome-extension",
-    image: "assets/projects/datx-chrome-extension.png",
+    image: "assets/projects/datx-chrome-extension.svg",
     featured: false
   },
   {
