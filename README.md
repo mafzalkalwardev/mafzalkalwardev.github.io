@@ -93,3 +93,10 @@ Muhammad Afzal Kalwar, mafzalkalwardev, mafzalkalwardev.github.io, full-stack de
 - **Email:** [kalwarmuhammadafzal3@gmail.com](mailto:kalwarmuhammadafzal3@gmail.com)
 - **Live portfolio / Hire Me:** [mafzalkalwardev.github.io/#hire-me](https://mafzalkalwardev.github.io/#hire-me)
 
+## Services one-pager
+
+Shareable PDF for LinkedIn / WhatsApp:
+
+- [Download Muhammad-Afzal-Kalwar-Services.pdf](assets/Muhammad-Afzal-Kalwar-Services.pdf)
+- Live hire page: https://mafzalkalwardev.github.io/#hire-me
+
