@@ -62,3 +62,14 @@ Muhammad Afzal Kalwar, mafzalkalwardev, mafzalkalwardev.github.io, full-stack de
 
 </details>
 
+---
+
+## Contact
+
+| Channel | Handle / Number |
+|:--|:--|
+| GitHub | [@mafzalkalwardev](https://github.com/mafzalkalwardev) |
+| LinkedIn | [@mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev) |
+| WhatsApp | [+92 307 9670503](https://wa.me/923079670503) |
+| Portfolio | [mafzalkalwardev.github.io](https://mafzalkalwardev.github.io) |
+| Email | [kalwarmuhammadafzal3@gmail.com](mailto:kalwarmuhammadafzal3@gmail.com) |
