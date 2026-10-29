@@ -73,3 +73,23 @@ Muhammad Afzal Kalwar, mafzalkalwardev, mafzalkalwardev.github.io, full-stack de
 | WhatsApp | [+92 307 9670503](https://wa.me/923079670503) |
 | Portfolio | [mafzalkalwardev.github.io](https://mafzalkalwardev.github.io) |
 | Email | [kalwarmuhammadafzal3@gmail.com](mailto:kalwarmuhammadafzal3@gmail.com) |
+
+## Case studies (flagship work)
+
+| Case study | Problem → result |
+|:--|:--|
+| [Google Voice Dispatch Agent](https://github.com/mafzalkalwardev/google-voice-dispatch-agent/blob/main/CASE_STUDY.md) | Low-cost AI outbound dialing for dispatch teams |
+| [Fiverr Lead Extractor CRM](https://github.com/mafzalkalwardev/fiverr-lead-extractor-crm/blob/main/CASE_STUDY.md) | Scraped research → queue CRM → Excel/Electron delivery |
+| [SAFER Web Scraper](https://github.com/mafzalkalwardev/safer-web-scraper/blob/main/CASE_STUDY.md) | FMCSA carrier data at scale for logistics prospecting |
+| [Email Verification Platform](https://github.com/mafzalkalwardev/email-verification-platform/blob/main/CASE_STUDY.md) | Bulk verification with history & analytics |
+| [Playwright Scraper Pro](https://github.com/mafzalkalwardev/playwright-website-scraper-pro/blob/main/CASE_STUDY.md) | Multi-page site capture/clone workflows |
+| [Python Auto Dialer Pro](https://github.com/mafzalkalwardev/python-auto-dialer-pro/blob/main/CASE_STUDY.md) | Excel-driven Windows outbound dialing |
+
+## Hire Muhammad Afzal Kalwar
+
+- **GitHub:** [@mafzalkalwardev](https://github.com/mafzalkalwardev)
+- **LinkedIn:** [@mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev)
+- **WhatsApp:** [+92 307 9670503](https://wa.me/923079670503)
+- **Email:** [kalwarmuhammadafzal3@gmail.com](mailto:kalwarmuhammadafzal3@gmail.com)
+- **Live portfolio / Hire Me:** [mafzalkalwardev.github.io/#hire-me](https://mafzalkalwardev.github.io/#hire-me)
+
