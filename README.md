@@ -100,3 +100,10 @@ Shareable PDF for LinkedIn / WhatsApp:
 - [Download Muhammad-Afzal-Kalwar-Services.pdf](assets/Muhammad-Afzal-Kalwar-Services.pdf)
 - Live hire page: https://mafzalkalwardev.github.io/#hire-me
 
+## Service landing pages (SEO / inbound)
+
+- [Services hub](https://mafzalkalwardev.github.io/services.html)
+- [Auto dialers & voice AI](https://mafzalkalwardev.github.io/services-dialers.html)
+- [Web scrapers & carrier data](https://mafzalkalwardev.github.io/services-scrapers.html)
+- [Email verification & CRM](https://mafzalkalwardev.github.io/services-email-crm.html)
+
