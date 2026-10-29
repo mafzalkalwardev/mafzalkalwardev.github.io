@@ -11,14 +11,14 @@ window.PORTFOLIO_PROJECTS = [
     featured: true
   },
   {
-    slug: "tony-ai",
-    name: "Tony AI",
-    repo: "tony-ai",
-    description: "Local voice-first Windows laptop assistant built with Python and PyQt6 for voice commands, wake mode, safety approvals, Git/project tools, and local automation.",
+    slug: "tony-ai-agent",
+    name: "Tony AI Agent",
+    repo: "tony-ai-agent",
+    description: "TONY â€” Groq brain, Deepgram/ElevenLabs voice, graphify, Obsidian agentic brain, Paul builder, Charlie OS",
     category: "ml",
-    tags: ["Python", "PyQt6", "Voice AI", "Windows"],
-    url: "https://github.com/mafzalkalwardev/tony-ai",
-    image: "assets/projects/tony-ai.png",
+    tags: ["JavaScript", "AI", "Voice AI", "Ai", "Ai Agent"],
+    url: "https://github.com/mafzalkalwardev/tony-ai-agent",
+    image: "assets/projects/tony-ai-agent.png",
     featured: true
   },
   {
@@ -79,17 +79,6 @@ window.PORTFOLIO_PROJECTS = [
     featured: true
   },
   {
-    slug: "google-voice-call-state-detector",
-    name: "Google Voice Call State Detector",
-    repo: "google-voice-call-state-detector",
-    description: "Manifest V3 Google Voice call state detector with live tab-audio metrics, Deepgram transcription, voicemail detection, and call-screening heuristics.",
-    category: "automation",
-    tags: ["Google Voice", "Chrome Extension", "Deepgram", "Audio"],
-    url: "https://github.com/mafzalkalwardev/google-voice-call-state-detector",
-    image: "assets/projects/google-voice-call-state-detector.png",
-    featured: true
-  },
-  {
     slug: "google-voice-dispatch-agent",
     name: "Google Voice Dispatch Agent",
     repo: "google-voice-dispatch-agent",
@@ -126,17 +115,6 @@ window.PORTFOLIO_PROJECTS = [
     featured: true
   },
   {
-    slug: "callauditx-nest-react",
-    name: "CallAuditX Nest + React",
-    repo: "callauditx-nest-react",
-    description: "Full-stack call auditing platform with NestJS API, React dashboard, JWT auth, and PostgreSQL via Prisma.",
-    category: "web",
-    tags: ["NestJS", "React", "PostgreSQL", "SaaS"],
-    url: "https://github.com/mafzalkalwardev/callauditx-nest-react",
-    image: "assets/projects/callauditx-nest-react.png",
-    featured: true
-  },
-  {
     slug: "indus-carrier-directory",
     name: "Indus Carrier Directory",
     repo: "indus-carrier-directory",
@@ -145,39 +123,6 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["TypeScript", "FMCSA", "Dispatch", "Logistics", "Carriers"],
     url: "https://github.com/mafzalkalwardev/indus-carrier-directory",
     image: "assets/projects/indus-carrier-directory.png",
-    featured: true
-  },
-  {
-    slug: "tony-ai-agent",
-    name: "Tony AI Agent",
-    repo: "tony-ai-agent",
-    description: "TONY â€” Groq brain, Deepgram/ElevenLabs voice, graphify, Obsidian agentic brain, Paul builder, Charlie OS",
-    category: "ml",
-    tags: ["JavaScript", "AI", "Voice AI", "Ai", "Ai Agent"],
-    url: "https://github.com/mafzalkalwardev/tony-ai-agent",
-    image: "assets/projects/tony-ai-agent.png",
-    featured: true
-  },
-  {
-    slug: "ipecs-auto-dialer",
-    name: "Ipecs Auto Dialer",
-    repo: "ipecs-auto-dialer",
-    description: "IPECS Auto Dialer by Indus Web Agency â€” UK outbound calling on iPECS Cloud (Chrome MV3)",
-    category: "desktop",
-    tags: ["JavaScript", "Chrome Extension", "Auto Dialer", "Call Analytics", "Indus"],
-    url: "https://github.com/mafzalkalwardev/ipecs-auto-dialer",
-    image: "assets/projects/ipecs-auto-dialer.png",
-    featured: true
-  },
-  {
-    slug: "indus-web-reviewer",
-    name: "Indus Web Reviewer",
-    repo: "indus-web-reviewer",
-    description: "Indus Web Reviewer â€” Humanatic call review automation with local control dashboard",
-    category: "ml",
-    tags: ["TypeScript", "Automation", "Call Analytics", "Call Review", "Indus"],
-    url: "https://github.com/mafzalkalwardev/indus-web-reviewer",
-    image: "assets/projects/indus-web-reviewer.png",
     featured: true
   },
   {
@@ -270,17 +215,6 @@ window.PORTFOLIO_PROJECTS = [
     featured: false
   },
   {
-    slug: "ecommerce-showcase-blazor",
-    name: "Ecommerce Showcase Blazor",
-    repo: "ecommerce-showcase-blazor",
-    description: "Simple e-commerce demo built with ASP.NET Core 7 Blazor Server â€” product catalog, order modal, in-memory order storage, and order history.",
-    category: "ml",
-    tags: ["HTML", "Blazor", "Csharp", "Css", "Dotnet"],
-    url: "https://github.com/mafzalkalwardev/ecommerce-showcase-blazor",
-    image: "assets/projects/ecommerce-showcase-blazor.png",
-    featured: false
-  },
-  {
     slug: "ecommerce-showcase-web-blazor",
     name: "Ecommerce Showcase Web Blazor",
     repo: "ecommerce-showcase-web-blazor",
@@ -300,17 +234,6 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Node.js", "MongoDB", "CSV", "API"],
     url: "https://github.com/mafzalkalwardev/email-verification-platform",
     image: "assets/projects/email-verification-platform.png",
-    featured: false
-  },
-  {
-    slug: "email-verifier-pro",
-    name: "Email Verifier Pro",
-    repo: "email-verifier-pro",
-    description: "Full-stack email verification web app with Node.js, Express, MongoDB, JWT authentication, bulk CSV/XLSX validation, dashboard analytics, and validation history.",
-    category: "email",
-    tags: ["Node.js", "Express", "MongoDB", "JWT"],
-    url: "https://github.com/mafzalkalwardev/email-verifier-pro",
-    image: "assets/projects/email-verifier-pro.png",
     featured: false
   },
   {
@@ -413,6 +336,17 @@ window.PORTFOLIO_PROJECTS = [
     featured: false
   },
   {
+    slug: "google-voice-call-state-detector",
+    name: "Google Voice Call State Detector",
+    repo: "google-voice-call-state-detector",
+    description: "Manifest V3 Google Voice call state detector with live tab-audio metrics, Deepgram transcription, voicemail detection, and call-screening heuristics.",
+    category: "automation",
+    tags: ["Google Voice", "Chrome Extension", "Deepgram", "Audio"],
+    url: "https://github.com/mafzalkalwardev/google-voice-call-state-detector",
+    image: "assets/projects/google-voice-call-state-detector.png",
+    featured: false
+  },
+  {
     slug: "google-workspace-bulk-user-provisioning",
     name: "Google Workspace Bulk Provisioning",
     repo: "google-workspace-bulk-user-provisioning",
@@ -469,6 +403,17 @@ window.PORTFOLIO_PROJECTS = [
     featured: false
   },
   {
+    slug: "indus-web-reviewer",
+    name: "Indus Web Reviewer",
+    repo: "indus-web-reviewer",
+    description: "Indus Web Reviewer â€” Humanatic call review automation with local control dashboard",
+    category: "ml",
+    tags: ["TypeScript", "Automation", "Call Analytics", "Call Review", "Indus"],
+    url: "https://github.com/mafzalkalwardev/indus-web-reviewer",
+    image: "assets/projects/indus-web-reviewer.png",
+    featured: false
+  },
+  {
     slug: "inventory-control-system",
     name: "Inventory Control System",
     repo: "Inventory-Control-System",
@@ -477,6 +422,17 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["C++", "AI", "Ai", "Automation", "Cpp"],
     url: "https://github.com/mafzalkalwardev/Inventory-Control-System",
     image: "assets/projects/inventory-control-system.png",
+    featured: false
+  },
+  {
+    slug: "ipecs-auto-dialer",
+    name: "Ipecs Auto Dialer",
+    repo: "ipecs-auto-dialer",
+    description: "IPECS Auto Dialer by Indus Web Agency â€” UK outbound calling on iPECS Cloud (Chrome MV3)",
+    category: "desktop",
+    tags: ["JavaScript", "Chrome Extension", "Auto Dialer", "Call Analytics", "Indus"],
+    url: "https://github.com/mafzalkalwardev/ipecs-auto-dialer",
+    image: "assets/projects/ipecs-auto-dialer.png",
     featured: false
   },
   {
@@ -645,28 +601,6 @@ window.PORTFOLIO_PROJECTS = [
     featured: false
   },
   {
-    slug: "portfolio-storybook",
-    name: "Portfolio Storybook",
-    repo: "portfolio-storybook",
-    description: "Whimsical storybook-style developer portfolio",
-    category: "web",
-    tags: ["JavaScript", "Javascript", "Mafzalkalwardev", "Personal Website", "Portfolio"],
-    url: "https://github.com/mafzalkalwardev/portfolio-storybook",
-    image: "assets/projects/portfolio-storybook.png",
-    featured: false
-  },
-  {
-    slug: "professional-portfolio",
-    name: "Professional Portfolio",
-    repo: "professional-portfolio",
-    description: "Animated multi-page developer portfolio â€” Muhammad Afzal Kalwar. HTML/CSS/JS, GitHub Pages ready.",
-    category: "ml",
-    tags: ["Python", "Css", "Github Pages", "Html", "Javascript"],
-    url: "https://github.com/mafzalkalwardev/professional-portfolio",
-    image: "assets/projects/professional-portfolio.png",
-    featured: false
-  },
-  {
     slug: "python-auto-dialer-pro",
     name: "Python Auto Dialer Pro",
     repo: "python-auto-dialer-pro",
@@ -700,17 +634,6 @@ window.PORTFOLIO_PROJECTS = [
     featured: false
   },
   {
-    slug: "quizmaster-backend-complete",
-    name: "QuizMaster Backend Complete",
-    repo: "quizmaster-backend-complete",
-    description: "Node.js quiz and testing system backend with Express, MongoDB, authentication, and API routes.",
-    category: "web",
-    tags: ["Node.js", "Express", "MongoDB", "API"],
-    url: "https://github.com/mafzalkalwardev/quizmaster-backend-complete",
-    image: "assets/projects/quizmaster-backend-complete.png",
-    featured: false
-  },
-  {
     slug: "quizmaster-online-testing-system",
     name: "QuizMaster Online Testing System",
     repo: "quizmaster-online-testing-system",
@@ -730,28 +653,6 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["JavaScript", "React", "Call Analytics", "Javascript", "Mafzalkalwardev"],
     url: "https://github.com/mafzalkalwardev/restaurant-management",
     image: "assets/projects/restaurant-management.png",
-    featured: false
-  },
-  {
-    slug: "restaurant-management-react",
-    name: "Restaurant Management React",
-    repo: "restaurant-management-react",
-    description: "React restaurant management dashboard for orders, menu items, staff views, and admin workflows.",
-    category: "web",
-    tags: ["React", "Dashboard", "Restaurant", "JavaScript"],
-    url: "https://github.com/mafzalkalwardev/restaurant-management-react",
-    image: "assets/projects/restaurant-management-react.png",
-    featured: false
-  },
-  {
-    slug: "safer-carrier-extractor",
-    name: "SAFER Carrier Extractor",
-    repo: "safer-carrier-extractor",
-    description: "Python carrier data extractor for FMCSA SAFER records, legal names, addresses, phone numbers, emails, and logistics prospecting workflows.",
-    category: "scraper",
-    tags: ["Python", "Selenium", "Carrier Data", "Logistics"],
-    url: "https://github.com/mafzalkalwardev/safer-carrier-extractor",
-    image: "assets/projects/safer-carrier-extractor.png",
     featured: false
   },
   {
@@ -788,17 +689,6 @@ window.PORTFOLIO_PROJECTS = [
     featured: false
   },
   {
-    slug: "simple-learning-dashboard",
-    name: "Simple Learning Dashboard",
-    repo: "simple-learning-dashboard",
-    description: "Learning progress dashboard for tracking courses, goals, and study activity with a clean UI.",
-    category: "web",
-    tags: ["JavaScript", "Dashboard", "Education"],
-    url: "https://github.com/mafzalkalwardev/simple-learning-dashboard",
-    image: "assets/projects/simple-learning-dashboard.png",
-    featured: false
-  },
-  {
     slug: "smart-bite",
     name: "Smart Bite",
     repo: "smart-bite",
@@ -829,17 +719,6 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["JavaScript", "University", "Education"],
     url: "https://github.com/mafzalkalwardev/student-report-card-system",
     image: "assets/projects/student-report-card-system.png",
-    featured: false
-  },
-  {
-    slug: "toolzology-chrome-extension",
-    name: "Toolzology Chrome Extension",
-    repo: "toolzology-chrome-extension",
-    description: "Official Manifest V3 Chrome extension for toolzology.com browser tools.",
-    category: "ml",
-    tags: ["HTML", "Chrome Extension", "Browser Tools", "Css", "Html"],
-    url: "https://github.com/mafzalkalwardev/toolzology-chrome-extension",
-    image: "assets/projects/toolzology-chrome-extension.png",
     featured: false
   },
   {
