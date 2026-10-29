@@ -37,7 +37,7 @@ Then visit `http://localhost:8080`
 
 - GitHub: [@mafzalkalwardev](https://github.com/mafzalkalwardev)
 - Email: kalwarmuhammadafzal3@gmail.com
-- LinkedIn: [muhammad-afzal-2670b527b](https://www.linkedin.com/in/muhammad-afzal-2670b527b/)
+- LinkedIn: [mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev/)
 
 ---
 
@@ -45,7 +45,7 @@ Then visit `http://localhost:8080`
 
 **Author:** Muhammad Afzal Kalwar ([@mafzalkalwardev](https://github.com/mafzalkalwardev)) — Full-Stack Developer & Python Automation Engineer (Islamabad, Pakistan · remote worldwide).
 
-**Hire / contact:** [Email](mailto:kalwarmuhammadafzal3@gmail.com) · [WhatsApp](https://wa.me/923079670503) · [Portfolio](https://mafzalkalwardev.github.io) · [LinkedIn](https://www.linkedin.com/in/muhammad-afzal-2670b527b/)
+**Hire / contact:** GitHub [@mafzalkalwardev](https://github.com/mafzalkalwardev) · LinkedIn [@mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev) · WhatsApp [+92 307 9670503](https://wa.me/923079670503) · [Portfolio](https://mafzalkalwardev.github.io) · [Email](mailto:kalwarmuhammadafzal3@gmail.com)
 
 ### Who is this for?
 Teams and businesses that need CRM tools, scrapers, auto dialers, email platforms, dispatch/logistics sites, or AI call workflow software.

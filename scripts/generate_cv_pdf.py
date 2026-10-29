@@ -39,7 +39,7 @@ def build() -> None:
     pdf.set_text_color(80, 80, 80)
     pdf.cell(0, 5, "Islamabad, Pakistan  |  Remote worldwide  |  Available for freelance & contract", ln=True)
     pdf.cell(0, 5, "Email: kalwarmuhammadafzal3@gmail.com", ln=True)
-    pdf.cell(0, 5, "GitHub: github.com/mafzalkalwardev  |  LinkedIn: linkedin.com/in/muhammad-afzal-2670b527b", ln=True)
+    pdf.cell(0, 5, "GitHub: github.com/mafzalkalwardev  |  LinkedIn: linkedin.com/in/mafzalkalwardev", ln=True)
     pdf.ln(4)
 
     def reset_x() -> None:
