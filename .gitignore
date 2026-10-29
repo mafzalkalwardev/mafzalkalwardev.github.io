@@ -3,3 +3,9 @@
 capture-log.txt
 readme-update-log.txt
 scripts/__pycache__/
+
+node_modules/
+package-lock.json
+package.json
+tools/_shot.mjs
+
