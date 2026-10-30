@@ -103,7 +103,13 @@ Shareable PDF for LinkedIn / WhatsApp:
 ## Service landing pages (SEO / inbound)
 
 - [Services hub](https://mafzalkalwardev.github.io/services.html)
-- [Auto dialers & voice AI](https://mafzalkalwardev.github.io/services-dialers.html)
-- [Web scrapers & carrier data](https://mafzalkalwardev.github.io/services-scrapers.html)
-- [Email verification & CRM](https://mafzalkalwardev.github.io/services-email-crm.html)
-
+- [Python Automation Developer](https://mafzalkalwardev.github.io/services-python-automation.html)
+- [Auto Dialer Developer](https://mafzalkalwardev.github.io/services-auto-dialer.html)
+- [AI Call Agent Developer](https://mafzalkalwardev.github.io/services-ai-call-agent.html)
+- [Web Scraping Developer](https://mafzalkalwardev.github.io/services-web-scraping.html)
+- [Chrome Extension Developer](https://mafzalkalwardev.github.io/services-chrome-extension.html)
+- [CRM Developer](https://mafzalkalwardev.github.io/services-crm.html)
+- [Auto dialers and voice AI notes](https://mafzalkalwardev.github.io/services-dialers.html)
+- [Web scrapers and carrier data notes](https://mafzalkalwardev.github.io/services-scrapers.html)
+- [Email verification and CRM notes](https://mafzalkalwardev.github.io/services-email-crm.html)
+- [llms.txt](https://mafzalkalwardev.github.io/llms.txt)

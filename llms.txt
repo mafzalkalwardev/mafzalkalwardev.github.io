@@ -1,0 +1,78 @@
+# Muhammad Afzal Kalwar
+
+> Muhammad Afzal Kalwar (mafzalkalwardev) is a Python automation and CRM developer and the founder of INDUS Web Agency (https://induswebagency.com). He works in Islamabad, Pakistan, and is available remote for US/UK/EU.
+
+This file summarizes the public portfolio and links to it. It does not add clients, metrics, or reviews.
+
+## Portfolio
+- [Home](https://mafzalkalwardev.github.io/): Profile, projects, and contact options
+- [Hire Me](https://mafzalkalwardev.github.io/#hire-me): Services and ways to start a project
+- [FAQ](https://mafzalkalwardev.github.io/#faq): Common questions about who he is and how to hire him
+- [About](https://mafzalkalwardev.github.io/about.html): Background and education
+- [Projects](https://mafzalkalwardev.github.io/projects.html): Portfolio grid
+- [Services](https://mafzalkalwardev.github.io/services.html): Service index
+- [Demos](https://mafzalkalwardev.github.io/demos.html): Short demos using sample data
+- [Contact](https://mafzalkalwardev.github.io/contact.html): Form, WhatsApp, and profile links
+
+## Services
+- [Python Automation Developer](https://mafzalkalwardev.github.io/services-python-automation.html): Python automation developer in Islamabad, Pakistan. Muhammad Afzal Kalwar is available remote for US/UK/EU for scripts, desktop tools, and workflow jobs.
+- [Auto Dialer Developer](https://mafzalkalwardev.github.io/services-auto-dialer.html): Auto dialer developer in Islamabad, Pakistan, available remote for US/UK/EU. Google Voice, iPECS, and Windows dialers, plus Chrome Web Store listings.
+- [AI Call Agent Developer](https://mafzalkalwardev.github.io/services-ai-call-agent.html): AI call agent developer in Islamabad, Pakistan, available remote for US/UK/EU. Call scripts, voice agents, call-state detection, and call auditing.
+- [Web Scraping Developer](https://mafzalkalwardev.github.io/services-web-scraping.html): Web scraping developer in Islamabad, Pakistan, available remote for US/UK/EU. Playwright and Selenium for JavaScript-heavy, bot-protected sites.
+- [Chrome Extension Developer](https://mafzalkalwardev.github.io/services-chrome-extension.html): Chrome extension developer in Islamabad, Pakistan, available remote for US/UK/EU. Manifest V3 dialers and logistics helpers, with Chrome Web Store listings.
+- [CRM Developer](https://mafzalkalwardev.github.io/services-crm.html): CRM developer in Islamabad, Pakistan, available remote for US/UK/EU. Lead CRMs, SMS campaigns, email verification history, and admin dashboards.
+- [Dialers and voice AI notes](https://mafzalkalwardev.github.io/services-dialers.html)
+- [Scraper and carrier-data notes](https://mafzalkalwardev.github.io/services-scrapers.html)
+- [Email and CRM notes](https://mafzalkalwardev.github.io/services-email-crm.html)
+
+## Chrome Web Store
+- [GV Auto Dialer by INDUS Web Agency](https://chromewebstore.google.com/detail/gv-auto-dialer-by-indus-w/mhmfioegohbhejocblgpacabecelbkoi)
+- [IPECS Auto Dialer by INDUS](https://chromewebstore.google.com/detail/ipecs-auto-dialer-by-indu/jocjgmjjcmfdkcajfhblilmeamfkhahk)
+- [GchoPro Solutions Auto Dialer](https://chromewebstore.google.com/detail/gchopro-solutions-auto-di/andjenipikfajnahdljcdnkbiccdince)
+
+## Repositories mentioned on the service pages
+- [python-auto-dialer-pro](https://github.com/mafzalkalwardev/python-auto-dialer-pro)
+- [indus-transport-auto-dialer](https://github.com/mafzalkalwardev/indus-transport-auto-dialer)
+- [python-sms-automation](https://github.com/mafzalkalwardev/python-sms-automation)
+- [python-smtp-email-automation](https://github.com/mafzalkalwardev/python-smtp-email-automation)
+- [google-voice-dispatch-agent](https://github.com/mafzalkalwardev/google-voice-dispatch-agent)
+- [pdf-mc-number-extractor](https://github.com/mafzalkalwardev/pdf-mc-number-extractor)
+- [gv-auto-dialer-chrome-extension](https://github.com/mafzalkalwardev/gv-auto-dialer-chrome-extension)
+- [ipecs-auto-dialer](https://github.com/mafzalkalwardev/ipecs-auto-dialer)
+- [tony-ai-agent](https://github.com/mafzalkalwardev/tony-ai-agent)
+- [CallAudit-X](https://github.com/mafzalkalwardev/CallAudit-X)
+- [google-voice-call-state-detector](https://github.com/mafzalkalwardev/google-voice-call-state-detector)
+- [indus-web-reviewer](https://github.com/mafzalkalwardev/indus-web-reviewer)
+- [playwright-website-scraper-pro](https://github.com/mafzalkalwardev/playwright-website-scraper-pro)
+- [safer-web-scraper](https://github.com/mafzalkalwardev/safer-web-scraper)
+- [fmcsa-safer-scraper](https://github.com/mafzalkalwardev/fmcsa-safer-scraper)
+- [Canadian-Website-Scraper](https://github.com/mafzalkalwardev/Canadian-Website-Scraper)
+- [fiverr-lead-extractor-crm](https://github.com/mafzalkalwardev/fiverr-lead-extractor-crm)
+- [indus-carrier-directory](https://github.com/mafzalkalwardev/indus-carrier-directory)
+- [datx-chrome-extension](https://github.com/mafzalkalwardev/datx-chrome-extension)
+- [toolzology-chrome-extension-v2](https://github.com/mafzalkalwardev/toolzology-chrome-extension-v2)
+- [sms-marketing-crm](https://github.com/mafzalkalwardev/sms-marketing-crm)
+- [email-verification-platform](https://github.com/mafzalkalwardev/email-verification-platform)
+- [bulk-email-verifier](https://github.com/mafzalkalwardev/bulk-email-verifier)
+
+## Profiles
+- [INDUS Web Agency](https://induswebagency.com)
+- [GitHub](https://github.com/mafzalkalwardev)
+- [LinkedIn](https://www.linkedin.com/in/mafzalkalwardev)
+- [X](https://x.com/mafzalkalwardev)
+- [DEV](https://dev.to/mafzalkalwardev)
+- [Linktree](https://linktr.ee/mafzalkalwardev)
+- [Upwork](https://www.upwork.com/freelancers/~01f4ad6974fac97bf3)
+- [Stack Overflow](https://stackoverflow.com/users/33261021/muhammad-afzal-kalwar)
+- [GitLab](https://gitlab.com/mafzalkalwardev)
+- [Behance](https://www.behance.net/muhammakalwar1)
+- [Pinterest](https://www.pinterest.com/mafzalkalwardev/)
+- [Substack](https://substack.com/@mafzalkalwardev)
+- [Crunchbase, INDUS Web Agency](https://www.crunchbase.com/organization/indus-web-agency)
+- [Kaggle](https://www.kaggle.com/mafzalkalwardev)
+- [Guru](https://www.guru.com/freelancers/muhammad-afzal-kalwar)
+
+## Optional
+- [CV PDF](https://mafzalkalwardev.github.io/assets/Muhammad-Afzal-Kalwar-CV.pdf)
+- [Services PDF](https://mafzalkalwardev.github.io/assets/Muhammad-Afzal-Kalwar-Services.pdf)
+- [Sitemap](https://mafzalkalwardev.github.io/sitemap.xml)
