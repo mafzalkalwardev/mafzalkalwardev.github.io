@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Generate SEO service landing pages for inbound marketing."""
+"""Generate SEO service landing pages for inbound marketing.
+
+The published HTML is maintained directly. Re-running this script overwrites
+services.html and the older dialer, scraper, and email/CRM pages.
+"""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]

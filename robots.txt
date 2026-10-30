@@ -1,3 +1,25 @@
+# Public portfolio. All crawlers may read the site.
+Sitemap: https://mafzalkalwardev.github.io/sitemap.xml
+
 User-agent: *
 Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
 Sitemap: https://mafzalkalwardev.github.io/sitemap.xml
