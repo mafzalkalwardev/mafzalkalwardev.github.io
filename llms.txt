@@ -1,0 +1,35 @@
+# Muhammad Afzal Kalwar (@mafzalkalwardev)
+
+> Full-Stack Developer & Python Automation Engineer based in Islamabad, Pakistan. Builds auto dialers, web scrapers, email verification platforms, CRM systems, and AI workflow tools for businesses. Available for remote freelance and contract work worldwide.
+
+## Primary pages
+
+- [Home](https://mafzalkalwardev.github.io/): Portfolio overview, featured projects, hire CTAs
+- [About](https://mafzalkalwardev.github.io/about.html): Background, education (Air University Islamabad), experience
+- [Projects](https://mafzalkalwardev.github.io/projects.html): Curated open-source and client projects
+- [Services](https://mafzalkalwardev.github.io/services.html): Automation services for hire
+- [Contact](https://mafzalkalwardev.github.io/contact.html): Hire / contact form and WhatsApp
+
+## Service landing pages
+
+- [Auto dialers & voice AI](https://mafzalkalwardev.github.io/services-dialers.html)
+- [Scrapers & carrier data](https://mafzalkalwardev.github.io/services-scrapers.html)
+- [Email verification & CRM](https://mafzalkalwardev.github.io/services-email-crm.html)
+
+## Optional pages
+
+- [Skills](https://mafzalkalwardev.github.io/skills.html)
+- [Demos](https://mafzalkalwardev.github.io/demos.html)
+
+## Contact
+
+- WhatsApp: https://wa.me/923079670503
+- Email: kalwarmuhammadafzal3@gmail.com
+- GitHub: https://github.com/mafzalkalwardev
+- LinkedIn: https://www.linkedin.com/in/mafzalkalwardev/
+- CV: https://mafzalkalwardev.github.io/assets/Muhammad-Afzal-Kalwar-CV.pdf
+- Services PDF: https://mafzalkalwardev.github.io/assets/Muhammad-Afzal-Kalwar-Services.pdf
+
+## Best fit work
+
+Auto dialers (Google Voice / iPECS / Windows), Playwright/Selenium scrapers, FMCSA SAFER carrier data, bulk email verification, SMTP outreach, lead CRMs, React/Next.js/Blazor sites, and AI call workflows.

@@ -150,9 +150,14 @@
     );
 
     if (toggle && links) {
-      toggle.addEventListener('click', () => links.classList.toggle('open'));
+      const setOpen = (open) => {
+        links.classList.toggle('open', open);
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      };
+      toggle.addEventListener('click', () => setOpen(!links.classList.contains('open')));
       links.querySelectorAll('a').forEach((a) => {
-        a.addEventListener('click', () => links.classList.remove('open'));
+        a.addEventListener('click', () => setOpen(false));
       });
     }
   }
