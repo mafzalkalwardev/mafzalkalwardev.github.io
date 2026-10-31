@@ -243,6 +243,21 @@ body { animation: pageIn 0.5s ease; }
 
 .btn-cv svg { width: 16px; height: 16px; flex-shrink: 0; }
 
+/* Failsafe: if reveal JS never fires, content still becomes visible */
+@keyframes revealFailsafe {
+  to { opacity: 1; transform: none; filter: none; }
+}
+.reveal:not(.visible),
+.reveal-left:not(.visible),
+.reveal-right:not(.visible),
+.reveal-scale:not(.visible),
+.reveal-fade:not(.visible) {
+  animation: revealFailsafe 0.01ms linear 2.5s forwards;
+}
+.stagger-grid:not(.visible) > * {
+  animation: revealFailsafe 0.01ms linear 2.5s forwards;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

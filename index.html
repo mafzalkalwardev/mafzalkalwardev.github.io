@@ -15,10 +15,10 @@
   <script>
   (function(){try{var s=localStorage.getItem('portfolio-theme');var d=window.matchMedia('(prefers-color-scheme:dark)').matches;var t=s==='dark'||s==='light'?s:(d?'dark':'light');document.documentElement.setAttribute('data-theme',t);document.documentElement.style.colorScheme=t;}catch(e){}})();
   </script>
-  <link rel="stylesheet" href="css/styles.css?v=14" />
-  <link rel="stylesheet" href="css/animations.css?v=14" />
-  <link rel="stylesheet" href="css/dark.css?v=14" />
-  <link rel="stylesheet" href="css/patterns.css?v=14" />
+  <link rel="stylesheet" href="css/styles.css?v=20" />
+  <link rel="stylesheet" href="css/animations.css?v=20" />
+  <link rel="stylesheet" href="css/dark.css?v=20" />
+  <link rel="stylesheet" href="css/patterns.css?v=20" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -54,15 +54,14 @@
       <li><a href="demos.html">Demos</a></li>
       <li><a href="skills.html">Skills</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="assets/Muhammad-Afzal-Kalwar-CV.pdf" class="nav-cv" download="Muhammad-Afzal-Kalwar-CV.pdf">Download CV</a></li>
-
+      <li><a href="assets/Muhammad-Afzal-Kalwar-CV.pdf" class="nav-cv" download="Muhammad-Afzal-Kalwar-CV.pdf">CV</a></li>
       <li>
         <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color mode">
           <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
           <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
         </button>
       </li>
-      <li><a href="https://github.com/mafzalkalwardev" class="nav-cta" target="_blank" rel="noopener">GitHub @mafzalkalwardev</a></li>
+      <li><a href="https://github.com/mafzalkalwardev" class="nav-cta" target="_blank" rel="noopener">GitHub</a></li>
     </ul>
   </nav>
 
@@ -84,7 +83,7 @@
               </p>
               <div class="hero-actions">
                 <a href="#featured" class="btn btn-primary btn-lg">View projects</a>
-                <a href="https://wa.me/923079670503" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">Contact on WhatsApp</a>
+                <a href="https://wa.me/923079670503" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">WhatsApp</a>
                 <a href="assets/Muhammad-Afzal-Kalwar-CV.pdf" class="btn btn-cv btn-lg" download="Muhammad-Afzal-Kalwar-CV.pdf">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                   Download CV
@@ -257,12 +256,12 @@
         <div class="cta-band reveal-scale" style="margin-top:2rem">
           <h2>Ready to hire?</h2>
           <p>Best fit: dialers, scrapers, email ops, CRM, dispatch/logistics sites, and AI call workflows. Fixed-scope or weekly contract.</p>
-          <div style="display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center">
-            <a href="https://wa.me/923079670503?text=Hi%20Afzal%2C%20I%27d%20like%20to%20hire%20you%20for%20a%20project" class="btn btn-primary btn-lg" target="_blank" rel="noopener">WhatsApp +92 307 9670503</a>
-            <a href="https://www.linkedin.com/in/mafzalkalwardev/" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">LinkedIn @mafzalkalwardev</a>
-            <a href="https://github.com/mafzalkalwardev" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">GitHub @mafzalkalwardev</a>
+          <div class="cta-actions">
+            <a href="https://wa.me/923079670503?text=Hi%20Afzal%2C%20I%27d%20like%20to%20hire%20you%20for%20a%20project" class="btn btn-primary btn-lg" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://www.linkedin.com/in/mafzalkalwardev/" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/mafzalkalwardev" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">GitHub</a>
             <a href="contact.html" class="btn btn-cv btn-lg">Contact form</a>
-            <a href="assets/Muhammad-Afzal-Kalwar-Services.pdf" class="btn btn-cv btn-lg" download="Muhammad-Afzal-Kalwar-Services.pdf">Download services PDF</a>
+            <a href="assets/Muhammad-Afzal-Kalwar-Services.pdf" class="btn btn-cv btn-lg" download="Muhammad-Afzal-Kalwar-Services.pdf">Services PDF</a>
           </div>
         </div>
       </div>
@@ -273,9 +272,9 @@
         <div class="cta-band reveal-scale">
           <h2>Have a project in mind?</h2>
           <p>See <a href="#hire-me">Hire Me</a> for services — or message WhatsApp / LinkedIn directly.</p>
-          <div style="display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center">
+          <div class="cta-actions">
             <a href="contact.html" class="btn btn-primary btn-lg">Hire Me</a>
-            <a href="https://wa.me/923079670503" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">Contact on WhatsApp</a>
+            <a href="https://wa.me/923079670503" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">WhatsApp</a>
             <a href="assets/Muhammad-Afzal-Kalwar-CV.pdf" class="btn btn-cv btn-lg" download="Muhammad-Afzal-Kalwar-CV.pdf">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
               Download CV
@@ -298,12 +297,12 @@
     <p>&copy; <span id="year"></span> Muhammad Afzal Kalwar</p>
   </footer>
 
-  <script src="js/site.js?v=14"></script>
-  <script src="js/theme.js?v=14"></script>
-  <script src="js/cv-download.js?v=14"></script>
-  <script src="js/tech-stack.js?v=14"></script>
-  <script src="js/projects-data.js?v=18"></script>
-  <script src="js/projects.js?v=18"></script>
-  <script src="js/motion.js?v=14"></script>
+  <script src="js/site.js?v=20"></script>
+  <script src="js/theme.js?v=20"></script>
+  <script src="js/cv-download.js?v=20"></script>
+  <script src="js/tech-stack.js?v=20"></script>
+  <script src="js/projects-data.js?v=20"></script>
+  <script src="js/projects.js?v=20"></script>
+  <script src="js/motion.js?v=20"></script>
 </body>
 </html>
