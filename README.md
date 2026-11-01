@@ -33,7 +33,7 @@ Then visit `http://localhost:8080`
 
 ## Author
 
-**Muhammad Afzal Kalwar** - Full-Stack Developer - Open to freelance & remote work
+**Muhammad Afzal Kalwar** - Python Automation Engineer & Founder, INDUS Web Agency - Available immediately, any time zone
 
 - GitHub: [@mafzalkalwardev](https://github.com/mafzalkalwardev)
 - Email: kalwarmuhammadafzal3@gmail.com
@@ -43,7 +43,7 @@ Then visit `http://localhost:8080`
 
 ## Discoverability
 
-**Author:** Muhammad Afzal Kalwar ([@mafzalkalwardev](https://github.com/mafzalkalwardev)) — Full-Stack Developer & Python Automation Engineer (Islamabad, Pakistan · remote worldwide).
+**Author:** Muhammad Afzal Kalwar ([@mafzalkalwardev](https://github.com/mafzalkalwardev)) — Python Automation Engineer & Founder, INDUS Web Agency (Islamabad, Pakistan · available immediately, any time zone).
 
 **Hire / contact:** GitHub [@mafzalkalwardev](https://github.com/mafzalkalwardev) · LinkedIn [@mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev) · WhatsApp [+92 307 9670503](https://wa.me/923079670503) · [Portfolio](https://mafzalkalwardev.github.io) · [Email](mailto:kalwarmuhammadafzal3@gmail.com)
 
@@ -102,8 +102,10 @@ Shareable PDF for LinkedIn / WhatsApp:
 
 ## Service landing pages (SEO / inbound)
 
-- [Services hub](https://mafzalkalwardev.github.io/services.html)
-- [Auto dialers & voice AI](https://mafzalkalwardev.github.io/services-dialers.html)
-- [Web scrapers & carrier data](https://mafzalkalwardev.github.io/services-scrapers.html)
-- [Email verification & CRM](https://mafzalkalwardev.github.io/services-email-crm.html)
+- [Services hub](https://mafzalkalwardev.github.io/services/)
+- [Custom Auto Dialer & Call Tool Development](https://mafzalkalwardev.github.io/services/auto-dialer-development.html)
+- [AI Call Agent & Call Auditing Development](https://mafzalkalwardev.github.io/services/ai-call-agent-development.html)
+- [Custom Web Scraping & Data Extraction](https://mafzalkalwardev.github.io/services/web-scraping-services.html)
+- [Email Verification & Outreach Tool Development](https://mafzalkalwardev.github.io/services/email-verification-tools.html)
+- [Python Automation Services](https://mafzalkalwardev.github.io/services/python-automation-services.html)
 
