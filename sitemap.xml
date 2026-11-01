@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mafzalkalwardev.github.io/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mafzalkalwardev.github.io/about.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -19,28 +19,40 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mafzalkalwardev.github.io/services.html</loc>
-    <lastmod>2026-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://mafzalkalwardev.github.io/services-dialers.html</loc>
-    <lastmod>2026-10-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://mafzalkalwardev.github.io/services/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mafzalkalwardev.github.io/services-scrapers.html</loc>
-    <lastmod>2026-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mafzalkalwardev.github.io/services/auto-dialer-development.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mafzalkalwardev.github.io/services-email-crm.html</loc>
-    <lastmod>2026-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mafzalkalwardev.github.io/services/ai-call-agent-development.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mafzalkalwardev.github.io/services/web-scraping-services.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mafzalkalwardev.github.io/services/email-verification-tools.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mafzalkalwardev.github.io/services/python-automation-services.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mafzalkalwardev.github.io/contact.html</loc>
@@ -50,7 +62,7 @@
   </url>
   <url>
     <loc>https://mafzalkalwardev.github.io/skills.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -62,7 +74,7 @@
   </url>
   <url>
     <loc>https://mafzalkalwardev.github.io/llms.txt</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>

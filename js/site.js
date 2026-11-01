@@ -3,11 +3,11 @@ window.SITE = {
   cvPath: "assets/Muhammad-Afzal-Kalwar-CV.pdf",
   cvFilename: "Muhammad-Afzal-Kalwar-CV.pdf",
   education: {
-    degree: "Bachelor of Science in Computer Science",
-    shortDegree: "B.S. Computer Science",
-    school: "Air University, Islamabad",
-    status: "Graduated",
-    detail: "Completed B.S. Computer Science from Air University Islamabad - algorithms, software engineering, databases, OS, and systems programming.",
+    degree: "Associate Degree in Computer Science (ADCS)",
+    shortDegree: "ADCS",
+    school: "Air University Islamabad",
+    status: "Graduated Aug 25, 2026",
+    detail: "Completed an Associate Degree in Computer Science (ADCS) at Air University Islamabad on Aug 25, 2026.",
     logo: "assets/education/air-university.png",
   },
 };

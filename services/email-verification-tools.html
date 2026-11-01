@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Self-Hosted Bulk Email Verifier &amp; Outreach Tool Development</title>
+  <meta name="description" content="Self-hosted bulk email verification (syntax, MX, SMTP) and outreach tooling: CSV/XLSX list cleaning, valid-only export, multi-SMTP sending." />
+  <link rel="canonical" href="https://mafzalkalwardev.github.io/services/email-verification-tools.html" />
+  <meta name="author" content="Muhammad Afzal Kalwar" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Muhammad Afzal Kalwar" />
+  <meta property="og:title" content="Self-Hosted Bulk Email Verifier &amp; Outreach Tool Development" />
+  <meta property="og:description" content="Self-hosted bulk email verification (syntax, MX, SMTP) and outreach tooling: CSV/XLSX list cleaning, valid-only export, multi-SMTP sending." />
+  <meta property="og:url" content="https://mafzalkalwardev.github.io/services/email-verification-tools.html" />
+  <meta property="og:image" content="https://mafzalkalwardev.github.io/assets/projects/bulk-email-verifier.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@mafzalkalwardev" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png" />
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
+  <link rel="manifest" href="../site.webmanifest" />
+  <meta name="theme-color" content="#1d4ed8" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+  <script>
+  (function(){try{var s=localStorage.getItem('portfolio-theme');var d=window.matchMedia('(prefers-color-scheme:dark)').matches;var t=s==='dark'||s==='light'?s:(d?'dark':'light');document.documentElement.setAttribute('data-theme',t);document.documentElement.style.colorScheme=t;}catch(e){}})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="../css/styles.css?v=21" />
+  <link rel="stylesheet" href="../css/dark.css?v=21" />
+  <link rel="stylesheet" href="../css/animations.css?v=21" />
+  <link rel="stylesheet" href="../css/patterns.css?v=21" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="../css/patterns.css?v=21" /></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Person",
+   "@id": "https://mafzalkalwardev.github.io/#person",
+   "name": "Muhammad Afzal Kalwar",
+   "url": "https://mafzalkalwardev.github.io/",
+   "jobTitle": "Python Automation Engineer & Founder, INDUS Web Agency",
+   "email": "mailto:kalwarmuhammadafzal3@gmail.com",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Islamabad",
+    "addressCountry": "PK"
+   },
+   "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Air University Islamabad"
+   },
+   "worksFor": {
+    "@type": "Organization",
+    "name": "INDUS Web Agency",
+    "url": "https://www.induswebagency.com"
+   },
+   "sameAs": [
+    "https://github.com/mafzalkalwardev",
+    "https://www.linkedin.com/in/mafzalkalwardev",
+    "https://x.com/mafzalkalwardev",
+    "https://dev.to/mafzalkalwardev",
+    "https://mafzalkalwardev.hashnode.dev",
+    "https://linktr.ee/mafzalkalwardev",
+    "https://gitlab.com/mafzalkalwardev",
+    "https://substack.com/@mafzalkalwardev",
+    "https://peerlist.io/mafzalkalwardev",
+    "https://www.behance.net/muhammakalwar1",
+    "https://www.pinterest.com/mafzalkalwardev/",
+    "https://www.kaggle.com/mafzalkalwardev",
+    "https://stackoverflow.com/users/33261021/muhammad-afzal-kalwar"
+   ]
+  },
+  {
+   "@type": "Service",
+   "@id": "https://mafzalkalwardev.github.io/services/email-verification-tools.html#service",
+   "name": "Email Verification & Outreach Tool Development",
+   "serviceType": "Email Verification & Outreach Tools",
+   "description": "Self-hosted bulk email verification (syntax, MX, SMTP) and outreach tooling: CSV/XLSX list cleaning, valid-only export, multi-SMTP sending.",
+   "url": "https://mafzalkalwardev.github.io/services/email-verification-tools.html",
+   "provider": {
+    "@id": "https://mafzalkalwardev.github.io/#person"
+   },
+   "areaServed": [
+    "US",
+    "GB",
+    "IE",
+    "NL",
+    "FR"
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://mafzalkalwardev.github.io/services/email-verification-tools.html#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How does bulk email verification work?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "My verifier checks syntax, looks up the domain's MX records and runs an SMTP mailbox check. Some mail servers don't give a definitive answer, so results are never 100% certain."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can it run on my own server?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. bulk-email-verifier is self-hosted and Docker-ready, so the list stays on your infrastructure."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can it read my existing CSV or Excel export?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It finds email addresses in any column of a CSV or XLSX file and exports a valid-only list with your original columns."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you build cold email sending tools?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "I have published multi-SMTP sending automation. Any outreach tool should be used in line with CAN-SPAM, GDPR/PECR and your mail provider's rules."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much does a custom email tool cost?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Pricing depends on scope - contact me with what you need and I'll reply with questions before any estimate."
+     }
+    }
+   ]
+  }
+ ]
+}
+  </script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="bg-mesh" aria-hidden="true"><div class="bg-mesh-inner"></div></div>
+  <div class="bg-dots" aria-hidden="true"></div>
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+  </div>
+  <nav class="nav" id="nav" aria-label="Primary">
+    <a class="nav-brand" href="../index.html">
+      <img class="nav-avatar" src="../assets/profile.png" alt="Muhammad Afzal Kalwar" width="38" height="38" />
+      <span class="nav-name">Muhammad Afzal<span>Python Automation Engineer</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../projects.html">Projects</a></li>
+      <li><a href="index.html" class="active">Services</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+      </li>
+      <li><a href="../contact.html" class="nav-cta">Hire Me</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="container svc-page">
+      <header class="page-header">
+        <p class="crumb"><a href="../index.html">Home</a> / <a href="index.html">Services</a> / Email Verification &amp; Outreach Tools</p>
+        <h1 class="page-title">Email Verification &amp; Outreach Tool Development</h1>
+        <p class="page-subtitle">I build self-hosted email verification and outreach tools, so your lists are checked on your own infrastructure instead of being uploaded to a third party. The projects below are open source.</p>
+      </header>
+      <img class="svc-hero-shot" src="../assets/projects/bulk-email-verifier.png" alt="Email Verification &amp; Outreach Tools project preview" width="960" height="400" />
+      <section>
+        <h2>Problems this solves</h2>
+        <div class="svc-grid"><div class="svc-card"><p>Paying per address to verify lists</p></div><div class="svc-card"><p>Uploading customer or lead data to outside services</p></div><div class="svc-card"><p>Bounces from lists that were never cleaned</p></div><div class="svc-card"><p>Sending spread across several mailboxes with no central control</p></div></div>
+        <h2>Real projects</h2>
+        <div class="svc-grid"><div class="svc-card"><h3><a href="https://github.com/mafzalkalwardev/bulk-email-verifier" target="_blank" rel="noopener">bulk-email-verifier</a></h3><p>Self-hosted verifier: syntax, MX and SMTP checks; finds emails in any CSV/XLSX column; valid-only export; resumable bulk jobs. Node.js/Express UI, Go verifier, JWT, Docker Compose.</p></div><div class="svc-card"><h3><a href="https://github.com/mafzalkalwardev/mailforge" target="_blank" rel="noopener">mailforge</a></h3><p>Self-hosted email operations platform for list verification and multi-sender workflows (Go).</p></div><div class="svc-card"><h3><a href="https://github.com/mafzalkalwardev/email-verifier-pro" target="_blank" rel="noopener">email-verifier-pro</a></h3><p>Full-stack email verification web app (Node.js, Express, MongoDB).</p></div><div class="svc-card"><h3><a href="https://github.com/mafzalkalwardev/multi-smtp-email-automation" target="_blank" rel="noopener">multi-smtp-email-automation</a></h3><p>Python multi-account SMTP automation with parallel sender launch.</p></div></div>
+        <h2>Tech stack (proven in public code)</h2>
+        <ul class="svc-list"><li>Go</li><li>Node.js</li><li>Express</li><li>MongoDB (Mongoose)</li><li>JWT</li><li>Docker Compose</li><li>Python (smtplib)</li><li>xlsx / CSV parsing</li></ul>
+        <p>I don't publish client names, call volumes or results I can't show. The repositories and Chrome Web Store listings are the public record.</p>
+        <div class="svc-cta">
+          <a class="btn btn-primary btn-lg" href="../index.html#hire-me">Hire Me</a>
+          <a class="btn btn-secondary btn-lg" href="mailto:kalwarmuhammadafzal3@gmail.com">kalwarmuhammadafzal3@gmail.com</a>
+          <a class="btn btn-secondary btn-lg" href="https://github.com/mafzalkalwardev" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <h2>FAQ</h2>
+        <div class="faq-list" id="faq"><article class="faq-item"><h3>How does bulk email verification work?</h3><p>My verifier checks syntax, looks up the domain&#x27;s MX records and runs an SMTP mailbox check. Some mail servers don&#x27;t give a definitive answer, so results are never 100% certain.</p></article><article class="faq-item"><h3>Can it run on my own server?</h3><p>Yes. bulk-email-verifier is self-hosted and Docker-ready, so the list stays on your infrastructure.</p></article><article class="faq-item"><h3>Can it read my existing CSV or Excel export?</h3><p>It finds email addresses in any column of a CSV or XLSX file and exports a valid-only list with your original columns.</p></article><article class="faq-item"><h3>Do you build cold email sending tools?</h3><p>I have published multi-SMTP sending automation. Any outreach tool should be used in line with CAN-SPAM, GDPR/PECR and your mail provider&#x27;s rules.</p></article><article class="faq-item"><h3>How much does a custom email tool cost?</h3><p>Pricing depends on scope - contact me with what you need and I&#x27;ll reply with questions before any estimate.</p></article></div>
+        <h2>Other services</h2>
+        <ul class="svc-list"><li><a href="auto-dialer-development.html">Auto Dialers &amp; Call Tools</a></li><li><a href="ai-call-agent-development.html">AI Call Agents &amp; Call Auditing</a></li><li><a href="web-scraping-services.html">Web Scraping &amp; Data Extraction</a></li><li><a href="python-automation-services.html">Python Automation Systems</a></li><li><a href="index.html">All services</a></li></ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-links footer-sitemap">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../projects.html">Projects</a>
+      <a href="index.html">Services</a>
+      <a href="auto-dialer-development.html">Auto dialers</a>
+      <a href="ai-call-agent-development.html">AI call agents</a>
+      <a href="web-scraping-services.html">Web scraping</a>
+      <a href="email-verification-tools.html">Email verification</a>
+      <a href="python-automation-services.html">Python automation</a>
+      <a href="../skills.html">Skills</a>
+      <a href="../demos.html">Demos</a>
+      <a href="../contact.html">Contact</a>
+      <a href="https://github.com/mafzalkalwardev" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/mafzalkalwardev/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="../assets/Muhammad-Afzal-Kalwar-CV.pdf" download>CV</a>
+      <a href="mailto:kalwarmuhammadafzal3@gmail.com">Email</a>
+      <a href="https://wa.me/923079670503" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <p>&copy; <span id="year"></span> Muhammad Afzal Kalwar</p>
+  </footer>
+  <script src="../js/site.js?v=21" defer></script>
+  <script src="../js/theme.js?v=21" defer></script>
+  <script src="../js/main.js?v=21" defer></script>
+  <script src="../js/motion.js?v=21" defer></script>
+</body>
+</html>

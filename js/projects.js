@@ -31,6 +31,39 @@
     return d.innerHTML;
   }
 
+  const SERVICE_LINKS = {
+    "gv-auto-dialer-chrome-extension": ["services/auto-dialer-development.html", "Auto dialer development"],
+    "ipecs-auto-dialer": ["services/auto-dialer-development.html", "Auto dialer development"],
+    "indus-transport-auto-dialer": ["services/auto-dialer-development.html", "Auto dialer development"],
+    "python-auto-dialer-pro": ["services/auto-dialer-development.html", "Auto dialer development"],
+    "excel-call-queue-automator": ["services/auto-dialer-development.html", "Auto dialer development"],
+    "google-voice-dispatch-agent": ["services/ai-call-agent-development.html", "AI call agent development"],
+    "CallAudit-X": ["services/ai-call-agent-development.html", "AI call agent development"],
+    "google-voice-call-state-detector": ["services/ai-call-agent-development.html", "AI call agent development"],
+    "google-voice-call-detector-prototype": ["services/ai-call-agent-development.html", "AI call agent development"],
+    "fiverr-lead-extractor-crm": ["services/web-scraping-services.html", "Web scraping"],
+    "fmcsa-safer-scraper": ["services/web-scraping-services.html", "Web scraping"],
+    "safer-web-scraper": ["services/web-scraping-services.html", "Web scraping"],
+    "indus-carrier-directory": ["services/web-scraping-services.html", "Web scraping"],
+    "playwright-website-scraper-pro": ["services/web-scraping-services.html", "Web scraping"],
+    "pdf-mc-number-extractor": ["services/web-scraping-services.html", "Web scraping"],
+    "Canadian-Website-Scraper": ["services/web-scraping-services.html", "Web scraping"],
+    "bulk-email-verifier": ["services/email-verification-tools.html", "Email verification"],
+    "mailforge": ["services/email-verification-tools.html", "Email verification"],
+    "email-verification-platform": ["services/email-verification-tools.html", "Email verification"],
+    "multi-smtp-email-automation": ["services/email-verification-tools.html", "Email verification"],
+    "python-smtp-email-automation": ["services/email-verification-tools.html", "Email verification"],
+    "forward-email-automation": ["services/email-verification-tools.html", "Email verification"],
+    "google-workspace-bulk-user-provisioning": ["services/python-automation-services.html", "Python automation"],
+    "excel-mc-data-cleaner": ["services/python-automation-services.html", "Python automation"],
+    "python-sms-automation": ["services/python-automation-services.html", "Python automation"],
+  };
+
+  function serviceLink(project) {
+    const hit = SERVICE_LINKS[project.repo] || ["services/", "Automation services"];
+    return `<a href="${hit[0]}">Service: ${escapeHtml(hit[1])}</a>`;
+  }
+
   function projectCard(project, index) {
     const delay = index % 3 === 1 ? ' delay-1' : index % 3 === 2 ? ' delay-2' : '';
     const tags = (project.tags || [])
@@ -66,6 +99,7 @@
           <div class="project-links">
             ${live ? `<a href="${live}" target="_blank" rel="noopener">Live site</a>` : ''}
             <a href="${url}" target="_blank" rel="noopener">View on GitHub</a>
+            ${serviceLink(project)}
           </div>
         </div>
       </article>`;
