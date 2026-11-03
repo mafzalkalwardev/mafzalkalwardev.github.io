@@ -344,7 +344,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["AI", "Ollama", "Voice", "Prototype"],
     url: "https://github.com/mafzalkalwardev/google-voice-call-detector-prototype",
-    image: "assets/projects/google-voice-call-detector-prototype.png",
+    image: "assets/projects/google-voice-call-detector-prototype.png?v=2",
     featured: false
   },
   {
@@ -787,7 +787,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Vicidial", "Hyper-V", "Telephony", "Lab"],
     url: "https://github.com/mafzalkalwardev/vicidial-hyperv-lab",
-    image: "assets/projects/vicidial-hyperv-lab.png",
+    image: "assets/projects/vicidial-hyperv-lab.png?v=2",
     featured: false
   },
   {
