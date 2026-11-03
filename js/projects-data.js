@@ -411,7 +411,8 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Next.js", "TypeScript", "SaaS", "Agency"],
     url: "https://github.com/mafzalkalwardev/indus-web-agency",
-    image: "assets/projects/indus-web-agency.png",
+    live: "https://www.induswebagency.com",
+    image: "assets/projects/indus-web-agency.png?v=2",
     featured: false
   },
   {
