@@ -1,5 +1,17 @@
 window.PORTFOLIO_PROJECTS = [
   {
+    slug: "tapvio",
+    name: "Tapvio",
+    repo: "tapvio",
+    description: "Free, open-source Linktree alternative: link-in-bio pages with nine themes, a visual builder, Save contact vCards, share images, structured data and IndexNow, published as a static site on GitHub Pages.",
+    category: "web",
+    tags: ["Python", "Jinja2", "SEO", "GitHub Pages"],
+    url: "https://github.com/mafzalkalwardev/tapvio",
+    live: "https://mafzalkalwardev.github.io/tapvio/",
+    image: "assets/projects/tapvio.png",
+    featured: true
+  },
+  {
     slug: "al-qibla-air-services",
     name: "Al Qibla Air Services",
     repo: "al-qibla-air-services",
