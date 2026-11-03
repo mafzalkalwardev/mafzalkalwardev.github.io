@@ -31,3 +31,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://mafzalkalwardev.github.io/sitemap.xml
+Sitemap: https://mafzalkalwardev.github.io/tapvio/sitemap.xml
