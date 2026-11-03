@@ -3,7 +3,7 @@ window.PORTFOLIO_PROJECTS = [
     slug: "tapvio",
     name: "Tapvio",
     repo: "tapvio",
-    description: "Free, open-source Linktree alternative: link-in-bio pages with nine themes, a visual builder, Save contact vCards, share images, structured data and IndexNow, published as a static site on GitHub Pages.",
+    description: "Free, indexable link-in-bio page builder. Static HTML pages with full SEO markup, nine themes, and no ads, tracking, or sign-up, published from YAML profiles on GitHub Pages.",
     category: "web",
     tags: ["Python", "Jinja2", "SEO", "GitHub Pages"],
     url: "https://github.com/mafzalkalwardev/tapvio",
