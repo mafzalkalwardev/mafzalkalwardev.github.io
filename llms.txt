@@ -6,7 +6,7 @@
 
 - [Home](https://mafzalkalwardev.github.io/): Portfolio overview, featured projects, hire CTAs
 - [About](https://mafzalkalwardev.github.io/about.html): Background, ADCS at Air University Islamabad (Aug 25, 2026), INDUS Web Agency 2022–Present
-- [Projects](https://mafzalkalwardev.github.io/projects.html): 71 portfolio projects
+- [Projects](https://mafzalkalwardev.github.io/projects.html): 72 portfolio projects
 - [Services](https://mafzalkalwardev.github.io/services/): Automation services for hire
 - [Contact](https://mafzalkalwardev.github.io/contact.html): Hire / contact form and WhatsApp
 
@@ -29,6 +29,7 @@
 - Email: kalwarmuhammadafzal3@gmail.com
 - GitHub: https://github.com/mafzalkalwardev
 - LinkedIn: https://www.linkedin.com/in/mafzalkalwardev/
+- All my links: https://mafzalkalwardev.github.io/tapvio/mafzalkalwardev/
 - CV: https://mafzalkalwardev.github.io/assets/Muhammad-Afzal-Kalwar-CV.pdf
 - Services PDF: https://mafzalkalwardev.github.io/assets/Muhammad-Afzal-Kalwar-Services.pdf
 
