@@ -73,9 +73,7 @@
     const name = escapeHtml(project.name);
     const url = escapeHtml(project.url);
     const live = project.live ? escapeHtml(project.live) : '';
-    const coverSrc = project.cover || project.image;
-    const img = escapeHtml(coverSrc);
-    const screenshot = escapeHtml(project.image || coverSrc);
+    const img = escapeHtml(project.image);
     const video = project.video ? escapeHtml(project.video) : '';
     const category = escapeHtml(project.category || '');
     const fallback =
@@ -83,7 +81,7 @@
       encodeURIComponent(
         `<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400"><rect width="640" height="400" fill="#0B1F3A"/><text x="320" y="200" text-anchor="middle" fill="#F5A623" font-family="Segoe UI,Arial" font-size="22">${name.replace(/[<>&]/g, "")}</text></svg>`
       );
-    const imgTag = `<img src="${img}" alt="${name} cover thumbnail" loading="lazy" width="640" height="400" onerror="this.onerror=null;this.src='${fallback}'" />`;
+    const imgTag = `<img src="${img}" alt="${name} screenshot" loading="lazy" width="640" height="400" onerror="this.onerror=null;this.src='${fallback}'" />`;
     const media = video
       ? `<video class="project-video" src="${video}" muted loop playsinline preload="metadata" poster="${img}"></video>
          ${imgTag}`
