@@ -8,6 +8,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Python", "Jinja2", "SEO", "GitHub Pages"],
     url: "https://github.com/mafzalkalwardev/tapvio",
     live: "https://mafzalkalwardev.github.io/tapvio/",
+    cover: "assets/projects/thumbs/tapvio.webp",
     image: "assets/projects/tapvio.png",
     featured: true
   },
@@ -19,6 +20,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Next.js", "TypeScript", "Supabase", "Travel"],
     url: "https://github.com/mafzalkalwardev/al-qibla-air-services",
+    cover: "assets/projects/thumbs/al-qibla-air-services.webp",
     image: "assets/projects/al-qibla-air-services.png",
     featured: true
   },
@@ -30,6 +32,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["JavaScript", "AI", "Voice AI", "Ai", "Ai Agent"],
     url: "https://github.com/mafzalkalwardev/tony-ai-agent",
+    cover: "assets/projects/thumbs/tony-ai-agent.webp",
     image: "assets/projects/tony-ai-agent.png",
     featured: true
   },
@@ -41,6 +44,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["CRM", "Vonage", "SMS", "Dashboard"],
     url: "https://github.com/mafzalkalwardev/sms-marketing-crm",
+    cover: "assets/projects/thumbs/sms-marketing-crm.webp",
     image: "assets/projects/sms-marketing-crm.png",
     featured: true
   },
@@ -52,6 +56,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "desktop",
     tags: ["Python", "PyQt6", "Google Voice", "Auto Dialer"],
     url: "https://github.com/mafzalkalwardev/indus-transport-auto-dialer",
+    cover: "assets/projects/thumbs/indus-transport-auto-dialer.webp",
     image: "assets/projects/indus-transport-auto-dialer.png",
     featured: true
   },
@@ -63,6 +68,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "email",
     tags: ["Go", "Node.js", "SMTP", "Docker"],
     url: "https://github.com/mafzalkalwardev/bulk-email-verifier",
+    cover: "assets/projects/thumbs/bulk-email-verifier.webp",
     image: "assets/projects/bulk-email-verifier.png",
     video: "assets/videos/bulk-email-verifier.webm",
     featured: true
@@ -75,6 +81,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["TypeScript", "Playwright", "MongoDB", "Electron"],
     url: "https://github.com/mafzalkalwardev/fiverr-lead-extractor-crm",
+    cover: "assets/projects/thumbs/fiverr-lead-extractor-crm.webp",
     image: "assets/projects/fiverr-lead-extractor-crm.png",
     featured: true
   },
@@ -86,6 +93,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["AI", "TypeScript", "SaaS", "Analytics"],
     url: "https://github.com/mafzalkalwardev/CallAudit-X",
+    cover: "assets/projects/thumbs/callaudit-x.webp",
     image: "assets/projects/callaudit-x.png",
     video: "assets/videos/callaudit-x.webm",
     featured: true
@@ -98,6 +106,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Python", "Selenium", "Groq", "Voice"],
     url: "https://github.com/mafzalkalwardev/google-voice-dispatch-agent",
+    cover: "assets/projects/thumbs/google-voice-dispatch-agent.webp",
     image: "assets/projects/google-voice-dispatch-agent.png",
     video: "assets/videos/google-voice-dispatch-agent.webm",
     featured: true
@@ -110,6 +119,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "scraper",
     tags: ["Playwright", "Node.js", "Express", "Automation"],
     url: "https://github.com/mafzalkalwardev/playwright-website-scraper-pro",
+    cover: "assets/projects/thumbs/playwright-website-scraper-pro.webp",
     image: "assets/projects/playwright-website-scraper-pro.png",
     video: "assets/videos/playwright-website-scraper-pro.webm",
     featured: true
@@ -122,6 +132,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "website",
     tags: ["HTML", "CSS", "JavaScript", "Google Voice"],
     url: "https://github.com/mafzalkalwardev/mighty-trucking",
+    cover: "assets/projects/thumbs/mighty-trucking.webp",
     image: "assets/projects/mighty-trucking.png",
     live: "https://mightytrucking.online",
     featured: true
@@ -134,6 +145,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["TypeScript", "FMCSA", "Dispatch", "Logistics", "Carriers"],
     url: "https://github.com/mafzalkalwardev/indus-carrier-directory",
+    cover: "assets/projects/thumbs/indus-carrier-directory.webp",
     image: "assets/projects/indus-carrier-directory.png",
     featured: true
   },
@@ -145,6 +157,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "desktop",
     tags: ["JavaScript", "Chrome Extension", "Auto Dialer", "Voice AI", "Google Voice"],
     url: "https://github.com/mafzalkalwardev/gv-auto-dialer-chrome-extension",
+    cover: "assets/projects/thumbs/gv-auto-dialer-chrome-extension.webp",
     image: "assets/projects/gv-auto-dialer-chrome-extension.png",
     live: "https://www.induswebagency.com",
     featured: true
@@ -157,6 +170,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["HTML", "CSS", "Restaurant", "Ordering"],
     url: "https://github.com/mafzalkalwardev/andaaz-e-pakwaan-restaurant",
+    cover: "assets/projects/thumbs/andaaz-e-pakwaan-restaurant.webp",
     image: "assets/projects/andaaz-e-pakwaan-restaurant.png",
     featured: false
   },
@@ -168,6 +182,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "website",
     tags: ["HTML", "CSS", "Logistics", "Transport"],
     url: "https://github.com/mafzalkalwardev/apex-transit-llc-website",
+    cover: "assets/projects/thumbs/apex-transit-llc-website.webp",
     image: "assets/projects/apex-transit-llc-website.png",
     featured: false
   },
@@ -179,6 +194,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["TypeScript", "Betting Exchange", "Bpexch", "Live Casino", "Mafzalkalwardev"],
     url: "https://github.com/mafzalkalwardev/bpexch",
+    cover: "assets/projects/thumbs/bpexch.webp",
     image: "assets/projects/bpexch.png",
     featured: false
   },
@@ -190,6 +206,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "scraper",
     tags: ["Playwright", "JavaScript", "Scraper", "Replica"],
     url: "https://github.com/mafzalkalwardev/Canadian-Website-Scraper",
+    cover: "assets/projects/thumbs/canadian-website-scraper.webp",
     image: "assets/projects/canadian-website-scraper.png",
     featured: false
   },
@@ -201,6 +218,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Python", "Mafzalkalwardev", "Mit"],
     url: "https://github.com/mafzalkalwardev/clientreadyftsolutionsdombom",
+    cover: "assets/projects/thumbs/clientreadyftsolutionsdombom.webp",
     image: "assets/projects/clientreadyftsolutionsdombom.png",
     featured: false
   },
@@ -212,6 +230,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "desktop",
     tags: ["Python", "PyQt", "Browser", "Logistics"],
     url: "https://github.com/mafzalkalwardev/dat-stream-studio",
+    cover: "assets/projects/thumbs/dat-stream-studio.webp",
     image: "assets/projects/dat-stream-studio.png",
     featured: false
   },
@@ -223,6 +242,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Chrome Extension", "Logistics", "JavaScript"],
     url: "https://github.com/mafzalkalwardev/datx-chrome-extension",
+    cover: "assets/projects/thumbs/datx-chrome-extension.webp",
     image: "assets/projects/datx-chrome-extension.png",
     featured: false
   },
@@ -234,6 +254,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["HTML", "Blazor", "Csharp", "Css", "Dotnet"],
     url: "https://github.com/mafzalkalwardev/ecommerce-showcase-web-blazor",
+    cover: "assets/projects/thumbs/ecommerce-showcase-web-blazor.webp",
     image: "assets/projects/ecommerce-showcase-web-blazor.png",
     featured: false
   },
@@ -245,6 +266,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "email",
     tags: ["Node.js", "MongoDB", "CSV", "API"],
     url: "https://github.com/mafzalkalwardev/email-verification-platform",
+    cover: "assets/projects/thumbs/email-verification-platform.webp",
     image: "assets/projects/email-verification-platform.png",
     featured: false
   },
@@ -256,6 +278,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "desktop",
     tags: ["Python", "Excel", "CSV", "Automation"],
     url: "https://github.com/mafzalkalwardev/excel-call-queue-automator",
+    cover: "assets/projects/thumbs/excel-call-queue-automator.webp",
     image: "assets/projects/excel-call-queue-automator.png",
     featured: false
   },
@@ -267,6 +290,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Excel", "VBA", "Data Cleaning", "Logistics"],
     url: "https://github.com/mafzalkalwardev/excel-mc-data-cleaner",
+    cover: "assets/projects/thumbs/excel-mc-data-cleaner.webp",
     image: "assets/projects/excel-mc-data-cleaner.png",
     featured: false
   },
@@ -278,6 +302,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["Dockerfile", "Call Analytics", "Data Automation", "Docker", "Excel"],
     url: "https://github.com/mafzalkalwardev/excel-state-extractor-formula",
+    cover: "assets/projects/thumbs/excel-state-extractor-formula.webp",
     image: "assets/projects/excel-state-extractor-formula.png",
     featured: false
   },
@@ -289,6 +314,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["Python", "ML", "NLP", "Flask"],
     url: "https://github.com/mafzalkalwardev/fake-news-detector",
+    cover: "assets/projects/thumbs/fake-news-detector.webp",
     image: "assets/projects/fake-news-detector.png",
     featured: false
   },
@@ -300,6 +326,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "scraper",
     tags: ["Python", "Selenium", "FMCSA", "Logistics"],
     url: "https://github.com/mafzalkalwardev/fmcsa-safer-scraper",
+    cover: "assets/projects/thumbs/fmcsa-safer-scraper.webp",
     image: "assets/projects/fmcsa-safer-scraper.png",
     featured: false
   },
@@ -311,6 +338,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "email",
     tags: ["Python", "SMTP", "Email", "Automation"],
     url: "https://github.com/mafzalkalwardev/forward-email-automation",
+    cover: "assets/projects/thumbs/forward-email-automation.webp",
     image: "assets/projects/forward-email-automation.png",
     featured: false
   },
@@ -322,6 +350,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Next.js", "Mafzalkalwardev", "Nextjs", "Typescript"],
     url: "https://github.com/mafzalkalwardev/free-top-deals",
+    cover: "assets/projects/thumbs/free-top-deals.webp",
     image: "assets/projects/free-top-deals.png",
     featured: false
   },
@@ -333,6 +362,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "desktop",
     tags: ["Dockerfile", "Auto Dialer", "Email", "CRM", "AI"],
     url: "https://github.com/mafzalkalwardev/ft-solutions-hub",
+    cover: "assets/projects/thumbs/ft-solutions-hub.webp",
     image: "assets/projects/ft-solutions-hub.png",
     featured: false
   },
@@ -344,6 +374,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["AI", "Ollama", "Voice", "Prototype"],
     url: "https://github.com/mafzalkalwardev/google-voice-call-detector-prototype",
+    cover: "assets/projects/thumbs/google-voice-call-detector-prototype.webp",
     image: "assets/projects/google-voice-call-detector-prototype.png?v=2",
     featured: false
   },
@@ -355,6 +386,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Google Voice", "Chrome Extension", "Deepgram", "Audio"],
     url: "https://github.com/mafzalkalwardev/google-voice-call-state-detector",
+    cover: "assets/projects/thumbs/google-voice-call-state-detector.webp",
     image: "assets/projects/google-voice-call-state-detector.png",
     featured: false
   },
@@ -366,6 +398,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Python", "Google Workspace", "Admin SDK", "Automation"],
     url: "https://github.com/mafzalkalwardev/google-workspace-bulk-user-provisioning",
+    cover: "assets/projects/thumbs/google-workspace-bulk-user-provisioning.webp",
     image: "assets/projects/google-workspace-bulk-user-provisioning.png",
     featured: false
   },
@@ -377,6 +410,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "systems",
     tags: ["C++", "Algorithms", "Cpp", "Mafzalkalwardev"],
     url: "https://github.com/mafzalkalwardev/graph-algorithms-cpp",
+    cover: "assets/projects/thumbs/graph-algorithms-cpp.webp",
     image: "assets/projects/graph-algorithms-cpp.png",
     featured: false
   },
@@ -388,6 +422,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["TypeScript", "Dat", "Framer Motion", "Freight", "It Services"],
     url: "https://github.com/mafzalkalwardev/guillermo-tays-it-solutions",
+    cover: "assets/projects/thumbs/guillermo-tays-it-solutions.webp",
     image: "assets/projects/guillermo-tays-it-solutions.png",
     live: "https://guillermo-tays-it-solutions.vercel.app",
     featured: false
@@ -400,6 +435,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "website",
     tags: ["HTML", "Bootstrap", "SEO", "Logistics"],
     url: "https://github.com/mafzalkalwardev/indus-transports-dispatch-website",
+    cover: "assets/projects/thumbs/indus-transports-dispatch-website.webp",
     image: "assets/projects/indus-transports-dispatch-website.png",
     featured: false
   },
@@ -412,6 +448,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Next.js", "TypeScript", "SaaS", "Agency"],
     url: "https://github.com/mafzalkalwardev/indus-web-agency",
     live: "https://www.induswebagency.com",
+    cover: "assets/projects/thumbs/indus-web-agency.webp",
     image: "assets/projects/indus-web-agency.png?v=2",
     featured: false
   },
@@ -423,6 +460,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["TypeScript", "Automation", "Call Analytics", "Call Review", "Indus"],
     url: "https://github.com/mafzalkalwardev/indus-web-reviewer",
+    cover: "assets/projects/thumbs/indus-web-reviewer.webp",
     image: "assets/projects/indus-web-reviewer.png",
     featured: false
   },
@@ -434,6 +472,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["C++", "AI", "Ai", "Automation", "Cpp"],
     url: "https://github.com/mafzalkalwardev/Inventory-Control-System",
+    cover: "assets/projects/thumbs/inventory-control-system.webp",
     image: "assets/projects/inventory-control-system.png",
     featured: false
   },
@@ -445,6 +484,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "desktop",
     tags: ["JavaScript", "Chrome Extension", "Auto Dialer", "Call Analytics", "Indus"],
     url: "https://github.com/mafzalkalwardev/ipecs-auto-dialer",
+    cover: "assets/projects/thumbs/ipecs-auto-dialer.webp",
     image: "assets/projects/ipecs-auto-dialer.png",
     featured: false
   },
@@ -456,6 +496,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "website",
     tags: ["HTML", "Logistics", "SEO", "Responsive"],
     url: "https://github.com/mafzalkalwardev/kb-transport-llc-website",
+    cover: "assets/projects/thumbs/kb-transport-llc-website.webp",
     image: "assets/projects/kb-transport-llc-website.png",
     featured: false
   },
@@ -467,6 +508,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["TypeScript", "Logistics", "Trucking", "Mafzalkalwardev", "Typescript"],
     url: "https://github.com/mafzalkalwardev/lasoado-and-jasmine",
+    cover: "assets/projects/thumbs/lasoado-and-jasmine.webp",
     image: "assets/projects/lasoado-and-jasmine.png",
     featured: false
   },
@@ -478,6 +520,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: [".NET", "Blazor", "SQLite", "Dashboard"],
     url: "https://github.com/mafzalkalwardev/LearningDashboard",
+    cover: "assets/projects/thumbs/learningdashboard.webp",
     image: "assets/projects/learningdashboard.png",
     featured: false
   },
@@ -489,6 +532,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "website",
     tags: ["HTML", "CSS", "Logistics", "Responsive"],
     url: "https://github.com/mafzalkalwardev/logistics-pro-website",
+    cover: "assets/projects/thumbs/logistics-pro-website.webp",
     image: "assets/projects/logistics-pro-website.png",
     featured: false
   },
@@ -500,6 +544,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "email",
     tags: ["Go", "SMTP", "Campaigns", "Self-hosted"],
     url: "https://github.com/mafzalkalwardev/mailforge",
+    cover: "assets/projects/thumbs/mailforge.webp",
     image: "assets/projects/mailforge.png",
     featured: false
   },
@@ -511,6 +556,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["TypeScript", "Next.js", "Mafzalkalwardev", "Nextjs", "Typescript"],
     url: "https://github.com/mafzalkalwardev/margarito-ramirez-llc-nextjs-website",
+    cover: "assets/projects/thumbs/margarito-ramirez-llc-nextjs-website.webp",
     image: "assets/projects/margarito-ramirez-llc-nextjs-website.png",
     featured: false
   },
@@ -522,6 +568,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["Python", "TensorFlow", "CNN", "Machine Learning"],
     url: "https://github.com/mafzalkalwardev/mnist-cnn-digit-recognition",
+    cover: "assets/projects/thumbs/mnist-cnn-digit-recognition.webp",
     image: "assets/projects/mnist-cnn-digit-recognition.png",
     featured: false
   },
@@ -533,6 +580,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "systems",
     tags: ["C++", "Console App", "Cpp", "Dat", "Freight"],
     url: "https://github.com/mafzalkalwardev/mood-analyzer-cpp",
+    cover: "assets/projects/thumbs/mood-analyzer-cpp.webp",
     image: "assets/projects/mood-analyzer-cpp.png",
     featured: false
   },
@@ -544,6 +592,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Python", "Automation", "Mafzalkalwardev", "Mit", "Pyautogui"],
     url: "https://github.com/mafzalkalwardev/mouse-coordinate-tracker",
+    cover: "assets/projects/thumbs/mouse-coordinate-tracker.webp",
     image: "assets/projects/mouse-coordinate-tracker.png",
     featured: false
   },
@@ -555,6 +604,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "email",
     tags: ["Python", "SMTP", "Parallel", "Outreach"],
     url: "https://github.com/mafzalkalwardev/multi-smtp-email-automation",
+    cover: "assets/projects/thumbs/multi-smtp-email-automation.webp",
     image: "assets/projects/multi-smtp-email-automation.png",
     featured: false
   },
@@ -566,6 +616,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "website",
     tags: ["HTML", "CSS", "WhatsApp", "Business"],
     url: "https://github.com/mafzalkalwardev/one-stop-car-care-website",
+    cover: "assets/projects/thumbs/one-stop-car-care-website.webp",
     image: "assets/projects/one-stop-car-care-website.png",
     featured: false
   },
@@ -577,6 +628,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Node.js", "MongoDB", "Docker", "Jenkins"],
     url: "https://github.com/mafzalkalwardev/online-food-delivery",
+    cover: "assets/projects/thumbs/online-food-delivery.webp",
     image: "assets/projects/online-food-delivery.png",
     featured: false
   },
@@ -588,6 +640,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["TypeScript", "Next.js", "AI", "Ai", "Automation"],
     url: "https://github.com/mafzalkalwardev/pakoption",
+    cover: "assets/projects/thumbs/pakoption.webp",
     image: "assets/projects/pakoption.png",
     featured: false
   },
@@ -599,6 +652,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Python", "PDF", "Data Extraction", "Logistics"],
     url: "https://github.com/mafzalkalwardev/pdf-mc-number-extractor",
+    cover: "assets/projects/thumbs/pdf-mc-number-extractor.webp",
     image: "assets/projects/pdf-mc-number-extractor.png",
     featured: false
   },
@@ -610,6 +664,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["React", "Vite", "Portfolio", "TypeScript"],
     url: "https://github.com/mafzalkalwardev/portfolio-afzal-kalwar-vite",
+    cover: "assets/projects/thumbs/portfolio-afzal-kalwar-vite.webp",
     image: "assets/projects/portfolio-afzal-kalwar-vite.png",
     featured: false
   },
@@ -621,6 +676,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "desktop",
     tags: ["Python", "PyAutoGUI", "Excel", "Dialer"],
     url: "https://github.com/mafzalkalwardev/python-auto-dialer-pro",
+    cover: "assets/projects/thumbs/python-auto-dialer-pro.webp",
     image: "assets/projects/python-auto-dialer-pro.png",
     featured: false
   },
@@ -632,6 +688,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Python", "SMS", "PyAutoGUI", "Excel"],
     url: "https://github.com/mafzalkalwardev/python-sms-automation",
+    cover: "assets/projects/thumbs/python-sms-automation.webp",
     image: "assets/projects/python-sms-automation.png",
     featured: false
   },
@@ -643,6 +700,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "email",
     tags: ["Python", "SMTP", "Excel", "Outreach"],
     url: "https://github.com/mafzalkalwardev/python-smtp-email-automation",
+    cover: "assets/projects/thumbs/python-smtp-email-automation.webp",
     image: "assets/projects/python-smtp-email-automation.png",
     featured: false
   },
@@ -654,6 +712,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Node.js", "Express", "MongoDB", "EJS"],
     url: "https://github.com/mafzalkalwardev/quizmaster-online-testing-system",
+    cover: "assets/projects/thumbs/quizmaster-online-testing-system.webp",
     image: "assets/projects/quizmaster-online-testing-system.png",
     featured: false
   },
@@ -665,6 +724,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["JavaScript", "React", "Call Analytics", "Javascript", "Mafzalkalwardev"],
     url: "https://github.com/mafzalkalwardev/restaurant-management",
+    cover: "assets/projects/thumbs/restaurant-management.webp",
     image: "assets/projects/restaurant-management.png",
     featured: false
   },
@@ -676,6 +736,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "scraper",
     tags: ["Python", "Selenium", "Jupyter", "Data"],
     url: "https://github.com/mafzalkalwardev/safer-web-scraper",
+    cover: "assets/projects/thumbs/safer-web-scraper.webp",
     image: "assets/projects/safer-web-scraper.png",
     featured: false
   },
@@ -687,6 +748,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "systems",
     tags: ["C++", "Cpp", "Education", "Mafzalkalwardev", "Student Management"],
     url: "https://github.com/mafzalkalwardev/school-management-system-cpp",
+    cover: "assets/projects/thumbs/school-management-system-cpp.webp",
     image: "assets/projects/school-management-system-cpp.png",
     featured: false
   },
@@ -698,6 +760,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "desktop",
     tags: ["Python", "Desktop", "Screen Capture"],
     url: "https://github.com/mafzalkalwardev/screen-capture-app",
+    cover: "assets/projects/thumbs/screen-capture-app.webp",
     image: "assets/projects/screen-capture-app.png",
     featured: false
   },
@@ -709,6 +772,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["JavaScript", "React", "Javascript", "Mafzalkalwardev", "Nodejs"],
     url: "https://github.com/mafzalkalwardev/smart-bite",
+    cover: "assets/projects/thumbs/smart-bite.webp",
     image: "assets/projects/smart-bite.png",
     featured: false
   },
@@ -720,6 +784,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "ml",
     tags: ["HTML", "Blazor", "Csharp", "Css", "Dotnet"],
     url: "https://github.com/mafzalkalwardev/student-management-system-blazor",
+    cover: "assets/projects/thumbs/student-management-system-blazor.webp",
     image: "assets/projects/student-management-system-blazor.png",
     featured: false
   },
@@ -731,6 +796,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["JavaScript", "University", "Education"],
     url: "https://github.com/mafzalkalwardev/student-report-card-system",
+    cover: "assets/projects/thumbs/student-report-card-system.webp",
     image: "assets/projects/student-report-card-system.png",
     featured: false
   },
@@ -742,6 +808,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["JavaScript", "Chrome Extension", "Manifest V3"],
     url: "https://github.com/mafzalkalwardev/toolzology-chrome-extension-v2",
+    cover: "assets/projects/thumbs/toolzology-chrome-extension-v2.webp",
     image: "assets/projects/toolzology-chrome-extension-v2.png",
     featured: false
   },
@@ -753,6 +820,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Cpp", "Inventory", "Mafzalkalwardev", "Nextjs"],
     url: "https://github.com/mafzalkalwardev/travel-agency-inventory-cache",
+    cover: "assets/projects/thumbs/travel-agency-inventory-cache.webp",
     image: "assets/projects/travel-agency-inventory-cache.png",
     featured: false
   },
@@ -764,6 +832,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["TypeScript", "Next.js", "Cpp", "Framer Motion", "Inventory"],
     url: "https://github.com/mafzalkalwardev/travel-agency-website",
+    cover: "assets/projects/thumbs/travel-agency-website.webp",
     image: "assets/projects/travel-agency-website.png",
     live: "https://al-qibla-air-services.vercel.app",
     featured: false
@@ -776,6 +845,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["HTML", "CSS", "JavaScript", "University"],
     url: "https://github.com/mafzalkalwardev/university-web-labs",
+    cover: "assets/projects/thumbs/university-web-labs.webp",
     image: "assets/projects/university-web-labs.png",
     featured: false
   },
@@ -787,6 +857,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["Vicidial", "Hyper-V", "Telephony", "Lab"],
     url: "https://github.com/mafzalkalwardev/vicidial-hyperv-lab",
+    cover: "assets/projects/thumbs/vicidial-hyperv-lab.webp",
     image: "assets/projects/vicidial-hyperv-lab.png?v=2",
     featured: false
   },
@@ -798,6 +869,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["HTML", "CSS", "E-commerce", "Retail"],
     url: "https://github.com/mafzalkalwardev/wooly-wool-storefront",
+    cover: "assets/projects/thumbs/wooly-wool-storefront.webp",
     image: "assets/projects/wooly-wool-storefront.png",
     featured: false
   }
