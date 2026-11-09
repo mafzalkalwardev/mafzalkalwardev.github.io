@@ -12,6 +12,66 @@ window.PORTFOLIO_PROJECTS = [
     featured: true
   },
   {
+    slug: "article-pulse-crossposter",
+    name: "Article Pulse Crossposter",
+    repo: "article-pulse-crossposter-2026",
+    description: "Local-first Markdown publishing dashboard for Hashnode and dev.to. The public page shows the content queue. Draft generation and the publishing API run on your machine, and tokens stay off the page.",
+    category: "web",
+    tags: ["JavaScript", "Markdown", "Hashnode", "dev.to"],
+    url: "https://github.com/mafzalkalwardev/article-pulse-crossposter-2026",
+    image: "assets/projects/article-pulse-crossposter.png",
+    live: "https://mafzalkalwardev.github.io/article-pulse-crossposter-2026/",
+    featured: true
+  },
+  {
+    slug: "laneora",
+    name: "Laneora",
+    repo: "laneora",
+    description: "Windows desktop client for shared freight-board access. Dispatchers sign in with a Laneora username. An admin desk creates users, plans, and one shared board session.",
+    category: "desktop",
+    tags: ["Python", "PyQt5", "Windows", "Dispatch"],
+    url: "https://github.com/mafzalkalwardev/laneora",
+    image: "assets/projects/laneora.png",
+    live: "https://mafzalkalwardev.github.io/laneora/",
+    featured: true
+  },
+  {
+    slug: "routelix",
+    name: "Routelix",
+    repo: "Routelix",
+    description: "Self-hosted AI auto dialer and carrier CRM for outbound Google Voice campaigns, with voicemail detection, call recording, leads, and local speech.",
+    category: "automation",
+    tags: ["Python", "Voice", "CRM", "Google Voice"],
+    url: "https://github.com/mafzalkalwardev/Routelix",
+    image: "assets/projects/routelix.png",
+    live: "https://mafzalkalwardev.github.io/Routelix/",
+    featured: true
+  },
+  {
+    slug: "bulk-phone-number-verifier",
+    name: "Bulk Phone Number Verifier",
+    repo: "bulk-phone-number-verifier",
+    description: "Numbering-plan checks for bulk phone lists. The public page checks country and line type in the browser and labels results as structurally valid, not live on the network. The local app adds regulator block assignment.",
+    category: "web",
+    tags: ["Next.js", "TypeScript", "libphonenumber"],
+    url: "https://github.com/mafzalkalwardev/bulk-phone-number-verifier",
+    image: "assets/projects/bulk-phone-number-verifier.png",
+    live: "https://mafzalkalwardev.github.io/bulk-phone-number-verifier/",
+    featured: true
+  },
+  {
+    slug: "carrier-source-free-data-collector",
+    name: "CarrierSource Free Data Collector",
+    repo: "carrier-source-free-data-collector",
+    description: "Chrome extension that reads freely visible CarrierSource carrier cards already on the page. Collection stays off until permission is confirmed. No API access and no contact actions.",
+    category: "scraper",
+    tags: ["Chrome", "TypeScript", "React"],
+    url: "https://github.com/mafzalkalwardev/carrier-source-free-data-collector",
+    image: "assets/projects/carrier-source-free-data-collector.png",
+    live: "https://mafzalkalwardev.github.io/carrier-source-free-data-collector/",
+    featured: true
+  },
+  {
     slug: "tapvio",
     name: "Tapvio",
     repo: "tapvio",
