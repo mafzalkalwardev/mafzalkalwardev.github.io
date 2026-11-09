@@ -1,5 +1,17 @@
 window.PORTFOLIO_PROJECTS = [
   {
+    slug: "inkcadence",
+    name: "Inkcadence",
+    repo: "inkcadence",
+    description: "Learns a handwriting style from your own pages and writes new ones in it. Classical letterforms run in the browser, photos stay on the device, and an optional neural writer falls back to classical. Includes a quality score, light and dark themes, and PNG or PDF export.",
+    category: "web",
+    tags: ["JavaScript", "Canvas", "Vite", "Handwriting"],
+    url: "https://github.com/mafzalkalwardev/inkcadence",
+    image: "assets/projects/inkcadence.png",
+    live: "https://mafzalkalwardev.github.io/inkcadence/",
+    featured: true
+  },
+  {
     slug: "tapvio",
     name: "Tapvio",
     repo: "tapvio",
