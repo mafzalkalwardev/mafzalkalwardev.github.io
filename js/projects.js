@@ -73,6 +73,7 @@
     const name = escapeHtml(project.name);
     const url = escapeHtml(project.url);
     const live = project.live ? escapeHtml(project.live) : '';
+    const liveLabel = escapeHtml(project.liveLabel || 'Live site');
     const img = escapeHtml(project.image);
     const video = project.video ? escapeHtml(project.video) : '';
     const category = escapeHtml(project.category || '');
@@ -97,7 +98,7 @@
           <p>${desc}</p>
           <div class="tags">${tags}</div>
           <div class="project-links">
-            ${live ? `<a href="${live}" target="_blank" rel="noopener">Live site</a>` : ''}
+            ${live ? `<a href="${live}" target="_blank" rel="noopener">${liveLabel}</a>` : ''}
             <a href="${url}" target="_blank" rel="noopener">View on GitHub</a>
             ${serviceLink(project)}
           </div>
