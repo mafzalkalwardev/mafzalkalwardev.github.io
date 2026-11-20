@@ -8,7 +8,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["JavaScript", "Canvas", "Vite", "Handwriting"],
     url: "https://github.com/mafzalkalwardev/inkcadence",
     image: "assets/projects/inkcadence.png",
-    live: "https://mafzalkalwardev.github.io/inkcadence/",
+    live: "https://inkcadence.induswebagency.com/",
     featured: true
   },
   {
@@ -20,7 +20,8 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["JavaScript", "Markdown", "Hashnode", "dev.to"],
     url: "https://github.com/mafzalkalwardev/article-pulse-crossposter-2026",
     image: "assets/projects/article-pulse-crossposter.png",
-    live: "https://mafzalkalwardev.github.io/article-pulse-crossposter-2026/",
+    live: "https://articlepulse.induswebagency.com/",
+    liveLabel: "Official site",
     featured: true
   },
   {
@@ -32,7 +33,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Python", "PyQt5", "Windows", "Dispatch"],
     url: "https://github.com/mafzalkalwardev/laneora",
     image: "assets/projects/laneora.png",
-    live: "https://mafzalkalwardev.github.io/laneora/",
+    live: "https://laneora.induswebagency.com/",
     featured: true
   },
   {
@@ -44,7 +45,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Python", "Voice", "CRM", "Google Voice"],
     url: "https://github.com/mafzalkalwardev/Routelix",
     image: "assets/projects/routelix.png",
-    live: "https://mafzalkalwardev.github.io/Routelix/",
+    live: "https://routelix.induswebagency.com/",
     featured: true
   },
   {
@@ -56,7 +57,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Next.js", "TypeScript", "libphonenumber"],
     url: "https://github.com/mafzalkalwardev/bulk-phone-number-verifier",
     image: "assets/projects/bulk-phone-number-verifier.png",
-    live: "https://mafzalkalwardev.github.io/bulk-phone-number-verifier/",
+    live: "https://phoneverifier.induswebagency.com/",
     featured: true
   },
   {
@@ -68,7 +69,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Chrome", "TypeScript", "React"],
     url: "https://github.com/mafzalkalwardev/carrier-source-free-data-collector",
     image: "assets/projects/carrier-source-free-data-collector.png",
-    live: "https://mafzalkalwardev.github.io/carrier-source-free-data-collector/",
+    live: "https://carriersource.induswebagency.com/",
     featured: true
   },
   {
@@ -79,7 +80,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "web",
     tags: ["Python", "Jinja2", "SEO", "GitHub Pages"],
     url: "https://github.com/mafzalkalwardev/tapvio",
-    live: "https://mafzalkalwardev.github.io/tapvio/",
+    live: "https://tapvio.induswebagency.com/",
     image: "assets/projects/tapvio.png",
     featured: true
   },
@@ -572,6 +573,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "email",
     tags: ["Go", "SMTP", "Campaigns", "Self-hosted"],
     url: "https://github.com/mafzalkalwardev/mailforge",
+    live: "https://mailforge.induswebagency.com/",
     image: "assets/projects/mailforge.png",
     featured: false
   },
@@ -660,6 +662,7 @@ window.PORTFOLIO_PROJECTS = [
     category: "automation",
     tags: ["TypeScript", "Next.js", "AI", "Ai", "Automation"],
     url: "https://github.com/mafzalkalwardev/pakoption",
+    live: "https://pakoption.induswebagency.com/",
     image: "assets/projects/pakoption.png",
     featured: false
   },
