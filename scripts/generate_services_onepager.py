@@ -50,7 +50,7 @@ def build() -> None:
     pdf.set_x(14)
     pdf.set_font("Helvetica", "", 11)
     pdf.set_text_color(226, 232, 240)
-    pdf.cell(0, 6, "Full-Stack Developer  |  Python Automation Engineer", ln=True)
+    pdf.cell(0, 6, "Rust & Python Automation Engineer · Founder, INDUS Web Agency", ln=True)
 
     pdf.set_x(14)
     pdf.set_font("Helvetica", "", 9)
@@ -153,7 +153,7 @@ def build() -> None:
     pdf.set_x(18)
     pdf.cell(0, 5, "GitHub  @mafzalkalwardev   ·   LinkedIn  @mafzalkalwardev", ln=True)
     pdf.set_x(18)
-    pdf.cell(0, 5, "Email  kalwarmuhammadafzal3@gmail.com   ·   Portfolio  mafzalkalwardev.github.io/#hire-me", ln=True)
+    pdf.cell(0, 5, "Email  info@mail.induswebagency.com   ·   Portfolio  mafzalkalwardev.github.io/#hire-me", ln=True)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     pdf.output(str(OUT))

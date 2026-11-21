@@ -10,7 +10,7 @@
 
 Please **do not** open public issues for security problems.
 
-Email **kalwarmuhammadafzal3@gmail.com** with:
+Email **info@mail.induswebagency.com** with:
 
 - Description of the issue
 - Steps to reproduce

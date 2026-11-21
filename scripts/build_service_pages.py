@@ -53,7 +53,7 @@ SHELL_HEAD = '''<!DOCTYPE html>
   <nav class="nav" id="nav">
     <a class="nav-brand" href="index.html">
       <img class="nav-avatar" src="assets/profile.png" alt="" width="36" height="36" />
-      <span class="nav-name">Muhammad Afzal<span>Full-Stack Developer</span></span>
+      <span class="nav-name">Muhammad Afzal<span>Rust &amp; Python Automation Engineer · Founder, INDUS Web Agency</span></span>
     </a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
