@@ -9,11 +9,9 @@
     document.querySelectorAll('[data-project-total]').forEach((el) => {
       el.textContent = String(total);
     });
-    const viewAll = document.getElementById('viewAllProjectsLink');
-    if (viewAll) viewAll.textContent = `View all ${total} projects`;
     const subtitle = document.getElementById('projectsPageCount');
     if (subtitle) {
-      subtitle.textContent = `${total} curated portfolio projects`;
+      subtitle.textContent = 'Portfolio projects';
     }
   }
 

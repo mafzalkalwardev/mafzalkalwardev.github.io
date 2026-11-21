@@ -14,18 +14,18 @@ const PROFILE = `${SITE}/assets/profile.png`;
 const pages = {
   "index.html": {
     active: "Home",
-    title: "Muhammad Afzal Kalwar | Full-Stack Developer & Python Automation Engineer",
+    title: "Muhammad Afzal Kalwar | Rust &amp; Python Automation Engineer · Founder, INDUS Web Agency",
     description:
-      "Hire Muhammad Afzal Kalwar (@mafzalkalwardev) — full-stack developer and Python automation engineer for auto dialers, scrapers, email verification, CRM, and AI workflows. Remote worldwide.",
+      "Hire Muhammad Afzal Kalwar (@mafzalkalwardev), Rust &amp; Python Automation Engineer and founder of INDUS Web Agency: workflow automation, web scraping &amp; data pipelines, and web apps.",
     path: "/",
     keywords:
       "Muhammad Afzal Kalwar, mafzalkalwardev, hire automation developer, auto dialer developer, web scraper freelancer, email verification, CRM developer, Python automation, full-stack developer Islamabad",
   },
   "about.html": {
     active: "About",
-    title: "About Muhammad Afzal Kalwar | Full-Stack & Automation Engineer",
+    title: "About Muhammad Afzal Kalwar | Rust &amp; Python Automation Engineer · Founder, INDUS Web Agency",
     description:
-      "About Muhammad Afzal Kalwar (@mafzalkalwardev) — B.S. Computer Science, Air University Islamabad. Full-stack developer building dialers, scrapers, CRM, and AI tools for businesses.",
+      "About Muhammad Afzal Kalwar (@mafzalkalwardev) — ADCS, Air University Islamabad (2026). Rust &amp; Python Automation Engineer · Founder, INDUS Web Agency building dialers, scrapers, CRM and AI tools.",
     path: "/about.html",
     keywords: "Muhammad Afzal Kalwar, about, Air University, full-stack developer, mafzalkalwardev",
   },
@@ -112,7 +112,7 @@ function navHtml(active) {
   return `  <nav class="nav" id="nav" aria-label="Primary">
     <a class="nav-brand" href="index.html">
       <img class="nav-avatar" src="assets/profile.png" alt="Muhammad Afzal Kalwar" width="38" height="38" />
-      <span class="nav-name">Muhammad Afzal<span>Full-Stack Developer</span></span>
+      <span class="nav-name">Muhammad Afzal<span>Rust &amp; Python Automation Engineer · Founder, INDUS Web Agency</span></span>
     </a>
     <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
@@ -184,7 +184,7 @@ const indexSchema = `
         "@id": "${SITE}/#website",
         "url": "${SITE}/",
         "name": "Muhammad Afzal Kalwar",
-        "description": "Full-Stack Developer & Python Automation Engineer portfolio",
+        "description": "Rust & Python Automation Engineer · Founder, INDUS Web Agency portfolio",
         "publisher": { "@id": "${SITE}/#person" },
         "inLanguage": "en"
       },
@@ -195,8 +195,8 @@ const indexSchema = `
         "alternateName": ["mafzalkalwardev", "Afzal Kalwar"],
         "url": "${SITE}/",
         "image": "${PROFILE}",
-        "jobTitle": "Full-Stack Developer & Python Automation Engineer",
-        "email": "mailto:kalwarmuhammadafzal3@gmail.com",
+        "jobTitle": "Rust & Python Automation Engineer, Founder of INDUS Web Agency",
+        "email": "mailto:info@mail.induswebagency.com",
         "telephone": "+923079670503",
         "address": {
           "@type": "PostalAddress",
@@ -282,7 +282,7 @@ function enrichFooter(html) {
       <a href="https://www.linkedin.com/in/mafzalkalwardev/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="assets/Muhammad-Afzal-Kalwar-CV.pdf" download>CV</a>
       <a href="assets/Muhammad-Afzal-Kalwar-Services.pdf" download>Services PDF</a>
-      <a href="mailto:kalwarmuhammadafzal3@gmail.com">Email</a>
+      <a href="mailto:info@mail.induswebagency.com">Email</a>
       <a href="https://wa.me/923079670503" target="_blank" rel="noopener">WhatsApp</a>
     </div>`
   );

@@ -182,7 +182,7 @@ def main():
         t = re.sub(r'data-count="\d+"(\s+data-project-count)', rf'data-count="{total}"\1', t)
         t = re.sub(
             r'<span id="projectsPageCount">.*?</span>',
-            f'<span id="projectsPageCount">{total} curated portfolio projects</span>',
+            '<span id="projectsPageCount">Portfolio projects</span>',
             t,
         )
         t = re.sub(r"projects-data\.js\?v=\d+", "projects-data.js?v=18", t)

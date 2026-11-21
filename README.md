@@ -33,19 +33,19 @@ Then visit `http://localhost:8080`
 
 ## Author
 
-**Muhammad Afzal Kalwar** - Python Automation Engineer & Founder, INDUS Web Agency - Available immediately, any time zone
+**Muhammad Afzal Kalwar** - Rust & Python Automation Engineer · Founder, INDUS Web Agency - Available immediately, any time zone
 
 - GitHub: [@mafzalkalwardev](https://github.com/mafzalkalwardev)
-- Email: kalwarmuhammadafzal3@gmail.com
+- Email: info@mail.induswebagency.com
 - LinkedIn: [mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev/)
 
 ---
 
 ## Discoverability
 
-**Author:** Muhammad Afzal Kalwar ([@mafzalkalwardev](https://github.com/mafzalkalwardev)) — Python Automation Engineer & Founder, INDUS Web Agency (Islamabad, Pakistan · available immediately, any time zone).
+**Author:** Muhammad Afzal Kalwar ([@mafzalkalwardev](https://github.com/mafzalkalwardev)) — Rust & Python Automation Engineer · Founder, INDUS Web Agency (Islamabad, Pakistan · available immediately, any time zone).
 
-**Hire / contact:** GitHub [@mafzalkalwardev](https://github.com/mafzalkalwardev) · LinkedIn [@mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev) · WhatsApp [+92 307 9670503](https://wa.me/923079670503) · [Portfolio](https://mafzalkalwardev.github.io) · [Email](mailto:kalwarmuhammadafzal3@gmail.com)
+**Hire / contact:** GitHub [@mafzalkalwardev](https://github.com/mafzalkalwardev) · LinkedIn [@mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev) · WhatsApp [+92 307 9670503](https://wa.me/923079670503) · [Portfolio](https://mafzalkalwardev.github.io) · [Email](mailto:info@mail.induswebagency.com)
 
 ### Who is this for?
 Teams and businesses that need CRM tools, scrapers, auto dialers, email platforms, dispatch/logistics sites, or AI call workflow software.
@@ -58,7 +58,7 @@ Teams and businesses that need CRM tools, scrapers, auto dialers, email platform
 <details>
 <summary><strong>SEO / GEO / AEO keywords</strong></summary>
 
-Muhammad Afzal Kalwar, mafzalkalwardev, mafzalkalwardev.github.io, full-stack developer, Python automation engineer, Islamabad Pakistan, freelance remote developer, CRM scraping dialer email AI tools, full-stack, web-development, auto-dialer, github-pages, portfolio, ai, developer, smtp, outbound-calling, personal-website, automation, telephony
+Muhammad Afzal Kalwar, mafzalkalwardev, mafzalkalwardev.github.io, full-stack developer, Rust & Python Automation Engineer, Islamabad Pakistan, freelance remote developer, CRM scraping dialer email AI tools, full-stack, web-development, auto-dialer, github-pages, portfolio, ai, developer, smtp, outbound-calling, personal-website, automation, telephony
 
 </details>
 
@@ -72,7 +72,7 @@ Muhammad Afzal Kalwar, mafzalkalwardev, mafzalkalwardev.github.io, full-stack de
 | LinkedIn | [@mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev) |
 | WhatsApp | [+92 307 9670503](https://wa.me/923079670503) |
 | Portfolio | [mafzalkalwardev.github.io](https://mafzalkalwardev.github.io) |
-| Email | [kalwarmuhammadafzal3@gmail.com](mailto:kalwarmuhammadafzal3@gmail.com) |
+| Email | [info@mail.induswebagency.com](mailto:info@mail.induswebagency.com) |
 
 ## Case studies (flagship work)
 
@@ -90,7 +90,7 @@ Muhammad Afzal Kalwar, mafzalkalwardev, mafzalkalwardev.github.io, full-stack de
 - **GitHub:** [@mafzalkalwardev](https://github.com/mafzalkalwardev)
 - **LinkedIn:** [@mafzalkalwardev](https://www.linkedin.com/in/mafzalkalwardev)
 - **WhatsApp:** [+92 307 9670503](https://wa.me/923079670503)
-- **Email:** [kalwarmuhammadafzal3@gmail.com](mailto:kalwarmuhammadafzal3@gmail.com)
+- **Email:** [info@mail.induswebagency.com](mailto:info@mail.induswebagency.com)
 - **Live portfolio / Hire Me:** [mafzalkalwardev.github.io/#hire-me](https://mafzalkalwardev.github.io/#hire-me)
 
 ## Services one-pager

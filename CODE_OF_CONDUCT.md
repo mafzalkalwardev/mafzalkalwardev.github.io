@@ -21,4 +21,4 @@ Project maintainers may remove comments, close issues, block users, or take othe
 
 ## Contact
 
-For concerns, contact Muhammad Afzal Kalwar through GitHub or email: kalwarmuhammadafzal3@gmail.com.
+For concerns, contact Muhammad Afzal Kalwar through GitHub or email: info@mail.induswebagency.com.

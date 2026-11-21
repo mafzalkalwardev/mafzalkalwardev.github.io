@@ -102,7 +102,7 @@
 }
 
 .about-highlights {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2rem;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 240px)); gap: 1rem; margin-top: 2rem;
 }
 .about-highlight {
   padding: 1.25rem; background: var(--surface);
@@ -141,9 +141,9 @@
 }
 
 @media (max-width: 960px) {
-  .about-highlights, .skills-detail-grid { grid-template-columns: 1fr; }
+  .skills-detail-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) {
-  .about-highlights { grid-template-columns: 1fr 1fr; }
+  .about-highlights { grid-template-columns: minmax(180px, 240px); }
   .skills-detail-grid { grid-template-columns: 1fr; }
 }
