@@ -1,4 +1,5 @@
 window.TECH_STACK = [
+  { name: "Rust", slug: "rust", color: "#CE422B" },
   { name: "Python", slug: "python", color: "#3776AB" },
   { name: "JavaScript", slug: "javascript", color: "#F7DF1E" },
   { name: "TypeScript", slug: "typescript", color: "#3178C6" },

@@ -52,7 +52,11 @@
 
   const featuredEl = document.getElementById('featuredProjects');
   if (featuredEl && window.PORTFOLIO_PROJECTS && typeof window.renderProjectCard === 'function') {
-    const featured = window.PORTFOLIO_PROJECTS.filter((p) => p.featured).slice(0, 6);
+    const featured = window.PORTFOLIO_PROJECTS
+      .filter((p) => p.featured)
+      .slice()
+      .sort((a, b) => (b.pin ? 1 : 0) - (a.pin ? 1 : 0))
+      .slice(0, 6);
     featuredEl.innerHTML = featured.map((p, i) => window.renderProjectCard(p, i)).join('');
     initReveal(featuredEl.querySelectorAll('.reveal'));
   }

@@ -1,5 +1,16 @@
 window.PORTFOLIO_PROJECTS = [
   {
+    slug: "launch-project",
+    name: "Launch Project",
+    repo: "launch-project",
+    description: "Cursor skill that bootstraps a new project with docs, a free stack, a public repo, and one review. Install: npx skills add mafzalkalwardev/launch-project --skill launch-project.",
+    category: "tools",
+    tags: ["TypeScript", "Cursor", "Agent Skills", "Vitest"],
+    url: "https://github.com/mafzalkalwardev/launch-project",
+    featured: true,
+    pin: true
+  },
+  {
     slug: "inkcadence",
     name: "Inkcadence",
     repo: "inkcadence",
@@ -875,6 +886,414 @@ window.PORTFOLIO_PROJECTS = [
     url: "https://github.com/mafzalkalwardev/wooly-wool-storefront",
     image: "assets/projects/wooly-wool-storefront.png",
     featured: false
+  },
+  {
+    slug: "callauditx-nest-react",
+    name: "CallAuditX Nest React",
+    repo: "callauditx-nest-react",
+    description: "CallAuditX full-stack call auditing — NestJS backend, React frontend, JWT, PostgreSQL.",
+    category: "ml",
+    tags: ["JavaScript","Call Analytics","JWT","NestJS"],
+    url: "https://github.com/mafzalkalwardev/callauditx-nest-react"
+  },
+  {
+    slug: "dev",
+    name: "Dev",
+    repo: "dev",
+    description: "Dev — professional open source project.",
+    category: "website",
+    tags: ["HTML","CSS"],
+    url: "https://github.com/mafzalkalwardev/dev"
+  },
+  {
+    slug: "devops",
+    name: "Devops",
+    repo: "devops",
+    description: "Devops by Muhammad Afzal Kalwar (@mafzalkalwardev) — Dockerfile project for automation, business tools, and open-source portfolio work.",
+    category: "systems",
+    tags: ["Docker","CI/CD","DevOps"],
+    url: "https://github.com/mafzalkalwardev/devops"
+  },
+  {
+    slug: "devops2",
+    name: "Devops2",
+    repo: "devops2",
+    description: "Devops2 by Muhammad Afzal Kalwar (@mafzalkalwardev) — Dockerfile project for automation, business tools, and open-source portfolio work.",
+    category: "systems",
+    tags: ["Docker","CI/CD","DevOps"],
+    url: "https://github.com/mafzalkalwardev/devops2"
+  },
+  {
+    slug: "ecommerce-showcase-blazor",
+    name: "Ecommerce Showcase Blazor",
+    repo: "ecommerce-showcase-blazor",
+    description: "Simple e-commerce demo built with ASP.NET Core 7 Blazor Server — product catalog, order modal, in-memory order storage, and order history.",
+    category: "web",
+    tags: ["HTML","Blazor","C#","CSS"],
+    url: "https://github.com/mafzalkalwardev/ecommerce-showcase-blazor"
+  },
+  {
+    slug: "email-verifier-pro",
+    name: "Email Verifier Pro",
+    repo: "email-verifier-pro",
+    description: "Full-stack email verification app (Node.js, Express, MongoDB).",
+    category: "email",
+    tags: ["HTML","Email","Express","MongoDB"],
+    url: "https://github.com/mafzalkalwardev/email-verifier-pro"
+  },
+  {
+    slug: "fallow-docket",
+    name: "Fallow Docket",
+    repo: "fallow-docket",
+    description: "Fallow Docket",
+    category: "web",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/fallow-docket"
+  },
+  {
+    slug: "indus-analytics-bot",
+    name: "Indus Analytics Bot",
+    repo: "indus-analytics-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-analytics-bot"
+  },
+  {
+    slug: "indus-backup-bot",
+    name: "Indus Backup Bot",
+    repo: "indus-backup-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-backup-bot"
+  },
+  {
+    slug: "indus-bot-core",
+    name: "Indus Bot Core",
+    repo: "indus-bot-core",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-bot-core"
+  },
+  {
+    slug: "indus-commander-bot",
+    name: "Indus Commander Bot",
+    repo: "indus-commander-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-commander-bot"
+  },
+  {
+    slug: "indus-competitor-bot",
+    name: "Indus Competitor Bot",
+    repo: "indus-competitor-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-competitor-bot"
+  },
+  {
+    slug: "indus-content-bot",
+    name: "Indus Content Bot",
+    repo: "indus-content-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-content-bot"
+  },
+  {
+    slug: "indus-crm-bot",
+    name: "Indus CRM Bot",
+    repo: "indus-crm-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-crm-bot"
+  },
+  {
+    slug: "indus-devops-bot",
+    name: "Indus Devops Bot",
+    repo: "indus-devops-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-devops-bot"
+  },
+  {
+    slug: "indus-inquiries-bot",
+    name: "Indus Inquiries Bot",
+    repo: "indus-inquiries-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-inquiries-bot"
+  },
+  {
+    slug: "indus-invoice-bot",
+    name: "Indus Invoice Bot",
+    repo: "indus-invoice-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-invoice-bot"
+  },
+  {
+    slug: "indus-law-chamber",
+    name: "Indus Law Chamber",
+    repo: "indus-law-chamber",
+    description: "Official site for Indus Law Chamber, the practice of Advocate Mahfil Hussain Kalwar.",
+    category: "website",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-law-chamber"
+  },
+  {
+    slug: "indus-leads-bot",
+    name: "Indus Leads Bot",
+    repo: "indus-leads-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-leads-bot"
+  },
+  {
+    slug: "indus-mailforge-bot",
+    name: "Indus Mailforge Bot",
+    repo: "indus-mailforge-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-mailforge-bot"
+  },
+  {
+    slug: "indus-marketing-bot",
+    name: "Indus Marketing Bot",
+    repo: "indus-marketing-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-marketing-bot"
+  },
+  {
+    slug: "indus-monitor-bot",
+    name: "Indus Monitor Bot",
+    repo: "indus-monitor-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-monitor-bot"
+  },
+  {
+    slug: "indus-ops",
+    name: "Indus Ops",
+    repo: "indus-ops",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-ops"
+  },
+  {
+    slug: "indus-reports-bot",
+    name: "Indus Reports Bot",
+    repo: "indus-reports-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-reports-bot"
+  },
+  {
+    slug: "indus-scheduler-bot",
+    name: "Indus Scheduler Bot",
+    repo: "indus-scheduler-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-scheduler-bot"
+  },
+  {
+    slug: "indus-security-bot",
+    name: "Indus Security Bot",
+    repo: "indus-security-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-security-bot"
+  },
+  {
+    slug: "indus-seo-bot",
+    name: "Indus SEO Bot",
+    repo: "indus-seo-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-seo-bot"
+  },
+  {
+    slug: "indus-support-bot",
+    name: "Indus Support Bot",
+    repo: "indus-support-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-support-bot"
+  },
+  {
+    slug: "indus-translator-bot",
+    name: "Indus Translator Bot",
+    repo: "indus-translator-bot",
+    description: "INDUS Ops bot",
+    category: "automation",
+    tags: ["TypeScript"],
+    url: "https://github.com/mafzalkalwardev/indus-translator-bot"
+  },
+  {
+    slug: "laneora-rust",
+    name: "Laneora Rust",
+    repo: "laneora-rust",
+    description: "Lighter Rust rebuild of Laneora: Axum session server, WireGuard-locked proxy, and Windows WebView2 launcher.",
+    category: "desktop",
+    tags: ["Rust", "Axum", "WireGuard", "WebView2"],
+    url: "https://github.com/mafzalkalwardev/laneora-rust"
+  },
+  {
+    slug: "mywebpagetask",
+    name: "Mywebpagetask",
+    repo: "mywebpagetask",
+    description: "Mywebpagetask — professional open source project.",
+    category: "systems",
+    tags: ["Docker"],
+    url: "https://github.com/mafzalkalwardev/mywebpagetask"
+  },
+  {
+    slug: "portfilio",
+    name: "Portfilio",
+    repo: "portfilio",
+    description: "Portfilio by Muhammad Afzal Kalwar (@mafzalkalwardev) — HTML project for automation, business tools, and open-source portfolio work.",
+    category: "website",
+    tags: ["HTML","CSS"],
+    url: "https://github.com/mafzalkalwardev/portfilio"
+  },
+  {
+    slug: "portfolio-storybook",
+    name: "Portfolio Storybook",
+    repo: "portfolio-storybook",
+    description: "Whimsical storybook-style developer portfolio",
+    category: "website",
+    tags: ["JavaScript","Portfolio"],
+    url: "https://github.com/mafzalkalwardev/portfolio-storybook"
+  },
+  {
+    slug: "professional-portfolio",
+    name: "Professional Portfolio",
+    repo: "professional-portfolio",
+    description: "Animated multi-page developer portfolio — Muhammad Afzal Kalwar. HTML/CSS/JS, GitHub Pages ready.",
+    category: "website",
+    tags: ["Python","CSS","GitHub Pages","HTML"],
+    url: "https://github.com/mafzalkalwardev/professional-portfolio"
+  },
+  {
+    slug: "quickdraw-test",
+    name: "Quickdraw Test",
+    repo: "quickdraw-test",
+    description: "Quickdraw Test by Muhammad Afzal Kalwar (@mafzalkalwardev) — Dockerfile project for automation, business tools, and open-source portfolio work.",
+    category: "systems",
+    tags: ["Docker"],
+    url: "https://github.com/mafzalkalwardev/quickdraw-test"
+  },
+  {
+    slug: "quizmaster-backend-complete",
+    name: "QuizMaster Backend",
+    repo: "quizmaster-backend-complete",
+    description: "QuizMaster online testing backend — Express, MongoDB, EJS, auth, and quiz management.",
+    category: "web",
+    tags: ["JavaScript","Education","Node.js","Quiz"],
+    url: "https://github.com/mafzalkalwardev/quizmaster-backend-complete"
+  },
+  {
+    slug: "rdp",
+    name: "RDP",
+    repo: "rdp",
+    description: "Rdp — professional open source project.",
+    category: "systems",
+    tags: ["Docker","Remote Desktop"],
+    url: "https://github.com/mafzalkalwardev/rdp"
+  },
+  {
+    slug: "restaurant-management-react",
+    name: "Restaurant Management React",
+    repo: "restaurant-management-react",
+    description: "React restaurant management frontend — Create React App UI for menus and orders.",
+    category: "web",
+    tags: ["JavaScript","React","Restaurant","Web"],
+    url: "https://github.com/mafzalkalwardev/restaurant-management-react"
+  },
+  {
+    slug: "rustforge-ai",
+    name: "Rustforge AI",
+    repo: "rustforge-ai",
+    description: "Self-hosted Rust AI engine, token-saving tree-sitter coding CLI, and MCP autonomous agent server by Muhammad Afzal Kalwar (INDUS Web Agency)",
+    category: "ml",
+    tags: ["Rust", "AI Agent", "MCP", "Axum"],
+    url: "https://github.com/mafzalkalwardev/rustforge-ai"
+  },
+  {
+    slug: "safer-carrier-extractor",
+    name: "SAFER Carrier Extractor",
+    repo: "safer-carrier-extractor",
+    description: "Python FMCSA SAFER carrier data extractor.",
+    category: "scraper",
+    tags: ["Python","Data Extraction","FMCSA","Scraper"],
+    url: "https://github.com/mafzalkalwardev/safer-carrier-extractor"
+  },
+  {
+    slug: "sawa",
+    name: "Sawa",
+    repo: "sawa",
+    description: "Sawa (سوى) demonstrates a reserved seat on a shared commute van for Sharjah–Dubai, Ajman–Dubai, and Dubai–Abu Dhabi, in English and Arabic. It is not a private-car lift marketplace, and this repository is not a licence to carry passengers.",
+    category: "web",
+    tags: ["TypeScript", "Next.js", "Prisma", "OpenStreetMap"],
+    url: "https://github.com/mafzalkalwardev/sawa",
+    live: "https://sawa.induswebagency.com",
+    liveLabel: "Official site"
+  },
+  {
+    slug: "simple-learning-dashboard",
+    name: "Simple Learning Dashboard",
+    repo: "simple-learning-dashboard",
+    description: ".NET 8 Blazor Server learning dashboard — courses, progress, quotes, SQLite EF Core.",
+    category: "web",
+    tags: ["HTML","Blazor","C#","CSS"],
+    url: "https://github.com/mafzalkalwardev/simple-learning-dashboard"
+  },
+  {
+    slug: "tony-ai",
+    name: "Tony AI",
+    repo: "tony-ai",
+    description: "Local voice-first Windows laptop assistant built with Python and PyQt6 for voice commands, wake mode, safety approvals, project tools, and local automation.",
+    category: "ml",
+    tags: ["Python","AI Agent","Automation","Local AI"],
+    url: "https://github.com/mafzalkalwardev/tony-ai"
+  },
+  {
+    slug: "toolzology-chrome-extension",
+    name: "Toolzology Chrome Extension",
+    repo: "toolzology-chrome-extension",
+    description: "Official Manifest V3 Chrome extension for toolzology.com browser tools.",
+    category: "automation",
+    tags: ["HTML","Browser Tools","Chrome Extension","CSS"],
+    url: "https://github.com/mafzalkalwardev/toolzology-chrome-extension"
+  },
+  {
+    slug: "voxyrn",
+    name: "Voxyrn",
+    repo: "voxyrn",
+    description: "Self-hosted AI auto dialer and carrier CRM for outbound Google Voice campaigns. Voicemail detection, call recording, leads, and local Piper, Kokoro, and faster-whisper speech.",
+    category: "automation",
+    tags: ["Python","Auto Dialer","Call Recording","Carrier CRM"],
+    url: "https://github.com/mafzalkalwardev/voxyrn",
+    live: "https://voxyrn.induswebagency.com",
+    liveLabel: "Official site"
   }
 ];
-

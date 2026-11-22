@@ -394,6 +394,8 @@ main { padding-top: var(--nav-h); }
   background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(99, 102, 241, 0.1);
   border-radius: var(--radius-lg); overflow: hidden;
   box-shadow: var(--shadow-sm); backdrop-filter: blur(4px);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 420px;
 }
 .project-card:hover {
   border-color: rgba(99, 102, 241, 0.25);
@@ -500,6 +502,25 @@ main { padding-top: var(--nav-h); }
   background: var(--text); color: var(--bg);
   box-shadow: var(--shadow-sm);
 }
+.project-tools {
+  display: flex; flex-wrap: wrap; align-items: flex-end;
+  justify-content: space-between; gap: 0.75rem 1.25rem; margin-bottom: 0.85rem;
+}
+.project-search { display: flex; flex-direction: column; gap: 0.35rem; flex: 1; min-width: min(100%, 18rem); }
+.project-search-label { font-size: 0.75rem; font-weight: 600; color: var(--text-muted); }
+.project-search input {
+  width: 100%; max-width: 28rem; padding: 0.6rem 0.8rem;
+  border-radius: 8px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font: inherit; font-size: 0.875rem;
+}
+.project-search input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.project-count-note { margin: 0; color: var(--text-muted); font-size: 0.8125rem; }
+.project-empty {
+  grid-column: 1 / -1; margin: 0; padding: 2rem 1rem;
+  text-align: center; color: var(--text-muted);
+}
+.filter-bar { max-width: 100%; }
 
 /* Services */
 .services-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.125rem; }

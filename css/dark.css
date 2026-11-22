@@ -157,6 +157,12 @@ html[data-theme="dark"] .filter-btn.active,
   background: #f1f5f9;
   color: #0b1120;
 }
+html[data-theme="dark"] .project-search input,
+:root:not([data-theme="light"]) .project-search input {
+  background: rgba(15, 23, 42, 0.72);
+  color: #f8fafc;
+  border-color: rgba(148, 163, 184, 0.24);
+}
 
 html[data-theme="dark"] .nav.scrolled { background: rgba(15, 23, 42, 0.92); }
 html[data-theme="dark"] .footer { background: linear-gradient(180deg, #0f172a, #0b1120); }

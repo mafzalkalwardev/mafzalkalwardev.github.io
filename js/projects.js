@@ -11,7 +11,11 @@
     });
     const subtitle = document.getElementById('projectsPageCount');
     if (subtitle) {
-      subtitle.textContent = 'Portfolio projects';
+      subtitle.textContent = total + ' public projects';
+    }
+    const viewAll = document.getElementById('viewAllProjectsLink');
+    if (viewAll) {
+      viewAll.textContent = 'View all ' + total + ' projects';
     }
   }
 
@@ -55,10 +59,14 @@
     "google-workspace-bulk-user-provisioning": ["services/python-automation-services.html", "Python automation"],
     "excel-mc-data-cleaner": ["services/python-automation-services.html", "Python automation"],
     "python-sms-automation": ["services/python-automation-services.html", "Python automation"],
+    "voxyrn": ["services/auto-dialer-development.html", "Auto dialer development"],
+    "safer-carrier-extractor": ["services/web-scraping-services.html", "Web scraping"],
+    "email-verifier-pro": ["services/email-verification-tools.html", "Email verification"],
   };
 
   function serviceLink(project) {
-    const hit = SERVICE_LINKS[project.repo] || ["services/", "Automation services"];
+    const hit = SERVICE_LINKS[project.repo];
+    if (!hit) return '';
     return `<a href="${hit[0]}">Service: ${escapeHtml(hit[1])}</a>`;
   }
 
@@ -72,22 +80,27 @@
     const url = escapeHtml(project.url);
     const live = project.live ? escapeHtml(project.live) : '';
     const liveLabel = escapeHtml(project.liveLabel || 'Live site');
-    const img = escapeHtml(project.image);
     const video = project.video ? escapeHtml(project.video) : '';
     const category = escapeHtml(project.category || '');
+    const search = escapeHtml(
+      [project.name, project.repo, project.description, ...(project.tags || [])].join(' ').toLowerCase()
+    );
     const fallback =
       "data:image/svg+xml," +
       encodeURIComponent(
-        `<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400"><rect width="640" height="400" fill="#0B1F3A"/><text x="320" y="200" text-anchor="middle" fill="#F5A623" font-family="Segoe UI,Arial" font-size="22">${name.replace(/[<>&]/g, "")}</text></svg>`
+        `<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400"><rect width="640" height="400" fill="#0B1F3A"/><text x="320" y="208" text-anchor="middle" fill="#F5A623" font-family="Segoe UI,Arial" font-size="22">${name.replace(/[<>&"]/g, "")}</text></svg>`
       );
-    const imgTag = `<img src="${img}" alt="${name} screenshot" loading="lazy" width="640" height="400" onerror="this.onerror=null;this.src='${fallback}'" />`;
+    const imgTag = project.image
+      ? `<img src="${escapeHtml(project.image)}" alt="${name} screenshot" loading="lazy" width="640" height="400" onerror="this.onerror=null;this.src='${fallback}'" />`
+      : `<img src="${fallback}" alt="" width="640" height="400" />`;
+    const poster = project.image ? escapeHtml(project.image) : fallback;
     const media = video
-      ? `<video class="project-video" src="${video}" muted loop playsinline preload="metadata" poster="${img}"></video>
+      ? `<video class="project-video" src="${video}" muted loop playsinline preload="metadata" poster="${poster}"></video>
          ${imgTag}`
       : imgTag;
 
     return `
-      <article class="project-card reveal${delay}" data-category="${category}"${video ? ' data-has-video="true"' : ''}>
+      <article class="project-card reveal${delay}" data-category="${category}" data-search="${search}"${video ? ' data-has-video="true"' : ''}>
         <div class="project-shot">
           ${media}
         </div>
@@ -111,12 +124,16 @@
   if (!grid || !window.PORTFOLIO_PROJECTS) return;
 
   const projects = window.PORTFOLIO_PROJECTS.slice().sort((a, b) => {
+    const pinA = a.pin ? 1 : 0;
+    const pinB = b.pin ? 1 : 0;
+    if (pinA !== pinB) return pinB - pinA;
     if (a.featured && !b.featured) return -1;
     if (!a.featured && b.featured) return 1;
     return a.name.localeCompare(b.name);
   });
 
-  grid.innerHTML = projects.map(projectCard).join('');
+  grid.innerHTML = projects.map(projectCard).join('') +
+    '<p class="project-empty hidden" id="projectEmpty">No projects match that search.</p>';
 
   grid.querySelectorAll('[data-has-video="true"]').forEach((card) => {
     const video = card.querySelector('.project-video');
@@ -133,16 +150,38 @@
   }
 
   const buttons = document.querySelectorAll('.filter-btn');
+  const searchInput = document.getElementById('projectSearch');
+  const resultCount = document.getElementById('projectResultCount');
+  const empty = document.getElementById('projectEmpty');
+  let activeFilter = 'all';
+
+  function applyFilters() {
+    const query = (searchInput && searchInput.value ? searchInput.value : '').trim().toLowerCase();
+    let shown = 0;
+    grid.querySelectorAll('.project-card').forEach((card) => {
+      const cat = card.dataset.category || '';
+      const text = card.dataset.search || '';
+      const show = (activeFilter === 'all' || cat === activeFilter) && (!query || text.includes(query));
+      card.classList.toggle('hidden', !show);
+      if (show) shown += 1;
+    });
+    if (resultCount) {
+      resultCount.textContent = 'Showing ' + shown + ' of ' + projects.length;
+    }
+    if (empty) empty.classList.toggle('hidden', shown !== 0);
+  }
+
   buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
       buttons.forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
-      const filter = btn.dataset.filter;
-      grid.querySelectorAll('.project-card').forEach((card) => {
-        const cat = card.dataset.category || '';
-        const show = filter === 'all' || cat === filter;
-        card.classList.toggle('hidden', !show);
-      });
+      activeFilter = btn.dataset.filter || 'all';
+      applyFilters();
     });
   });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', applyFilters);
+  }
+  applyFilters();
 })();
